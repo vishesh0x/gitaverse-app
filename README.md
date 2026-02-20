@@ -1,5 +1,3 @@
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/2dc9a021-a938-4792-a079-adcf209aba7f" /># GitaVerse 🙏
-
 A beautiful, offline-first Android app for studying the Bhagavad Gita — built with **Material 3 Expressive** design and **Jetpack Compose**.
 
 > *Your Modern Spiritual Companion*
