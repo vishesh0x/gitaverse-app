@@ -1,4 +1,4 @@
-# GitaVerse 🙏
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/2dc9a021-a938-4792-a079-adcf209aba7f" /># GitaVerse 🙏
 
 A beautiful, offline-first Android app for studying the Bhagavad Gita — built with **Material 3 Expressive** design and **Jetpack Compose**.
 
@@ -10,11 +10,11 @@ A beautiful, offline-first Android app for studying the Bhagavad Gita — built 
 
 | Home | Chapters | Verse Detail |
 |:---:|:---:|:---:|
-| <img src="https://i.ibb.co/8ghXrFbh/home-ss.jpg" width="200"> | <img src="https://i.ibb.co/R49942vZ/chapters-ss.jpg" width="200"> | <img src="https://i.ibb.co/CptDtx02/verse-ss.jpg" width="200"> |
+| <img src="https://i.ibb.co/Mk4fM03p/home.jpg" width="200"> | <img src="https://i.ibb.co/hRHtWwqW/chapters.jpg" width="200"> | <img src="https://i.ibb.co/6RJYJ0Kh/verse-detail.jpg" width="200"> |
 
 | Settings | Audio Player | Favorites |
 |:---:|:---:|:---:|
-| <img src="https://i.ibb.co/4gfQf7qg/settings-ss.jpg" width="200"> | <img src="https://i.ibb.co/mrCq8r4W/audio-player-ss.jpg" width="200"> | *coming soon* |
+| <img src="https://i.ibb.co/RTcwkRvs/settings.jpg" width="200"> | <img src="https://i.ibb.co/wrMKskWk/audio-player.jpg" width="200"> | <img src="https://i.ibb.co/prX3P205/favorites.jpg" width="200"> |
 
 ---
 
