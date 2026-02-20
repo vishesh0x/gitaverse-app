@@ -4,10 +4,17 @@ import android.content.Context
 import androidx.media3.common.MediaItem
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
+import `in`.visheshraghuvanshi.gitaverse.data.model.Shloka
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
+
+enum class AudioType {
+    SANSKRIT,
+    HINDI,
+    ENGLISH
+}
 
 /**
  * Audio playback state
@@ -17,7 +24,12 @@ data class AudioPlayerState(
     val currentPosition: Long = 0L,
     val duration: Long = 0L,
     val isLoading: Boolean = false,
-    val error: String? = null
+    val error: String? = null,
+    // Track Metadata
+    val currentShloka: Shloka? = null,
+    val currentAudioType: AudioType = AudioType.SANSKRIT,
+    val chapterTitle: String = "",
+    val totalShlokasInChapter: Int = 0
 )
 
 /**
@@ -85,18 +97,53 @@ class AudioPlayerManager(context: Context) {
     }
     
     /**
-     * Load audio from assets
+     * Play a specific Shloka
      */
-    fun loadAudio(assetPath: String) {
+    fun playShloka(
+        shloka: Shloka, 
+        type: AudioType, 
+        chapterTitle: String = "Chapter ${shloka.chapterId}",
+        totalShlokas: Int = 0
+    ) {
+        // Construct URL
+        val url = when (type) {
+            AudioType.SANSKRIT -> "https://www.gitasupersite.iitk.ac.in/sites/default/files/audio/CHAP${shloka.chapterId}/${shloka.chapterId}-${shloka.shlokaNumber}.MP3"
+            AudioType.HINDI -> {
+                val paddedShloka = shloka.shlokaNumber.toString().padStart(2, '0')
+                "https://www.gitasupersite.iitk.ac.in/sites/default/files/audio/Tejomayananda/chapter/C${shloka.chapterId}-H-${paddedShloka}.mp3"
+            }
+            AudioType.ENGLISH -> "https://www.gitasupersite.iitk.ac.in/sites/default/files/audio/Purohit/${shloka.chapterId}.${shloka.shlokaNumber}.mp3"
+        }
+
+        // Update State
+        _playerState.value = _playerState.value.copy(
+            currentShloka = shloka,
+            currentAudioType = type,
+            chapterTitle = chapterTitle,
+            totalShlokasInChapter = totalShlokas,
+            error = null
+        )
+
+        playAudioInternal(url)
+    }
+
+    /**
+     * Play audio from a URL (Internal or generic use)
+     */
+    fun playAudio(url: String) {
+       playAudioInternal(url)
+    }
+
+    private fun playAudioInternal(url: String) {
         try {
-            val uri = "asset:///$assetPath"
-            val mediaItem = MediaItem.fromUri(uri)
+            val mediaItem = MediaItem.fromUri(url)
             exoPlayer.setMediaItem(mediaItem)
             exoPlayer.prepare()
-            _playerState.value = AudioPlayerState(isLoading = true)
-        } catch (_: Exception) {
+            exoPlayer.play()
+            _playerState.value = _playerState.value.copy(isLoading = true, error = null)
+        } catch (e: Exception) {
             _playerState.value = _playerState.value.copy(
-                error = "Failed to load audio",
+                error = "Failed to load audio: ${e.localizedMessage}",
                 isLoading = false
             )
         }
@@ -153,6 +200,7 @@ class AudioPlayerManager(context: Context) {
      */
     fun stop() {
         exoPlayer.stop()
+        // Reset metadata
         _playerState.value = AudioPlayerState()
     }
     

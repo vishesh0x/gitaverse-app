@@ -24,12 +24,13 @@ class UserPreferencesManager(private val context: Context) {
         private val USER_NAME = stringPreferencesKey("user_name")
         private val THEME_MODE = stringPreferencesKey("theme_mode")
         private val ONBOARDING_COMPLETED = booleanPreferencesKey("onboarding_completed")
-        private val VERSE_OF_DAY_ID = stringPreferencesKey("verse_of_day_id")
-        private val VERSE_OF_DAY_TIMESTAMP = longPreferencesKey("verse_of_day_timestamp")
+        private val SHLOKA_OF_DAY_ID = stringPreferencesKey("shloka_of_day_id")
+        private val SHLOKA_OF_DAY_TIMESTAMP = longPreferencesKey("shloka_of_day_timestamp")
         private val MATERIAL_YOU_ENABLED = booleanPreferencesKey("material_you_enabled")
         private val NOTIFICATIONS_ENABLED = booleanPreferencesKey("notifications_enabled")
         private val NOTIFICATION_HOUR = intPreferencesKey("notification_hour")
         private val NOTIFICATION_MINUTE = intPreferencesKey("notification_minute")
+        private val SELECTED_COMMENTARY_AUTHORS = stringPreferencesKey("selected_commentary_authors")
     }
     
     /**
@@ -59,17 +60,17 @@ class UserPreferencesManager(private val context: Context) {
     }
     
     /**
-     * Get verse of the day ID as Flow
+     * Get shloka of the day ID as Flow
      */
-    val verseOfDayId: Flow<String?> = context.dataStore.data.map { preferences ->
-        preferences[VERSE_OF_DAY_ID]
+    val shlokaOfDayId: Flow<String?> = context.dataStore.data.map { preferences ->
+        preferences[SHLOKA_OF_DAY_ID]
     }
     
     /**
-     * Get verse of the day timestamp as Flow
+     * Get shloka of the day timestamp as Flow
      */
-    val verseOfDayTimestamp: Flow<Long> = context.dataStore.data.map { preferences ->
-        preferences[VERSE_OF_DAY_TIMESTAMP] ?: 0L
+    val shlokaOfDayTimestamp: Flow<Long> = context.dataStore.data.map { preferences ->
+        preferences[SHLOKA_OF_DAY_TIMESTAMP] ?: 0L
     }
     
     /**
@@ -105,6 +106,20 @@ class UserPreferencesManager(private val context: Context) {
     }
     
     /**
+     * Get selected commentary author IDs as Flow
+     * Default is all authors selected (empty set means all)
+     * Stored as comma-separated string of IDs
+     */
+    val selectedCommentaryAuthors: Flow<Set<Int>> = context.dataStore.data.map { preferences ->
+        val stored = preferences[SELECTED_COMMENTARY_AUTHORS]
+        if (stored.isNullOrEmpty()) {
+            emptySet() // Empty set means all authors selected
+        } else {
+            stored.split(",").mapNotNull { it.toIntOrNull() }.toSet()
+        }
+    }
+    
+    /**
      * Save user name
      */
     suspend fun saveUserName(name: String) {
@@ -132,12 +147,12 @@ class UserPreferencesManager(private val context: Context) {
     }
     
     /**
-     * Save verse of the day
+     * Save shloka of the day
      */
-    suspend fun saveVerseOfDay(verseId: String, timestamp: Long) {
+    suspend fun saveShlokaOfDay(shlokaId: String, timestamp: Long) {
         context.dataStore.edit { preferences ->
-            preferences[VERSE_OF_DAY_ID] = verseId
-            preferences[VERSE_OF_DAY_TIMESTAMP] = timestamp
+            preferences[SHLOKA_OF_DAY_ID] = shlokaId
+            preferences[SHLOKA_OF_DAY_TIMESTAMP] = timestamp
         }
     }
     
@@ -166,6 +181,20 @@ class UserPreferencesManager(private val context: Context) {
         context.dataStore.edit { preferences ->
             preferences[NOTIFICATION_HOUR] = hour
             preferences[NOTIFICATION_MINUTE] = minute
+        }
+    }
+    
+    /**
+     * Save selected commentary author IDs
+     * @param authorIds Set of author IDs to save, empty set means all authors
+     */
+    suspend fun saveSelectedCommentaryAuthors(authorIds: Set<Int>) {
+        context.dataStore.edit { preferences ->
+            if (authorIds.isEmpty()) {
+                preferences[SELECTED_COMMENTARY_AUTHORS] = ""
+            } else {
+                preferences[SELECTED_COMMENTARY_AUTHORS] = authorIds.joinToString(",")
+            }
         }
     }
 }

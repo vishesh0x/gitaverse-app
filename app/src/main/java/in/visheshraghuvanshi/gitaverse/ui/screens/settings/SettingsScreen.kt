@@ -26,8 +26,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import `in`.visheshraghuvanshi.gitaverse.data.model.CommentaryAuthor
 import `in`.visheshraghuvanshi.gitaverse.ui.theme.ThemeMode
 import `in`.visheshraghuvanshi.gitaverse.util.ResponsiveConstants
+import `in`.visheshraghuvanshi.gitaverse.ui.theme.*
+import androidx.compose.ui.input.nestedscroll.nestedScroll
+import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
 import java.util.Locale
 
@@ -44,6 +48,7 @@ fun SettingsScreen(
     val context = androidx.compose.ui.platform.LocalContext.current
     var showThemeDialog by remember { mutableStateOf(false) }
     var showNameDialog by remember { mutableStateOf(false) }
+    var showCommentaryDialog by remember { mutableStateOf(false) }
     
     // Check if dynamic color is available (Android 12+)
     val isDynamicColorAvailable = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
@@ -80,13 +85,16 @@ fun SettingsScreen(
         }
     }
     
+    val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
+    
     Scaffold(
+        modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
         topBar = {
-            LargeTopAppBar(
+            TopAppBar(
                 title = { 
                     Text(
                         "Settings",
-                        fontWeight = FontWeight.Bold
+                        style = ScreenTitleStyle
                     ) 
                 },
                 navigationIcon = {
@@ -95,9 +103,9 @@ fun SettingsScreen(
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.surface,
-                    scrolledContainerColor = MaterialTheme.colorScheme.surfaceContainer
-                )
+                    containerColor = MaterialTheme.colorScheme.surface
+                ),
+                scrollBehavior = scrollBehavior
             )
         }
     ) { paddingValues ->
@@ -231,6 +239,40 @@ fun SettingsScreen(
                         )
                     }
                 }
+            }
+            
+            Spacer(modifier = Modifier.height(24.dp))
+            
+            // ═══════════════════════════════════════════════════════════════
+            // COMMENTARY SECTION
+            // ═══════════════════════════════════════════════════════════════
+            @Suppress("DEPRECATION")
+            SettingsSectionHeader(
+                icon = Icons.Rounded.MenuBook,
+                title = "Commentary",
+                modifier = Modifier.widthIn(max = ResponsiveConstants.MaxContentWidth)
+            )
+            
+            Card(
+                modifier = Modifier
+                    .widthIn(max = ResponsiveConstants.MaxContentWidth)
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp),
+                shape = RoundedCornerShape(24.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.surfaceContainerHigh
+                )
+            ) {
+                // Commentary Authors Selection
+                SettingsListItem(
+                    icon = Icons.Rounded.Person,
+                    title = "Commentary Authors",
+                    subtitle = getCommentarySubtitle(
+                        uiState.selectedCommentaryAuthorIds,
+                        uiState.availableCommentaryAuthors
+                    ),
+                    onClick = { showCommentaryDialog = true }
+                )
             }
             
             Spacer(modifier = Modifier.height(24.dp))
@@ -475,7 +517,7 @@ fun SettingsScreen(
                 ) {
                     Text(
                         text = "ॐ",
-                        style = MaterialTheme.typography.displaySmall,
+                        style = OmSymbolStyle.copy(fontSize = 36.sp),
                         color = MaterialTheme.colorScheme.primary
                     )
                     
@@ -483,8 +525,7 @@ fun SettingsScreen(
                     
                     Text(
                         text = "GitaVerse",
-                        style = MaterialTheme.typography.titleLarge,
-                        fontWeight = FontWeight.Bold,
+                        style = BrandTextStyle,
                         color = MaterialTheme.colorScheme.onPrimaryContainer
                     )
                     
@@ -526,6 +567,19 @@ fun SettingsScreen(
                 showNameDialog = false
             },
             onDismiss = { showNameDialog = false }
+        )
+    }
+    
+    // Commentary Selection Dialog
+    if (showCommentaryDialog) {
+        CommentarySelectionDialog(
+            availableAuthors = uiState.availableCommentaryAuthors,
+            selectedAuthorIds = uiState.selectedCommentaryAuthorIds,
+            onSave = { selectedIds ->
+                viewModel.updateSelectedCommentaryAuthors(selectedIds)
+                showCommentaryDialog = false
+            },
+            onDismiss = { showCommentaryDialog = false }
         )
     }
 }
@@ -893,5 +947,201 @@ fun TimePickerDialog(
             }
         }
     )
+}
+
+/**
+ * Helper function to get commentary selection subtitle text
+ */
+private fun getCommentarySubtitle(
+    selectedIds: Set<Int>,
+    availableAuthors: List<CommentaryAuthor>
+): String {
+    return when {
+        availableAuthors.isEmpty() -> "Loading..."
+        selectedIds.isEmpty() -> "None selected"
+        selectedIds.size == availableAuthors.size -> "All authors (${availableAuthors.size})"
+        selectedIds.size == 1 -> {
+            val author = availableAuthors.find { it.id in selectedIds }
+            author?.name ?: "1 author selected"
+        }
+        else -> "${selectedIds.size} authors selected"
+    }
+}
+
+/**
+ * Dialog for selecting commentary authors
+ * Users can select any combination of authors, including none (to hide all commentary)
+ */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun CommentarySelectionDialog(
+    availableAuthors: List<CommentaryAuthor>,
+    selectedAuthorIds: Set<Int>,
+    onSave: (Set<Int>) -> Unit,
+    onDismiss: () -> Unit
+) {
+    // Local state for selections
+    var localSelectedIds by remember(selectedAuthorIds) { 
+        mutableStateOf(selectedAuthorIds) 
+    }
+    
+    BasicAlertDialog(
+        onDismissRequest = onDismiss
+    ) {
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            shape = RoundedCornerShape(28.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = MaterialTheme.colorScheme.surface
+            )
+        ) {
+            Column(
+                modifier = Modifier.padding(24.dp)
+            ) {
+                // Title
+                Text(
+                    text = "Select Commentary Authors",
+                    style = MaterialTheme.typography.headlineSmall,
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.onSurface
+                )
+                
+                Spacer(modifier = Modifier.height(8.dp))
+                
+                Text(
+                    text = "Choose which commentary authors to display. Uncheck all to hide commentary.",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+                
+                Spacer(modifier = Modifier.height(16.dp))
+                
+                // Select All / Deselect All buttons
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    OutlinedButton(
+                        onClick = {
+                            localSelectedIds = availableAuthors.map { it.id }.toSet()
+                        },
+                        modifier = Modifier.weight(1f),
+                        enabled = localSelectedIds.size != availableAuthors.size
+                    ) {
+                        Text("Select All")
+                    }
+                    OutlinedButton(
+                        onClick = {
+                            localSelectedIds = emptySet()
+                        },
+                        modifier = Modifier.weight(1f),
+                        enabled = localSelectedIds.isNotEmpty()
+                    ) {
+                        Text("Clear All")
+                    }
+                }
+                
+                Spacer(modifier = Modifier.height(16.dp))
+                
+                HorizontalDivider(
+                    color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.5f)
+                )
+                
+                Spacer(modifier = Modifier.height(8.dp))
+                
+                // Individual authors
+                availableAuthors.forEach { author ->
+                    val isSelected = localSelectedIds.contains(author.id)
+                    
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clip(RoundedCornerShape(12.dp))
+                            .clickable {
+                                localSelectedIds = if (isSelected) {
+                                    localSelectedIds - author.id
+                                } else {
+                                    localSelectedIds + author.id
+                                }
+                            }
+                            .padding(vertical = 12.dp, horizontal = 8.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Checkbox(
+                            checked = isSelected,
+                            onCheckedChange = { checked ->
+                                localSelectedIds = if (checked) {
+                                    localSelectedIds + author.id
+                                } else {
+                                    localSelectedIds - author.id
+                                }
+                            }
+                        )
+                        Spacer(modifier = Modifier.width(8.dp))
+                        Column {
+                            Text(
+                                text = author.name,
+                                style = MaterialTheme.typography.bodyLarge,
+                                fontWeight = FontWeight.Medium,
+                                color = MaterialTheme.colorScheme.onSurface
+                            )
+                            Text(
+                                text = author.lang,
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+                    }
+                }
+                
+                // Show hint when none selected
+                if (localSelectedIds.isEmpty()) {
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Surface(
+                        color = MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = 0.5f),
+                        shape = RoundedCornerShape(12.dp)
+                    ) {
+                        Row(
+                            modifier = Modifier.padding(12.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Icon(
+                                Icons.Rounded.Info,
+                                contentDescription = null,
+                                tint = MaterialTheme.colorScheme.onTertiaryContainer,
+                                modifier = Modifier.size(18.dp)
+                            )
+                            Spacer(modifier = Modifier.width(8.dp))
+                            Text(
+                                text = "Commentary will be hidden on verse pages",
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onTertiaryContainer
+                            )
+                        }
+                    }
+                }
+                
+                Spacer(modifier = Modifier.height(24.dp))
+                
+                // Buttons
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.End
+                ) {
+                    TextButton(onClick = onDismiss) {
+                        Text("Cancel")
+                    }
+                    Spacer(modifier = Modifier.width(8.dp))
+                    FilledTonalButton(
+                        onClick = { onSave(localSelectedIds) }
+                    ) {
+                        Text("Save")
+                    }
+                }
+            }
+        }
+    }
 }
 

@@ -4,8 +4,10 @@ import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.work.*
+import `in`.visheshraghuvanshi.gitaverse.data.model.CommentaryAuthor
 import `in`.visheshraghuvanshi.gitaverse.data.preferences.UserPreferencesManager
-import `in`.visheshraghuvanshi.gitaverse.domain.notifications.VerseNotificationWorker
+import `in`.visheshraghuvanshi.gitaverse.data.repository.GitaRepository
+import `in`.visheshraghuvanshi.gitaverse.domain.notifications.ShlokaNotificationWorker
 import `in`.visheshraghuvanshi.gitaverse.ui.theme.ThemeMode
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
@@ -19,14 +21,18 @@ data class SettingsUiState(
     val notificationsEnabled: Boolean = false,
     val notificationHour: Int = 7,
     val notificationMinute: Int = 0,
-    val appVersion: String = "1.0.1",
+    val appVersion: String = "1.0.3",
     val githubUrl: String = "https://github.com/vishesh0x/gitaverse-app",
-    val websiteUrl: String = "https://gitaverse.vercel.com",
-    val supportUrl: String = "https://buymeacoffee.com/visheshraghuvanshi"
+    val websiteUrl: String = "https://gitaverse.vercel.app",
+    val supportUrl: String = "https://buymeacoffee.com/visheshraghuvanshi",
+    // Commentary selection
+    val availableCommentaryAuthors: List<CommentaryAuthor> = emptyList(),
+    val selectedCommentaryAuthorIds: Set<Int> = emptySet() // Empty means all authors
 )
 
 class SettingsViewModel(
     private val preferencesManager: UserPreferencesManager,
+    private val repository: GitaRepository,
     private val context: Context
 ) : ViewModel() {
     
@@ -35,6 +41,7 @@ class SettingsViewModel(
     
     init {
         loadSettings()
+        loadCommentaryAuthors()
     }
     
     private fun loadSettings() {
@@ -45,19 +52,31 @@ class SettingsViewModel(
                 preferencesManager.materialYouEnabled,
                 preferencesManager.notificationsEnabled,
                 preferencesManager.notificationHour,
-                preferencesManager.notificationMinute
+                preferencesManager.notificationMinute,
+                preferencesManager.selectedCommentaryAuthors
             ) { values ->
-                SettingsUiState(
+                @Suppress("UNCHECKED_CAST")
+                _uiState.value.copy(
                     userName = (values[0] as? String) ?: "",
                     themeMode = values[1] as ThemeMode,
                     materialYouEnabled = values[2] as Boolean,
                     notificationsEnabled = values[3] as Boolean,
                     notificationHour = values[4] as Int,
-                    notificationMinute = values[5] as Int
+                    notificationMinute = values[5] as Int,
+                    selectedCommentaryAuthorIds = values[6] as Set<Int>
                 )
             }.collect { state ->
                 _uiState.value = state
             }
+        }
+    }
+    
+    private fun loadCommentaryAuthors() {
+        viewModelScope.launch {
+            repository.getCommentaryAuthors()
+                .onSuccess { authors ->
+                    _uiState.value = _uiState.value.copy(availableCommentaryAuthors = authors)
+                }
         }
     }
     
@@ -76,6 +95,12 @@ class SettingsViewModel(
     fun updateUserName(name: String) {
         viewModelScope.launch {
             preferencesManager.saveUserName(name)
+        }
+    }
+    
+    fun updateSelectedCommentaryAuthors(authorIds: Set<Int>) {
+        viewModelScope.launch {
+            preferencesManager.saveSelectedCommentaryAuthors(authorIds)
         }
     }
     
@@ -103,7 +128,7 @@ class SettingsViewModel(
         val workManager = WorkManager.getInstance(context)
         
         // Cancel any existing work
-        workManager.cancelUniqueWork(VerseNotificationWorker.WORK_NAME)
+        workManager.cancelUniqueWork(ShlokaNotificationWorker.WORK_NAME)
         
         // Calculate delay until next notification time
         val now = Calendar.getInstance()
@@ -121,7 +146,7 @@ class SettingsViewModel(
         
         val delayMillis = target.timeInMillis - now.timeInMillis
         
-        val workRequest = PeriodicWorkRequestBuilder<VerseNotificationWorker>(
+        val workRequest = PeriodicWorkRequestBuilder<ShlokaNotificationWorker>(
             24, TimeUnit.HOURS
         )
             .setInitialDelay(delayMillis, TimeUnit.MILLISECONDS)
@@ -133,7 +158,7 @@ class SettingsViewModel(
             .build()
         
         workManager.enqueueUniquePeriodicWork(
-            VerseNotificationWorker.WORK_NAME,
+            ShlokaNotificationWorker.WORK_NAME,
             ExistingPeriodicWorkPolicy.UPDATE,
             workRequest
         )
@@ -141,6 +166,6 @@ class SettingsViewModel(
     
     private fun cancelNotification() {
         val workManager = WorkManager.getInstance(context)
-        workManager.cancelUniqueWork(VerseNotificationWorker.WORK_NAME)
+        workManager.cancelUniqueWork(ShlokaNotificationWorker.WORK_NAME)
     }
 }

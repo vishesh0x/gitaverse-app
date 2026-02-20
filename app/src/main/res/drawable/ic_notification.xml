@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="375"
+    android:viewportHeight="375">
+
+    <!-- Solid G icon from GitaVerse_Notf.svg -->
+    <!-- translate(81.396, 328.745) applied to path coordinates -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="
+            M 283.61,328.74
+            L 283.61,228.21
+            L 219.53,228.21
+            L 219.53,270.42
+            L 155.45,270.42
+            L 155.45,131.52
+            L 283.61,131.52
+            L 283.61,72.82
+            L 91.37,72.82
+            L 91.37,328.74
+            Z" />
+</vector>

@@ -1,129 +1,195 @@
 # GitaVerse 🙏
 
-A beautiful, offline-first Android application for studying the Bhagavad Gita, built with Material 3 Expressive design and Jetpack Compose.
+A beautiful, offline-first Android app for studying the Bhagavad Gita — built with **Material 3 Expressive** design and **Jetpack Compose**.
 
-## Screenshots
+> *Your Modern Spiritual Companion*
+
+---
+
+## ✨ Screenshots
 
 | Home | Chapters | Verse Detail |
 |:---:|:---:|:---:|
 | <img src="https://i.ibb.co/8ghXrFbh/home-ss.jpg" width="200"> | <img src="https://i.ibb.co/R49942vZ/chapters-ss.jpg" width="200"> | <img src="https://i.ibb.co/CptDtx02/verse-ss.jpg" width="200"> |
 
-| Settings | Audio Player | Widget |
+| Settings | Audio Player | Favorites |
 |:---:|:---:|:---:|
-| <img src="https://i.ibb.co/4gfQf7qg/settings-ss.jpg" width="200"> | <img src="https://i.ibb.co/mrCq8r4W/audio-player-ss.jpg" width="200"> | <img src="https://i.ibb.co/LhYzhKPZ/widget-ss.jpg" width="200"> |
+| <img src="https://i.ibb.co/4gfQf7qg/settings-ss.jpg" width="200"> | <img src="https://i.ibb.co/mrCq8r4W/audio-player-ss.jpg" width="200"> | *coming soon* |
 
-## Features
+---
 
-- 🕉️ **Offline-First**: All content stored locally, no internet required
-- 📖 **Complete Bhagavad Gita**: All 18 chapters with 700 verses
-- 🎵 **Audio Recitations**: Listen to Sanskrit verse recitations
-- 🌅 **Verse of the Day**: Daily spiritual inspiration with widget support
-- 🎨 **Material 3 Expressive**: Beautiful, modern UI design
-- 🌓 **Multiple Themes**: Light, Dark, and System modes
-- 🔤 **Bilingual**: English and Hindi translations
-- 📝 **Word-by-Word Meanings**: Understand each Sanskrit word
-- 🎯 **Personalized**: Custom greetings and preferences
-- 🔔 **Daily Notifications**: Scheduled verse reminders
-- 📱 **Home Screen Widget**: Verse of the Day widget
+## 🕉️ Features
 
-## Tech Stack
+### 📖 Complete Bhagavad Gita
+- All **18 chapters** with **700 shlokas** — fully offline
+- Sanskrit text, transliteration, word-by-word meanings
+- English & Hindi translations
+- Scholarly commentaries with selectable authors
+
+### 🎵 Audio Recitations
+- Sanskrit verse recitations with inline and global audio players
+- Play/pause controls with loading state indicators
+- Persistent global audio bar across screens
+
+### 🏠 Dashboard
+- Personalized greeting with time-of-day awareness
+- **Shloka of the Day** — refreshes daily with animated card
+- Quick action chips for fast navigation
+- Stats overview (chapters, shlokas, languages)
+- Inspirational footer quotes
+
+### 📱 Responsive & Adaptive
+- **Master-detail** layout on tablets and wide screens
+- Optimized single-pane layout on phones
+- Landscape support across all screens
+- Previous/Next shloka navigation in detail view
+
+### 🎨 Theming & Design
+- **Material 3 Expressive** with M3 shape system
+- Light, Dark, and System theme modes
+- Dynamic color support (Material You on Android 12+)
+- Themed/monochrome adaptive icon (Android 13+)
+- Custom typography with Poppins, Gotu, and Gebuk fonts
+- Shimmer loading skeletons, press-scale animations, smooth transitions
+
+### ⭐ Favorites
+- Bookmark shlokas for quick access
+- Dedicated favorites screen with persistent storage
+
+### 📤 Sharing
+- Share shlokas as formatted text
+- Selectable content: Sanskrit, transliteration, translation, commentary
+- Share to any app via Android share sheet
+
+### 📖 Full Chapter Reading
+- Read entire chapters in a continuous flow
+- Toggle Sanskrit, Hindi, and English independently
+- Clean reading experience with proper Devanagari typography
+
+### 🔔 Notifications
+- Daily **Shloka of the Day** notifications
+- Configurable notification time
+- Custom notification icon (stylized G)
+
+### ⚙️ Settings
+- Theme selection (Light / Dark / System)
+- Dynamic color toggle
+- Personalized name for greeting
+- Notification scheduling with time picker
+- Commentary author selection
+- App version info
+
+### 🚀 Performance
+- **Offline-first** — all data in local assets, no internet required
+- R8 code shrinking and resource optimization enabled
+- Room database for favorites with KSP annotation processing
+- Efficient state management with Kotlin coroutines and flows
+
+---
+
+## 🛠️ Tech Stack
 
 | Category | Technology |
 |----------|------------|
 | **Language** | Kotlin |
-| **UI Framework** | Jetpack Compose |
-| **Architecture** | MVVM with Repository pattern |
-| **Design System** | Material 3 Expressive |
-| **Database** | JSON assets (lightweight, offline-first) |
-| **Audio** | ExoPlayer (Media3) |
+| **UI** | Jetpack Compose |
+| **Design** | Material 3 Expressive |
+| **Architecture** | MVVM + Repository |
+| **Database** | Room (favorites) + JSON assets (content) |
+| **Audio** | Media3 ExoPlayer |
 | **Preferences** | DataStore |
-| **Navigation** | Jetpack Navigation Compose |
-| **Background Tasks** | WorkManager |
-| **Widgets** | Glance |
+| **Navigation** | Navigation Compose |
+| **Background** | WorkManager |
+| **Build** | Gradle KTS with KSP |
 | **Min SDK** | 26 (Android 8.0) |
-| **Target SDK** | 35 |
+| **Target SDK** | 36 |
 
-## Project Structure
+---
+
+## 📁 Project Structure
 
 ```
-app/src/main/java/in/visheshraghuvanshi/gitaverse/
-├── data/
-│   ├── model/          # Data models (Verse, Chapter)
-│   ├── preferences/    # DataStore preferences manager
-│   └── repository/     # Data access layer
-├── domain/
-│   ├── audio/          # Audio player manager
-│   ├── notifications/  # Notification worker
-│   └── VerseOfTheDayManager.kt
-├── ui/
-│   ├── components/     # Reusable UI components
-│   ├── navigation/     # Navigation setup
-│   ├── screens/        # All UI screens
-│   │   ├── onboarding/
-│   │   ├── dashboard/
-│   │   ├── chapters/
-│   │   ├── verses/
-│   │   ├── versedetail/
-│   │   └── settings/
-│   └── theme/          # Material 3 theme configuration
-├── widget/             # Home screen widget
-├── GitaVerseApplication.kt
-└── MainActivity.kt
+app/src/main/
+├── assets/
+│   ├── shlokas.json          # All 700 shlokas data
+│   └── commentary.json       # Scholarly commentaries
+├── java/.../gitaverse/
+│   ├── data/
+│   │   ├── dao/              # Room DAO for favorites
+│   │   ├── database/         # Room database config
+│   │   ├── model/            # Chapter, Shloka, Commentary, FavoriteShloka
+│   │   ├── preferences/      # DataStore preferences
+│   │   └── repository/       # Data access layer
+│   ├── domain/
+│   │   ├── audio/            # AudioPlayerManager
+│   │   ├── notifications/    # ShlokaNotificationWorker
+│   │   ├── ShlokaOfTheDayManager.kt
+│   │   └── ShlokaUpdateWorker.kt
+│   ├── ui/
+│   │   ├── components/       # Reusable: BottomNavBar, AudioPlayer, Shimmer, etc.
+│   │   ├── navigation/       # Navigation graph & ViewModel factories
+│   │   ├── screens/
+│   │   │   ├── dashboard/    # Home screen
+│   │   │   ├── chapters/     # Chapter browser
+│   │   │   ├── shlokas/      # Shloka list
+│   │   │   ├── shlokadetail/ # Verse detail with audio & commentary
+│   │   │   ├── fullchapter/  # Full chapter reading mode
+│   │   │   ├── favorites/    # Bookmarked shlokas
+│   │   │   ├── onboarding/   # First-launch setup
+│   │   │   └── settings/     # App preferences
+│   │   └── theme/            # Colors, Typography, Shapes
+│   ├── util/                 # ShareUtils, WindowSizeUtils
+│   ├── GitaVerseApplication.kt
+│   └── MainActivity.kt
+└── res/
+    ├── drawable/              # Icons & vectors
+    ├── font/                  # Poppins, Gotu, Gebuk
+    ├── mipmap-*/              # App launcher icons
+    └── values/                # Strings, colors, themes
 ```
 
-## Build & Run
+---
+
+## 🏗️ Build & Run
 
 ### Prerequisites
-- Android Studio Hedgehog or later
-- JDK 17
+- **Android Studio** Ladybug or later
+- **JDK 17**
 
-### Build
+### Commands
 
 ```bash
 # Debug build
 ./gradlew assembleDebug
 
+# Release build (R8 minified + resource-shrunk)
+./gradlew assembleRelease
+
 # Install on connected device
 ./gradlew installDebug
 ```
 
-Or open in Android Studio and click Run.
+Or open the project in Android Studio and click **▶ Run**.
 
-## App Data
+---
 
-### Verses Data
-All verse data is stored in `app/src/main/assets/verses.json`:
-- Sanskrit text
-- Transliteration
-- Word meanings
-- English translation
-- Hindi translation
-
-### Audio Files
-Audio recitations are organized in `app/src/main/assets/audio/[chapter]/[verse].mp3`
-
-## Theme Modes
-
-| Mode | Description |
-|------|-------------|
-| **Light** | Bright theme with saffron and spiritual colors |
-| **Dark** | Dark theme optimized for low-light environments |
-| **System** | Follows system theme preference |
-
-## Package Information
+## 📦 App Info
 
 | Property | Value |
 |----------|-------|
-| Package Name | `in.visheshraghuvanshi.gitaverse` |
-| Version | 1.0.1 |
+| Package | `in.visheshraghuvanshi.gitaverse` |
+| Version | 1.0.3 |
 | Version Code | 2 |
 
-## License
+---
+
+## 📄 License
 
 This project is created for spiritual and educational purposes.
 
-## Credits
+---
 
-Built with devotion for seekers of spiritual wisdom. 🙏
-
-Jai Shri Krishna! 🕉️
+<p align="center">
+  Built with devotion for seekers of spiritual wisdom 🙏<br>
+  <strong>Jai Shri Krishna! 🕉️</strong>
+</p>

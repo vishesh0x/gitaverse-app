@@ -2,22 +2,22 @@ package `in`.visheshraghuvanshi.gitaverse.ui.screens.dashboard
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import `in`.visheshraghuvanshi.gitaverse.data.model.Verse
+import `in`.visheshraghuvanshi.gitaverse.data.model.Shloka
 import `in`.visheshraghuvanshi.gitaverse.data.preferences.UserPreferencesManager
-import `in`.visheshraghuvanshi.gitaverse.domain.VerseOfTheDayManager
+import `in`.visheshraghuvanshi.gitaverse.domain.ShlokaOfTheDayManager
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 
 data class DashboardUiState(
     val userName: String = "",
-    val verseOfDay: Verse? = null,
+    val shlokaOfDay: Shloka? = null,
     val isLoading: Boolean = true,
     val error: String? = null
 )
 
 class DashboardViewModel(
     private val preferencesManager: UserPreferencesManager,
-    private val verseOfDayManager: VerseOfTheDayManager
+    private val shlokaOfDayManager: ShlokaOfTheDayManager
 ) : ViewModel() {
     
     private val _uiState = MutableStateFlow(DashboardUiState())
@@ -36,11 +36,11 @@ class DashboardViewModel(
                 _uiState.value = _uiState.value.copy(userName = name)
             }
             
-            // Load verse of the day
-            verseOfDayManager.getVerseOfTheDay()
-                .onSuccess { verse ->
+            // Load shloka of the day
+            shlokaOfDayManager.getShlokaOfTheDay()
+                .onSuccess { shloka ->
                     _uiState.value = _uiState.value.copy(
-                        verseOfDay = verse,
+                        shlokaOfDay = shloka,
                         isLoading = false,
                         error = null
                     )
@@ -54,14 +54,14 @@ class DashboardViewModel(
         }
     }
     
-    fun refreshVerseOfDay() {
+    fun refreshShlokaOfDay() {
         viewModelScope.launch {
             _uiState.value = _uiState.value.copy(isLoading = true)
             
-            verseOfDayManager.refreshVerseOfDay()
-                .onSuccess { verse ->
+            shlokaOfDayManager.refreshShlokaOfTheDay()
+                .onSuccess { shloka ->
                     _uiState.value = _uiState.value.copy(
-                        verseOfDay = verse,
+                        shlokaOfDay = shloka,
                         isLoading = false,
                         error = null
                     )

@@ -7,8 +7,8 @@ import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
 import `in`.visheshraghuvanshi.gitaverse.data.preferences.UserPreferencesManager
 import `in`.visheshraghuvanshi.gitaverse.data.repository.GitaRepository
-import `in`.visheshraghuvanshi.gitaverse.domain.VerseOfTheDayManager
-import `in`.visheshraghuvanshi.gitaverse.domain.VerseUpdateWorker
+import `in`.visheshraghuvanshi.gitaverse.domain.ShlokaOfTheDayManager
+import `in`.visheshraghuvanshi.gitaverse.domain.ShlokaUpdateWorker
 import `in`.visheshraghuvanshi.gitaverse.domain.audio.AudioPlayerManager
 import java.util.Calendar
 import java.util.concurrent.TimeUnit
@@ -28,23 +28,27 @@ class GitaVerseApplication : Application() {
         GitaRepository(applicationContext)
     }
     
-    val verseOfDayManager: VerseOfTheDayManager by lazy {
-        VerseOfTheDayManager(repository, preferencesManager)
+    val shlokaOfDayManager: ShlokaOfTheDayManager by lazy {
+        ShlokaOfTheDayManager(repository, preferencesManager)
     }
     
     val audioPlayerManager: AudioPlayerManager by lazy {
         AudioPlayerManager(applicationContext)
     }
     
+    val database: `in`.visheshraghuvanshi.gitaverse.data.database.GitaVerseDatabase by lazy {
+        `in`.visheshraghuvanshi.gitaverse.data.database.GitaVerseDatabase.getInstance(applicationContext)
+    }
+    
     override fun onCreate() {
         super.onCreate()
-        scheduleDaily6AMVerseUpdate()
+        scheduleDaily6AMShlokaUpdate()
     }
     
     /**
-     * Schedule a worker to update the verse of the day at 6AM daily
+     * Schedule a worker to update the shloka of the day at 6AM daily
      */
-    private fun scheduleDaily6AMVerseUpdate() {
+    private fun scheduleDaily6AMShlokaUpdate() {
         val workManager = WorkManager.getInstance(applicationContext)
         
         // Calculate delay until next 6AM
@@ -63,7 +67,7 @@ class GitaVerseApplication : Application() {
         
         val delayMillis = target.timeInMillis - now.timeInMillis
         
-        val workRequest = PeriodicWorkRequestBuilder<VerseUpdateWorker>(
+        val workRequest = PeriodicWorkRequestBuilder<ShlokaUpdateWorker>(
             24, TimeUnit.HOURS
         )
             .setInitialDelay(delayMillis, TimeUnit.MILLISECONDS)
@@ -75,7 +79,7 @@ class GitaVerseApplication : Application() {
             .build()
         
         workManager.enqueueUniquePeriodicWork(
-            VerseUpdateWorker.WORK_NAME,
+            ShlokaUpdateWorker.WORK_NAME,
             ExistingPeriodicWorkPolicy.KEEP, // Keep existing to avoid rescheduling on every app start
             workRequest
         )

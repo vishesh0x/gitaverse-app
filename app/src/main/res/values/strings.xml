@@ -12,18 +12,18 @@
     
     <!-- Dashboard -->
     <string name="dashboard_greeting">Jai Shri Krishna, %s</string>
-    <string name="dashboard_verse_of_day">Verse of the Day</string>
+    <string name="dashboard_verse_of_day">Shloka of the Day</string>
     <string name="dashboard_explore_chapters">Explore Chapters</string>
     <string name="dashboard_settings">Settings</string>
     
     <!-- Chapters -->
     <string name="chapters_title">Bhagavad Gita</string>
     <string name="chapters_subtitle">18 Chapters</string>
-    <string name="chapter_verses">%d Verses</string>
+    <string name="chapter_verses">%d Shlokas</string>
     
     <!-- Verses -->
     <string name="verses_title">Chapter %d</string>
-    <string name="verse_number">Verse %d</string>
+    <string name="verse_number">Shloka %d</string>
     
     <!-- Verse Detail -->
     <string name="verse_detail_sanskrit">Sanskrit</string>
@@ -32,7 +32,7 @@
     <string name="verse_detail_translation">Translation</string>
     <string name="verse_detail_english">English</string>
     <string name="verse_detail_hindi">हिन्दी</string>
-    <string name="verse_detail_share">Share Verse</string>
+    <string name="verse_detail_share">Share Shloka</string>
     
     <!-- Audio Player -->
     <string name="audio_play">Play</string>
@@ -66,9 +66,4 @@
     <string name="close">Close</string>
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
-    
-    <!-- Widget -->
-    <string name="widget_description">Display the Verse of the Day on your home screen</string>
-    <string name="widget_hindi_description">Display the Hindi translation of Verse of the Day</string>
-    <string name="widget_english_description">Display the English translation of Verse of the Day</string>
-</resources>
+    </resources>

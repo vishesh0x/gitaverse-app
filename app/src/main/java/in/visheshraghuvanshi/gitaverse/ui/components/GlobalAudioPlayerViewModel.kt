@@ -2,10 +2,11 @@ package `in`.visheshraghuvanshi.gitaverse.ui.components
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import `in`.visheshraghuvanshi.gitaverse.data.model.Verse
+import `in`.visheshraghuvanshi.gitaverse.data.model.Shloka
 import `in`.visheshraghuvanshi.gitaverse.data.repository.GitaRepository
 import `in`.visheshraghuvanshi.gitaverse.domain.audio.AudioPlayerManager
 import `in`.visheshraghuvanshi.gitaverse.domain.audio.AudioPlayerState
+import `in`.visheshraghuvanshi.gitaverse.domain.audio.AudioType
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableSharedFlow
@@ -14,6 +15,7 @@ import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 
@@ -21,18 +23,15 @@ import kotlinx.coroutines.launch
  * UI state for global audio player
  */
 data class GlobalAudioPlayerUiState(
-    val isVisible: Boolean = false,
-    val currentVerse: Verse? = null,
-    val chapterTitle: String = "",
-    val totalVersesInChapter: Int = 0
+    val isVisible: Boolean = false
 )
 
 /**
- * Navigation event for verse changes from audio player
+ * Navigation event for shloka changes from audio player
  */
-data class AudioVerseNavigationEvent(
+data class AudioShlokaNavigationEvent(
     val chapterId: Int,
-    val verseNumber: Int
+    val shlokaNumber: Int
 )
 
 /**
@@ -44,45 +43,50 @@ class GlobalAudioPlayerViewModel(
     private val repository: GitaRepository
 ) : ViewModel() {
     
-    private val _uiState = MutableStateFlow(GlobalAudioPlayerUiState())
-    val uiState: StateFlow<GlobalAudioPlayerUiState> = _uiState.asStateFlow()
-    
+    // UI Visibility is now derived from whether we have a current shloka loaded
     val audioPlayerState: StateFlow<AudioPlayerState> = audioPlayerManager.playerState
     
-    // Navigation events for verse changes triggered by next/previous buttons
-    private val _navigationEvent = MutableSharedFlow<AudioVerseNavigationEvent>()
-    val navigationEvent: SharedFlow<AudioVerseNavigationEvent> = _navigationEvent.asSharedFlow()
+    // Computed properties for UI logic
+    fun isVisible(state: AudioPlayerState): Boolean {
+        // Show if we have a shloka loaded (and optionally if playing/paused, but generally if data exists)
+        return state.currentShloka != null
+    }
+
+    fun canPlayNext(state: AudioPlayerState): Boolean {
+        return state.currentShloka != null && state.currentShloka.shlokaNumber < state.totalShlokasInChapter
+    }
+
+    fun canPlayPrevious(state: AudioPlayerState): Boolean {
+        return state.currentShloka != null && state.currentShloka.shlokaNumber > 1
+    }
+    
+    // Navigation events for shloka changes triggered by next/previous buttons
+    private val _navigationEvent = MutableSharedFlow<AudioShlokaNavigationEvent>()
+    val navigationEvent: SharedFlow<AudioShlokaNavigationEvent> = _navigationEvent.asSharedFlow()
     
     private var progressUpdateJob: Job? = null
     
     /**
-     * Play a verse
+     * Play a shloka
      */
-    fun playVerse(verse: Verse, emitNavigation: Boolean = false) {
+    fun playShloka(shloka: Shloka, audioType: AudioType = AudioType.SANSKRIT, emitNavigation: Boolean = false) {
         viewModelScope.launch {
             // Get chapter info
-            repository.getChapter(verse.chapterId)
+            repository.getChapter(shloka.chapterId)
                 .onSuccess { chapter ->
-                    _uiState.value = _uiState.value.copy(
-                        isVisible = true,
-                        currentVerse = verse,
-                        chapterTitle = chapter?.title ?: "Chapter ${verse.chapterId}",
-                        totalVersesInChapter = chapter?.verseCount ?: 0
-                    )
+                    val totalShlokas = chapter?.verseCount ?: 0
+                    val chapterTitle = chapter?.title ?: "Chapter ${shloka.chapterId}"
                     
                     // Emit navigation event if requested (for next/previous button presses)
                     if (emitNavigation) {
                         _navigationEvent.emit(
-                            AudioVerseNavigationEvent(verse.chapterId, verse.verseNumber)
+                            AudioShlokaNavigationEvent(shloka.chapterId, shloka.shlokaNumber)
                         )
                     }
                     
-                    // Load and play audio
-                    if (repository.hasAudio(verse)) {
-                        audioPlayerManager.loadAudio(verse.getAudioPath())
-                        audioPlayerManager.play()
-                        startProgressUpdates()
-                    }
+                    // Delegate to Manager
+                    audioPlayerManager.playShloka(shloka, audioType, chapterTitle, totalShlokas)
+                    startProgressUpdates()
                 }
         }
     }
@@ -100,16 +104,34 @@ class GlobalAudioPlayerViewModel(
     }
     
     /**
-     * Play previous verse in current chapter - emits navigation event
+     * Restart current track
+     */
+    fun restart() {
+        audioPlayerManager.seekTo(0L)
+        audioPlayerManager.play()
+        startProgressUpdates()
+    }
+    
+    /**
+     * Seek to position
+     */
+    fun seekTo(position: Long) {
+        audioPlayerManager.seekTo(position)
+    }
+    
+    /**
+     * Play previous shloka in current chapter - emits navigation event
      */
     fun playPrevious() {
-        val currentVerse = _uiState.value.currentVerse ?: return
-        if (currentVerse.verseNumber > 1) {
+        val state = audioPlayerState.value
+        val currentShloka = state.currentShloka ?: return
+        
+        if (currentShloka.shlokaNumber > 1) {
             viewModelScope.launch {
-                repository.getVerse(currentVerse.chapterId, currentVerse.verseNumber - 1)
-                    .onSuccess { verse ->
-                        if (verse != null) {
-                            playVerse(verse, emitNavigation = true)
+                repository.getShloka(currentShloka.chapterId, currentShloka.shlokaNumber - 1)
+                    .onSuccess { shloka ->
+                        if (shloka != null) {
+                            playShloka(shloka, state.currentAudioType, emitNavigation = true)
                         }
                     }
             }
@@ -117,18 +139,19 @@ class GlobalAudioPlayerViewModel(
     }
     
     /**
-     * Play next verse in current chapter - emits navigation event
+     * Play next shloka in current chapter - emits navigation event
      */
     fun playNext() {
-        val currentVerse = _uiState.value.currentVerse ?: return
-        val totalVerses = _uiState.value.totalVersesInChapter
+        val state = audioPlayerState.value
+        val currentShloka = state.currentShloka ?: return
+        val totalShlokas = state.totalShlokasInChapter
         
-        if (currentVerse.verseNumber < totalVerses) {
+        if (currentShloka.shlokaNumber < totalShlokas) {
             viewModelScope.launch {
-                repository.getVerse(currentVerse.chapterId, currentVerse.verseNumber + 1)
-                    .onSuccess { verse ->
-                        if (verse != null) {
-                            playVerse(verse, emitNavigation = true)
+                repository.getShloka(currentShloka.chapterId, currentShloka.shlokaNumber + 1)
+                    .onSuccess { shloka ->
+                        if (shloka != null) {
+                            playShloka(shloka, state.currentAudioType, emitNavigation = true)
                         }
                     }
             }
@@ -136,12 +159,12 @@ class GlobalAudioPlayerViewModel(
     }
     
     /**
-     * Navigate to the currently playing verse
+     * Navigate to the currently playing shloka
      */
-    fun navigateToCurrentVerse() {
-        val verse = _uiState.value.currentVerse ?: return
+    fun navigateToCurrentShloka() {
+        val shloka = audioPlayerState.value.currentShloka ?: return
         viewModelScope.launch {
-            _navigationEvent.emit(AudioVerseNavigationEvent(verse.chapterId, verse.verseNumber))
+            _navigationEvent.emit(AudioShlokaNavigationEvent(shloka.chapterId, shloka.shlokaNumber))
         }
     }
     
@@ -151,7 +174,6 @@ class GlobalAudioPlayerViewModel(
     fun dismiss() {
         audioPlayerManager.stop()
         stopProgressUpdates()
-        _uiState.value = GlobalAudioPlayerUiState()
     }
     
     /**
@@ -160,9 +182,9 @@ class GlobalAudioPlayerViewModel(
     private fun startProgressUpdates() {
         stopProgressUpdates()
         progressUpdateJob = viewModelScope.launch {
-            while (isActive && audioPlayerState.value.isPlaying) {
-                delay(100) // Update every 100ms
-                // The AudioPlayerManager already updates its state via ExoPlayer listener
+            while (isActive) {
+                // Keep checking even if paused so UI slider updates if seeked
+                delay(100) 
             }
         }
     }

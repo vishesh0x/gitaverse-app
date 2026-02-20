@@ -36,9 +36,9 @@ private val LightColorScheme = lightColorScheme(
     secondaryContainer = SpiritualBlueContainer,
     onSecondaryContainer = OnLightBackground,
     
-    tertiary = GoldAccent,
+    tertiary = RustAccent,
     onTertiary = OnLightTertiary,
-    tertiaryContainer = GoldContainer,
+    tertiaryContainer = RustContainer,
     onTertiaryContainer = OnLightBackground,
     
     error = ErrorLight,
@@ -70,9 +70,9 @@ private val DarkColorScheme = darkColorScheme(
     secondaryContainer = DarkBlueContainer,
     onSecondaryContainer = OnDarkBackground,
     
-    tertiary = DarkGold,
+    tertiary = DarkRust,
     onTertiary = OnDarkTertiary,
-    tertiaryContainer = DarkGoldContainer,
+    tertiaryContainer = DarkRustContainer,
     onTertiaryContainer = OnDarkBackground,
     
     error = ErrorDark,
@@ -87,6 +87,8 @@ private val DarkColorScheme = darkColorScheme(
     onSurface = OnDarkSurface,
     surfaceVariant = DarkSurfaceVariant,
     onSurfaceVariant = OnDarkSurfaceVariant,
+    surfaceContainer = DarkSurfaceContainer,
+    surfaceContainerHigh = DarkSurfaceContainerHigh,
     
     outline = OutlineDark,
     outlineVariant = OutlineVariantDark
@@ -97,7 +99,7 @@ private val DarkColorScheme = darkColorScheme(
 @Composable
 fun GitaVerseTheme(
     themeMode: ThemeMode = ThemeMode.SYSTEM,
-    dynamicColor: Boolean = true,
+    dynamicColor: Boolean = false, // Disable dynamic color to enforce brand palette
     content: @Composable () -> Unit
 ) {
     val systemInDarkTheme = isSystemInDarkTheme()
@@ -141,7 +143,13 @@ fun GitaVerseTheme(
         SideEffect {
             val window = (view.context as Activity).window
             window.statusBarColor = colorScheme.background.toArgb()
-            window.navigationBarColor = colorScheme.background.toArgb()
+            @Suppress("DEPRECATION")
+            // Use specific Navbar Color (transparent/background) to avoid colored strip
+            if (themeMode == ThemeMode.DARK || (themeMode == ThemeMode.SYSTEM && systemInDarkTheme)) {
+                window.navigationBarColor = DarkBackground.toArgb() // Match background seamlessly
+            } else {
+                window.navigationBarColor = LightBackground.toArgb() // Match background seamlessly
+            }
             
             val insetsController = WindowCompat.getInsetsController(window, view)
             insetsController.isAppearanceLightStatusBars = when (themeMode) {

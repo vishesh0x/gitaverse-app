@@ -1,6 +1,7 @@
 package `in`.visheshraghuvanshi.gitaverse.ui.components
 
 import android.annotation.SuppressLint
+import android.os.Build
 import androidx.compose.animation.*
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
@@ -14,260 +15,199 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.blur
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import `in`.visheshraghuvanshi.gitaverse.domain.audio.AudioPlayerState
-import `in`.visheshraghuvanshi.gitaverse.util.ResponsiveConstants
+import `in`.visheshraghuvanshi.gitaverse.domain.audio.AudioType
 
 /**
- * Beautiful Global Audio Player Pill
- * Material 3 Expressive design with clean aesthetics
+ * Global Audio Player - Redesigned
+ * Floating "Pill" style with strong frosted glass effect.
+ * Designed to float above the bottom navigation bar.
  */
-@OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable
 fun GlobalAudioPlayer(
     isVisible: Boolean,
     chapterId: Int,
-    verseNumber: Int,
+    shlokaNumber: Int,
     chapterTitle: String,
     audioPlayerState: AudioPlayerState,
+    currentAudioType: AudioType,
+    canPlayNext: Boolean,
+    canPlayPrevious: Boolean,
     onPlayPauseClick: () -> Unit,
     onPreviousClick: () -> Unit,
     onNextClick: () -> Unit,
+    onRestartClick: () -> Unit,
+    onSeek: (Long) -> Unit,
     onDismiss: () -> Unit,
     onPillClick: () -> Unit = {},
+    bottomPadding: androidx.compose.ui.unit.Dp = 16.dp,
     @SuppressLint("ModifierParameter") modifier: Modifier = Modifier
 ) {
     AnimatedVisibility(
         visible = isVisible,
-        enter = slideInVertically(
-            initialOffsetY = { it },
-            animationSpec = spring(
-                dampingRatio = Spring.DampingRatioMediumBouncy,
-                stiffness = Spring.StiffnessMedium
-            )
-        ) + fadeIn(),
-        exit = slideOutVertically(
-            targetOffsetY = { it },
-            animationSpec = spring(
-                dampingRatio = Spring.DampingRatioNoBouncy,
-                stiffness = Spring.StiffnessMedium
-            )
-        ) + fadeOut(),
+        enter = slideInVertically(initialOffsetY = { it }) + fadeIn(),
+        exit = slideOutVertically(targetOffsetY = { it }) + fadeOut(),
         modifier = modifier
     ) {
         Box(
             modifier = Modifier.fillMaxWidth(),
-            contentAlignment = Alignment.Center
+            contentAlignment = Alignment.BottomCenter
         ) {
-            Card(
+            // The Floating Pill Container
+            Box(
                 modifier = Modifier
-                    .widthIn(max = ResponsiveConstants.MaxContentWidth)
+                    .padding(horizontal = 16.dp)
+                    .padding(bottom = bottomPadding) // Dynamic bottom padding
+                    .widthIn(max = 400.dp)   // Prevent stretching on large screens (tablets)
                     .fillMaxWidth()
-                    .padding(horizontal = 12.dp, vertical = 8.dp),
-                shape = RoundedCornerShape(24.dp),
-                colors = CardDefaults.cardColors(
-                    containerColor = MaterialTheme.colorScheme.primaryContainer
-                ),
-                elevation = CardDefaults.cardElevation(defaultElevation = 6.dp)
-            ) {
-            Column(
-                modifier = Modifier
-                    .fillMaxWidth()
+                    .shadow(
+                        elevation = 16.dp,
+                        shape = RoundedCornerShape(48.dp),
+                        spotColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.4f)
+                    )
+                    .clip(RoundedCornerShape(48.dp))
                     .clickable(onClick = onPillClick)
-                    .padding(12.dp)
             ) {
+                // 1. Frost/Blur Background Layer
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                    Box(
+                        modifier = Modifier
+                            .matchParentSize()
+                            .blur(radius = 60.dp) // High intensity blur
+                            .background(MaterialTheme.colorScheme.surfaceContainer.copy(alpha = 0.70f))
+                    )
+                } else {
+                    // Fallback for older Android versions
+                    Box(
+                        modifier = Modifier
+                            .matchParentSize()
+                            .background(MaterialTheme.colorScheme.surfaceContainer.copy(alpha = 0.95f))
+                    )
+                }
+
+                // 2. Content Layer
                 Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    verticalAlignment = Alignment.CenterVertically
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 8.dp, vertical = 8.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.SpaceBetween
                 ) {
-                    // Animated equalizer icon
-                    Surface(
-                        modifier = Modifier.size(48.dp),
-                        shape = RoundedCornerShape(14.dp),
-                        color = MaterialTheme.colorScheme.primary
+                    // Play/Pause Button (Prominent)
+                    Box(
+                        modifier = Modifier
+                            .size(48.dp)
+                            .clip(CircleShape)
+                            .background(MaterialTheme.colorScheme.primaryContainer)
+                            .clickable(onClick = onPlayPauseClick),
+                        contentAlignment = Alignment.Center
                     ) {
-                        Box(contentAlignment = Alignment.Center) {
-                            if (audioPlayerState.isPlaying) {
-                                AudioEqualizerAnimation()
-                            } else {
-                                Icon(
-                                    Icons.Rounded.MusicNote,
-                                    contentDescription = null,
-                                    tint = MaterialTheme.colorScheme.onPrimary,
-                                    modifier = Modifier.size(24.dp)
-                                )
-                            }
+                        if (audioPlayerState.isLoading) {
+                            CircularProgressIndicator(
+                                modifier = Modifier.size(24.dp),
+                                color = MaterialTheme.colorScheme.onPrimaryContainer,
+                                strokeWidth = 2.5.dp
+                            )
+                        } else {
+                            Icon(
+                                imageVector = if (audioPlayerState.isPlaying) Icons.Rounded.Pause else Icons.Rounded.PlayArrow,
+                                contentDescription = if (audioPlayerState.isPlaying) "Pause" else "Play",
+                                tint = MaterialTheme.colorScheme.onPrimaryContainer,
+                                modifier = Modifier.size(28.dp)
+                            )
                         }
                     }
-                    
+
                     Spacer(modifier = Modifier.width(12.dp))
-                    
-                    // Verse info
-                    Column(modifier = Modifier.weight(1f)) {
+
+                    // Info Column
+                    Column(
+                        modifier = Modifier.weight(1f),
+                        verticalArrangement = Arrangement.Center
+                    ) {
                         Text(
-                            text = "Chapter $chapterId • Verse $verseNumber",
+                            text = "Ch $chapterId, Shloka $shlokaNumber",
                             style = MaterialTheme.typography.titleSmall,
-                            fontWeight = FontWeight.SemiBold,
-                            color = MaterialTheme.colorScheme.onPrimaryContainer,
+                            fontWeight = FontWeight.Bold,
                             maxLines = 1,
-                            overflow = TextOverflow.Ellipsis
+                            overflow = TextOverflow.Ellipsis,
+                            color = MaterialTheme.colorScheme.onSurface
                         )
                         Text(
-                            text = if (audioPlayerState.isPlaying) "Now playing" else "Paused",
+                            text = "${currentAudioType.name.lowercase().replaceFirstChar { it.uppercase() }} • ${formatTime(audioPlayerState.currentPosition)} / ${formatTime(audioPlayerState.duration)}",
                             style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.7f)
+                            maxLines = 1,
+                            overflow = TextOverflow.Ellipsis,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
                     }
-                    
-                    // Controls row
+
+                    Spacer(modifier = Modifier.width(8.dp))
+
+                    // Secondary Actions
                     Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(2.dp)
+                        verticalAlignment = Alignment.CenterVertically
                     ) {
-                        // Previous
-                        IconButton(
-                            onClick = onPreviousClick,
-                            modifier = Modifier.size(36.dp)
-                        ) {
-                            Icon(
-                                Icons.Rounded.SkipPrevious,
-                                contentDescription = "Previous",
-                                tint = MaterialTheme.colorScheme.onPrimaryContainer,
-                                modifier = Modifier.size(22.dp)
-                            )
-                        }
-                        
-                        // Play/Pause - Main action
-                        FilledIconButton(
-                            onClick = onPlayPauseClick,
-                            enabled = !audioPlayerState.isLoading,
-                            modifier = Modifier.size(48.dp),
-                            shape = CircleShape,
-                            colors = IconButtonDefaults.filledIconButtonColors(
-                                containerColor = MaterialTheme.colorScheme.primary,
-                                contentColor = MaterialTheme.colorScheme.onPrimary
-                            )
-                        ) {
-                            if (audioPlayerState.isLoading) {
-                                CircularProgressIndicator(
-                                    modifier = Modifier.size(22.dp),
-                                    color = MaterialTheme.colorScheme.onPrimary,
-                                    strokeWidth = 2.dp
-                                )
-                            } else {
-                                Icon(
-                                    if (audioPlayerState.isPlaying) Icons.Rounded.Pause 
-                                    else Icons.Rounded.PlayArrow,
-                                    contentDescription = if (audioPlayerState.isPlaying) "Pause" else "Play",
-                                    modifier = Modifier.size(26.dp)
-                                )
-                            }
-                        }
-                        
-                        // Next
-                        IconButton(
+                         // Next Button
+                         IconButton(
                             onClick = onNextClick,
+                            enabled = canPlayNext,
                             modifier = Modifier.size(36.dp)
                         ) {
                             Icon(
-                                Icons.Rounded.SkipNext,
+                                imageVector = Icons.Rounded.SkipNext,
                                 contentDescription = "Next",
-                                tint = MaterialTheme.colorScheme.onPrimaryContainer,
-                                modifier = Modifier.size(22.dp)
+                                tint = MaterialTheme.colorScheme.onSurface.copy(alpha = if (canPlayNext) 1f else 0.38f)
                             )
                         }
                         
-                        // Close
+                        // Close Button
                         IconButton(
                             onClick = onDismiss,
-                            modifier = Modifier.size(32.dp)
+                            modifier = Modifier.size(36.dp)
                         ) {
                             Icon(
-                                Icons.Rounded.Close,
-                                contentDescription = "Dismiss",
-                                tint = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.6f),
-                                modifier = Modifier.size(18.dp)
+                                imageVector = Icons.Rounded.Close,
+                                contentDescription = "Close",
+                                tint = MaterialTheme.colorScheme.onSurfaceVariant
                             )
                         }
                     }
                 }
                 
-                Spacer(modifier = Modifier.height(10.dp))
-                
-                // Progress bar - Sine Wave Style
-                val progress = if (audioPlayerState.duration > 0) {
-                    (audioPlayerState.currentPosition.toFloat() / audioPlayerState.duration.toFloat()).coerceIn(0f, 1f)
-                } else 0f
-                
-                val animatedProgress by animateFloatAsState(
-                    targetValue = progress,
-                    animationSpec = tween(durationMillis = 100),
-                    label = "progress"
-                )
-                
-                // Material 3 Wavy Progress Indicator
-                if (audioPlayerState.isLoading) {
-                    LinearWavyProgressIndicator(
+                // Linear Progress Indicator (Bottom edge of pill)
+                if (audioPlayerState.duration > 0) {
+                    LinearProgressIndicator(
+                        progress = { audioPlayerState.currentPosition.toFloat() / audioPlayerState.duration.toFloat() },
                         modifier = Modifier
                             .fillMaxWidth()
-                            .height(6.dp),
+                            .height(3.dp)
+                            .align(Alignment.BottomCenter),
                         color = MaterialTheme.colorScheme.primary,
-                        trackColor = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.2f)
-                    )
-                } else {
-                    LinearWavyProgressIndicator(
-                        progress = { animatedProgress },
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .height(6.dp),
-                        color = MaterialTheme.colorScheme.primary,
-                        trackColor = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.2f),
-                        amplitude = { if (audioPlayerState.isPlaying) 1f else 0.3f },
-                        wavelength = 24.dp
+                        trackColor = Color.Transparent,
+                        gapSize = 0.dp,
+                        drawStopIndicator = {}
                     )
                 }
             }
-        }
         }
     }
 }
 
 /**
- * Animated equalizer bars for playing state
+ * Format milliseconds to MM:SS
  */
-@Composable
-private fun AudioEqualizerAnimation() {
-    val infiniteTransition = rememberInfiniteTransition(label = "equalizer")
-    
-    Row(
-        horizontalArrangement = Arrangement.spacedBy(2.dp),
-        verticalAlignment = Alignment.CenterVertically
-    ) {
-        repeat(4) { index ->
-            val height by infiniteTransition.animateFloat(
-                initialValue = 0.3f,
-                targetValue = 1f,
-                animationSpec = infiniteRepeatable(
-                    animation = tween(
-                        durationMillis = 300 + (index * 80),
-                        easing = FastOutSlowInEasing
-                    ),
-                    repeatMode = RepeatMode.Reverse
-                ),
-                label = "bar$index"
-            )
-            
-            Box(
-                modifier = Modifier
-                    .width(3.dp)
-                    .height((16 * height).dp)
-                    .clip(RoundedCornerShape(1.5.dp))
-                    .background(MaterialTheme.colorScheme.onPrimary)
-            )
-        }
-    }
+@SuppressLint("DefaultLocale")
+fun formatTime(millis: Long): String {
+    val totalSeconds = millis / 1000
+    val minutes = totalSeconds / 60
+    val seconds = totalSeconds % 60
+    return String.format("%02d:%02d", minutes, seconds)
 }
-
