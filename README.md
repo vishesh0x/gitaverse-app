@@ -67,7 +67,7 @@ A beautiful, offline-first Android app for studying the Bhagavad Gita — built 
 ### 🔔 Notifications
 - Daily **Shloka of the Day** notifications
 - Configurable notification time
-- Custom notification icon (stylized G)
+- Custom notification icon
 
 ### ⚙️ Settings
 - Theme selection (Light / Dark / System)
@@ -78,7 +78,6 @@ A beautiful, offline-first Android app for studying the Bhagavad Gita — built 
 - App version info
 
 ### 🚀 Performance
-- **Offline-first** — all data in local assets, no internet required
 - R8 code shrinking and resource optimization enabled
 - Room database for favorites with KSP annotation processing
 - Efficient state management with Kotlin coroutines and flows
