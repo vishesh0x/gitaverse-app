@@ -142,13 +142,12 @@ fun GitaVerseTheme(
     if (!view.isInEditMode) {
         SideEffect {
             val window = (view.context as Activity).window
-            window.statusBarColor = colorScheme.background.toArgb()
             @Suppress("DEPRECATION")
-            // Use specific Navbar Color (transparent/background) to avoid colored strip
+            // navigationBarColor: deprecated API, but no Compose-native replacement yet
             if (themeMode == ThemeMode.DARK || (themeMode == ThemeMode.SYSTEM && systemInDarkTheme)) {
-                window.navigationBarColor = DarkBackground.toArgb() // Match background seamlessly
+                window.navigationBarColor = DarkBackground.toArgb()
             } else {
-                window.navigationBarColor = LightBackground.toArgb() // Match background seamlessly
+                window.navigationBarColor = LightBackground.toArgb()
             }
             
             val insetsController = WindowCompat.getInsetsController(window, view)

@@ -146,7 +146,6 @@ fun DashboardScreen(
                             // Re-use ViewModel based on key. If key is same, VM is preserved.
                             val detailViewModel = shlokaDetailViewModelFactory(chapter, shlokaNum)
                             val detailUiState by detailViewModel.uiState.collectAsState()
-                            val detailAudioState by detailViewModel.audioPlayerState.collectAsState()
                             val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
                             
                             Scaffold(
@@ -175,8 +174,6 @@ fun DashboardScreen(
                             ) { detailPadding ->
                                 ShlokaDetailContent(
                                     uiState = detailUiState,
-                                    audioState = detailAudioState,
-                                    onPlayClick = { type -> detailViewModel.playAudio(type) },
                                     onNavigatePrev = { c, v -> selectedShlokaId = c to v },
                                     onNavigateNext = { c, v -> selectedShlokaId = c to v },
                                     contentPadding = detailPadding

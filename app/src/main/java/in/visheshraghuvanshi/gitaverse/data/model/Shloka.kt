@@ -33,13 +33,6 @@ data class Shloka(
     @SerialName("translation_hindi")
     val translationHindi: String
 ) {
-    /**
-     * Get the audio file path for this shloka
-     * Format: audio/[chapterNumber]/[shlokaNumber].mp3
-     */
-    fun getAudioPath(): String {
-        return "audio/$chapterId/$shlokaNumber.mp3"
-    }
     
     /**
      * Get a short preview of the shloka (first line of Sanskrit text)

@@ -116,14 +116,6 @@ class GitaRepository(private val context: Context) {
     }
     
     /**
-     * Check if audio file exists for a shloka
-     */
-    fun hasAudio(shloka: Shloka): Boolean {
-        // We are now using network audio which is available for all shlokas
-        return true
-    }
-    
-    /**
      * Load all commentaries from assets/commentary.json
      */
     suspend fun getAllCommentaries(): Result<List<Commentary>> = withContext(Dispatchers.IO) {

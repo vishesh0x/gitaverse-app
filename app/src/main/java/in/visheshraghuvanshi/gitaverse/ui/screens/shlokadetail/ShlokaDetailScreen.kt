@@ -12,7 +12,6 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.MenuBook
-import androidx.compose.material.icons.automirrored.rounded.VolumeUp
 import androidx.compose.material.icons.rounded.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -32,7 +31,7 @@ import `in`.visheshraghuvanshi.gitaverse.util.ResponsiveConstants
 import `in`.visheshraghuvanshi.gitaverse.util.ShareUtils
 import `in`.visheshraghuvanshi.gitaverse.util.ShareOptions
 import `in`.visheshraghuvanshi.gitaverse.ui.theme.*
-import `in`.visheshraghuvanshi.gitaverse.domain.audio.AudioType
+
 import androidx.compose.ui.unit.sp
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalAnimationApi::class, ExperimentalMaterial3ExpressiveApi::class)
@@ -42,7 +41,6 @@ fun ShlokaDetailScreen(
     onNavigateBack: () -> Unit
 ) {
     val uiState by viewModel.uiState.collectAsState()
-    val audioState by viewModel.audioPlayerState.collectAsState()
     val context = LocalContext.current
     
     // Hindi is now default (0 = Hindi, 1 = English)
@@ -133,10 +131,6 @@ fun ShlokaDetailScreen(
     ) { paddingValues ->
         ShlokaDetailContent(
             uiState = uiState,
-            audioState = audioState,
-            onPlayClick = { type -> 
-                viewModel.playAudio(type)
-            },
             onNavigatePrev = { chapter, shloka -> viewModel.navigateToShloka(chapter, shloka) },
             onNavigateNext = { chapter, shloka -> viewModel.navigateToShloka(chapter, shloka) },
             contentPadding = paddingValues
@@ -148,8 +142,6 @@ fun ShlokaDetailScreen(
 @Composable
 fun ShlokaDetailContent(
     uiState: ShlokaDetailUiState,
-    audioState: `in`.visheshraghuvanshi.gitaverse.domain.audio.AudioPlayerState,
-    onPlayClick: (AudioType) -> Unit,
     onNavigatePrev: (Int, Int) -> Unit,
     onNavigateNext: (Int, Int) -> Unit,
     contentPadding: PaddingValues = PaddingValues(0.dp)
@@ -236,30 +228,25 @@ fun ShlokaDetailContent(
             val shloka = uiState.shloka
 
             // Staggered entry for content cards
-            val audioProgress = remember { Animatable(0f) }
             val sanskritProgress = remember { Animatable(0f) }
             val translitProgress = remember { Animatable(0f) }
             val wordProgress = remember { Animatable(0f) }
             val translationProgress = remember { Animatable(0f) }
             val commentaryProgress = remember { Animatable(0f) }
-
             LaunchedEffect(shloka) {
-                audioProgress.animateTo(1f, tween(400, 0, FastOutSlowInEasing))
+                sanskritProgress.animateTo(1f, tween(400, 0, FastOutSlowInEasing))
             }
             LaunchedEffect(shloka) {
-                sanskritProgress.animateTo(1f, tween(400, 80, FastOutSlowInEasing))
+                translitProgress.animateTo(1f, tween(400, 80, FastOutSlowInEasing))
             }
             LaunchedEffect(shloka) {
-                translitProgress.animateTo(1f, tween(400, 160, FastOutSlowInEasing))
+                wordProgress.animateTo(1f, tween(400, 160, FastOutSlowInEasing))
             }
             LaunchedEffect(shloka) {
-                wordProgress.animateTo(1f, tween(400, 240, FastOutSlowInEasing))
+                translationProgress.animateTo(1f, tween(400, 240, FastOutSlowInEasing))
             }
             LaunchedEffect(shloka) {
-                translationProgress.animateTo(1f, tween(400, 320, FastOutSlowInEasing))
-            }
-            LaunchedEffect(shloka) {
-                commentaryProgress.animateTo(1f, tween(400, 400, FastOutSlowInEasing))
+                commentaryProgress.animateTo(1f, tween(400, 320, FastOutSlowInEasing))
             }
 
             BoxWithConstraints(
@@ -275,22 +262,6 @@ fun ShlokaDetailContent(
                         .verticalScroll(rememberScrollState()),
                     horizontalAlignment = if (isWideScreen) Alignment.CenterHorizontally else Alignment.Start
                 ) {
-                // Audio Player (if available)
-                if (uiState.hasAudio) {
-                    ExpressiveAudioPlayerCard(
-                        isPlaying = audioState.isPlaying,
-                        isLoading = audioState.isLoading,
-                        onPlayClick = { onPlayClick(AudioType.SANSKRIT) },
-                        modifier = Modifier
-                            .widthIn(max = ResponsiveConstants.MaxContentWidth)
-                            .fillMaxWidth()
-                            .padding(16.dp)
-                            .graphicsLayer {
-                                alpha = audioProgress.value
-                                translationY = (1f - audioProgress.value) * 30f
-                            }
-                    )
-                }
                 
                 // Sanskrit Text
                 ExpressiveContentCard(
@@ -402,39 +373,13 @@ fun ShlokaDetailContent(
                         Spacer(modifier = Modifier.height(16.dp))
                         
                         // Material 3 Expressive Button Group for language selection
-                        Row(
-                            verticalAlignment = Alignment.CenterVertically
-                        ) {
-                            TranslationButtonGroup(
-                                selectedIndex = selectedTab,
-                                onSelectionChanged = { newTab ->
-                                    previousTab = selectedTab
-                                    selectedTab = newTab
-                                },
-                                modifier = Modifier.weight(1f)
-                            )
-                            
-                            Spacer(modifier = Modifier.width(8.dp))
-                            
-                            // Audio button for selected translation
-                            val isPlaying = audioState.isPlaying
-                            FilledTonalIconButton(
-                                onClick = {
-                                    val type = if (selectedTab == 0) AudioType.HINDI else AudioType.ENGLISH
-                                    onPlayClick(type)
-                                },
-                                colors = IconButtonDefaults.filledTonalIconButtonColors(
-                                    containerColor = MaterialTheme.colorScheme.secondaryContainer,
-                                    contentColor = MaterialTheme.colorScheme.onSecondaryContainer
-                                )
-                            ) {
-                                    Icon(
-                                        Icons.AutoMirrored.Rounded.VolumeUp,
-                                        contentDescription = "Play Translation Audio",
-                                        modifier = Modifier.size(20.dp)
-                                    )
+                        TranslationButtonGroup(
+                            selectedIndex = selectedTab,
+                            onSelectionChanged = { newTab ->
+                                previousTab = selectedTab
+                                selectedTab = newTab
                             }
-                        }
+                        )
                         
                         Spacer(modifier = Modifier.height(16.dp))
                         
@@ -565,7 +510,7 @@ fun ShlokaDetailContent(
                     }
                 }
                 
-                Spacer(modifier = Modifier.height(80.dp)) // Extra space for audio player
+                Spacer(modifier = Modifier.height(32.dp))
                 }
             }
         }
@@ -626,178 +571,7 @@ private fun ExpressiveContentCard(
     }
 }
 
-@OptIn(ExperimentalMaterial3ExpressiveApi::class)
-@Composable
-fun ExpressiveAudioPlayerCard(
-    isPlaying: Boolean,
-    isLoading: Boolean,
-    onPlayClick: () -> Unit,
-    modifier: Modifier = Modifier
-) {
-    // Animated equalizer effect for playing state
-    val infiniteTransition = rememberInfiniteTransition(label = "equalizer")
-    val bar1 by infiniteTransition.animateFloat(
-        initialValue = 0.3f,
-        targetValue = 1f,
-        animationSpec = infiniteRepeatable(
-            animation = tween(400, easing = FastOutSlowInEasing),
-            repeatMode = RepeatMode.Reverse
-        ),
-        label = "bar1"
-    )
-    val bar2 by infiniteTransition.animateFloat(
-        initialValue = 0.6f,
-        targetValue = 0.2f,
-        animationSpec = infiniteRepeatable(
-            animation = tween(550, easing = FastOutSlowInEasing),
-            repeatMode = RepeatMode.Reverse
-        ),
-        label = "bar2"
-    )
 
-    // Play/pause icon scale
-    val playScale by animateFloatAsState(
-        targetValue = if (isPlaying) 1.1f else 1.0f,
-        animationSpec = spring(
-            dampingRatio = Spring.DampingRatioMediumBouncy,
-            stiffness = Spring.StiffnessLow
-        ),
-        label = "playScale"
-    )
-
-    ElevatedCard(
-        modifier = modifier.fillMaxWidth(),
-        shape = RoundedCornerShape(24.dp),
-        colors = CardDefaults.elevatedCardColors(
-            containerColor = MaterialTheme.colorScheme.primaryContainer
-        ),
-        elevation = CardDefaults.elevatedCardElevation(defaultElevation = 6.dp)
-    ) {
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .background(
-                    Brush.horizontalGradient(
-                        listOf(
-                            MaterialTheme.colorScheme.primaryContainer,
-                            MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.8f),
-                            MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)
-                        )
-                    )
-                )
-        ) {
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(20.dp),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.SpaceBetween
-            ) {
-                Row(
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    // Expressive icon container with equalizer when playing
-                    Surface(
-                        color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.15f),
-                        shape = RoundedCornerShape(14.dp),
-                        modifier = Modifier.size(48.dp)
-                    ) {
-                        Box(contentAlignment = Alignment.Center) {
-                            if (isPlaying) {
-                                // Mini equalizer bars
-                                Row(
-                                    horizontalArrangement = Arrangement.spacedBy(3.dp),
-                                    verticalAlignment = Alignment.Bottom,
-                                    modifier = Modifier.height(24.dp)
-                                ) {
-                                    Box(
-                                        modifier = Modifier
-                                            .width(4.dp)
-                                            .fillMaxHeight(bar1)
-                                            .background(
-                                                MaterialTheme.colorScheme.onPrimaryContainer,
-                                                RoundedCornerShape(2.dp)
-                                            )
-                                    )
-                                    Box(
-                                        modifier = Modifier
-                                            .width(4.dp)
-                                            .fillMaxHeight(bar2)
-                                            .background(
-                                                MaterialTheme.colorScheme.onPrimaryContainer,
-                                                RoundedCornerShape(2.dp)
-                                            )
-                                    )
-                                    Box(
-                                        modifier = Modifier
-                                            .width(4.dp)
-                                            .fillMaxHeight(bar1 * 0.7f)
-                                            .background(
-                                                MaterialTheme.colorScheme.onPrimaryContainer,
-                                                RoundedCornerShape(2.dp)
-                                            )
-                                    )
-                                }
-                            } else {
-                                Icon(
-                                    Icons.Rounded.MusicNote,
-                                    contentDescription = null,
-                                    tint = MaterialTheme.colorScheme.onPrimaryContainer,
-                                    modifier = Modifier.size(28.dp)
-                                )
-                            }
-                        }
-                    }
-                    Spacer(modifier = Modifier.width(16.dp))
-                    Column {
-                        Text(
-                            text = "Audio Recitation",
-                            style = MaterialTheme.typography.titleMedium,
-                            fontWeight = FontWeight.SemiBold,
-                            color = MaterialTheme.colorScheme.onPrimaryContainer
-                        )
-                        Text(
-                            text = if (isPlaying) "Now playing..." else "Listen to the verse",
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.7f)
-                        )
-                    }
-                }
-                
-                // Expressive play button with scale
-                FilledIconButton(
-                    onClick = onPlayClick,
-                    enabled = !isLoading,
-                    modifier = Modifier
-                        .size(52.dp)
-                        .scale(playScale),
-                    shape = CircleShape,
-                    colors = IconButtonDefaults.filledIconButtonColors(
-                        containerColor = MaterialTheme.colorScheme.primary,
-                        contentColor = MaterialTheme.colorScheme.onPrimary
-                    )
-                ) {
-                    when {
-                        isLoading -> LoadingIndicator(
-                            modifier = Modifier.size(24.dp),
-                            color = MaterialTheme.colorScheme.onPrimary
-                        )
-                        isPlaying -> Icon(
-                            Icons.Rounded.Pause,
-                            contentDescription = "Pause",
-                            modifier = Modifier.size(28.dp)
-                        )
-                        else -> Icon(
-                            Icons.Rounded.PlayArrow,
-                            contentDescription = "Play",
-                            modifier = Modifier.size(28.dp)
-                        )
-                    }
-                }
-            }
-        }
-    }
-}
 
 /**
  * Card displaying a single commentary

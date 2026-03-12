@@ -206,7 +206,6 @@ fun FavoritesScreen(
                                     val (chapter, shloka) = selectedShlokaId!!
                                     val detailViewModel = shlokaDetailViewModelFactory(chapter, shloka)
                                     val detailUiState by detailViewModel.uiState.collectAsState()
-                                    val detailAudioState by detailViewModel.audioPlayerState.collectAsState()
                                     val detailScrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
 
                                     Scaffold(
@@ -228,8 +227,6 @@ fun FavoritesScreen(
                                     ) { detailPadding ->
                                         `in`.visheshraghuvanshi.gitaverse.ui.screens.shlokadetail.ShlokaDetailContent(
                                             uiState = detailUiState,
-                                            audioState = detailAudioState,
-                                            onPlayClick = { detailViewModel.togglePlayPause() },
                                             onNavigatePrev = { c, v -> selectedShlokaId = c to v },
                                             onNavigateNext = { c, v -> selectedShlokaId = c to v },
                                             contentPadding = detailPadding

@@ -369,14 +369,14 @@ private fun WelcomePage() {
             }
         ) {
             FeaturePill(text = "700+ Verses", icon = Icons.Rounded.AutoStories)
-            FeaturePill(text = "Audio", icon = Icons.Rounded.Headphones)
+            FeaturePill(text = "Daily Shloka", icon = Icons.Rounded.Today)
             FeaturePill(text = "Offline", icon = Icons.Rounded.CloudOff)
         }
 
         Spacer(modifier = Modifier.height(32.dp))
 
         Text(
-            text = "Discover the timeless wisdom of the Bhagavad Gita with daily inspiration, structured study, and audio recitations.",
+            text = "Discover the timeless wisdom of the Bhagavad Gita with daily inspiration and structured study.",
             style = MaterialTheme.typography.bodyLarge,
             color = Color.White.copy(alpha = 0.75f),
             textAlign = TextAlign.Center,

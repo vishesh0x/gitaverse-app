@@ -178,7 +178,6 @@ fun GitaVerseNavigation(
                     viewModel(
                         factory = ShlokaDetailViewModelFactory(
                             application.repository,
-                            application.audioPlayerManager,
                             application.preferencesManager,
                             application.database.favoriteShlokaDao(),
                             defaultChapterId = chapterId,
@@ -260,7 +259,6 @@ fun GitaVerseNavigation(
                                 key = "shloka_detail_${chapterId}_${selectedShlokaNumber}",
                                 factory = ShlokaDetailViewModelFactory(
                                     application.repository,
-                                    application.audioPlayerManager,
                                     application.preferencesManager,
                                     application.database.favoriteShlokaDao(),
                                     defaultChapterId = chapterId,
@@ -308,7 +306,6 @@ fun GitaVerseNavigation(
             val viewModel: ShlokaDetailViewModel = viewModel(
                 factory = ShlokaDetailViewModelFactory(
                     application.repository,
-                    application.audioPlayerManager,
                     application.preferencesManager,
                     application.database.favoriteShlokaDao()
                 )
@@ -352,7 +349,6 @@ fun GitaVerseNavigation(
                         key = "shloka_detail_${chapterId}_${shlokaNumber}",
                         factory = ShlokaDetailViewModelFactory(
                             application.repository,
-                            application.audioPlayerManager,
                             application.preferencesManager,
                             application.database.favoriteShlokaDao()
                         )

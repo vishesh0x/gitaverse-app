@@ -18,6 +18,7 @@ import `in`.visheshraghuvanshi.gitaverse.data.preferences.UserPreferencesManager
 import `in`.visheshraghuvanshi.gitaverse.data.repository.GitaRepository
 import `in`.visheshraghuvanshi.gitaverse.domain.ShlokaOfTheDayManager
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.withContext
 
 /**
@@ -39,16 +40,24 @@ class ShlokaNotificationWorker(
             // Create notification channel for Android 8.0+
             createNotificationChannel()
             
-            // Get the shloka of the day using the same manager as the app
             val repository = GitaRepository(context)
             val preferencesManager = UserPreferencesManager(context)
-            val shlokaOfDayManager = ShlokaOfTheDayManager(repository, preferencesManager)
             
-            val shlokaResult = shlokaOfDayManager.getShlokaOfTheDay()
+            // First, try to read the already-cached shloka ID from preferences.
+            // This ensures the notification always matches what the app shows,
+            // avoiding a race condition where getShlokaOfTheDay() picks a new random shloka.
+            val cachedShlokaId = preferencesManager.shlokaOfDayId.first()?.toIntOrNull()
             
-            shlokaResult.getOrNull()?.let { shloka ->
-                showNotification(shloka)
+            val shloka = if (cachedShlokaId != null) {
+                // Use the same shloka that the app is displaying
+                repository.getShlokaById(cachedShlokaId).getOrNull()
+            } else {
+                // No cached shloka yet (first run), fall back to selecting one
+                val shlokaOfDayManager = ShlokaOfTheDayManager(repository, preferencesManager)
+                shlokaOfDayManager.getShlokaOfTheDay().getOrNull()
             }
+            
+            shloka?.let { showNotification(it) }
             
             Result.success()
         } catch (e: Exception) {

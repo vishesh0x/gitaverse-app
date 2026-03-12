@@ -21,7 +21,7 @@ data class SettingsUiState(
     val notificationsEnabled: Boolean = false,
     val notificationHour: Int = 7,
     val notificationMinute: Int = 0,
-    val appVersion: String = "1.0.3",
+    val appVersion: String = "1.0.4",
     val githubUrl: String = "https://github.com/vishesh0x/gitaverse-app",
     val websiteUrl: String = "https://gitaverse.vercel.app",
     val supportUrl: String = "https://buymeacoffee.com/visheshraghuvanshi",

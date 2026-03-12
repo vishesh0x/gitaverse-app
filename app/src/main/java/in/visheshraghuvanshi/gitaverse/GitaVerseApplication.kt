@@ -9,7 +9,7 @@ import `in`.visheshraghuvanshi.gitaverse.data.preferences.UserPreferencesManager
 import `in`.visheshraghuvanshi.gitaverse.data.repository.GitaRepository
 import `in`.visheshraghuvanshi.gitaverse.domain.ShlokaOfTheDayManager
 import `in`.visheshraghuvanshi.gitaverse.domain.ShlokaUpdateWorker
-import `in`.visheshraghuvanshi.gitaverse.domain.audio.AudioPlayerManager
+
 import java.util.Calendar
 import java.util.concurrent.TimeUnit
 
@@ -32,9 +32,7 @@ class GitaVerseApplication : Application() {
         ShlokaOfTheDayManager(repository, preferencesManager)
     }
     
-    val audioPlayerManager: AudioPlayerManager by lazy {
-        AudioPlayerManager(applicationContext)
-    }
+
     
     val database: `in`.visheshraghuvanshi.gitaverse.data.database.GitaVerseDatabase by lazy {
         `in`.visheshraghuvanshi.gitaverse.data.database.GitaVerseDatabase.getInstance(applicationContext)
@@ -85,9 +83,6 @@ class GitaVerseApplication : Application() {
         )
     }
     
-    override fun onTerminate() {
-        super.onTerminate()
-        audioPlayerManager.release()
-    }
+
 }
 
