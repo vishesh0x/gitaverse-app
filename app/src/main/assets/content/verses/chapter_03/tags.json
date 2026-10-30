@@ -1,0 +1,349 @@
+{
+  "chapter": 3,
+  "verses": {
+    "1": {
+      "tags": [
+        "action",
+        "knowledge",
+        "dilemma"
+      ],
+      "featured": false
+    },
+    "2": {
+      "tags": [
+        "confusion",
+        "clarity",
+        "guidance"
+      ],
+      "featured": false
+    },
+    "3": {
+      "tags": [
+        "paths",
+        "knowledge",
+        "action"
+      ],
+      "featured": false
+    },
+    "4": {
+      "tags": [
+        "action",
+        "renunciation",
+        "perfection"
+      ],
+      "featured": false
+    },
+    "5": {
+      "tags": [
+        "action",
+        "nature",
+        "gunas"
+      ],
+      "featured": true
+    },
+    "6": {
+      "tags": [
+        "hypocrisy",
+        "senses",
+        "mind"
+      ],
+      "featured": false
+    },
+    "7": {
+      "tags": [
+        "karma yoga",
+        "self-control",
+        "detachment"
+      ],
+      "featured": false
+    },
+    "8": {
+      "tags": [
+        "duty",
+        "action",
+        "necessity"
+      ],
+      "featured": true
+    },
+    "9": {
+      "tags": [
+        "sacrifice",
+        "action",
+        "detachment"
+      ],
+      "featured": false
+    },
+    "10": {
+      "tags": [
+        "sacrifice",
+        "creation",
+        "prosperity"
+      ],
+      "featured": false
+    },
+    "11": {
+      "tags": [
+        "sacrifice",
+        "gods",
+        "cooperation"
+      ],
+      "featured": false
+    },
+    "12": {
+      "tags": [
+        "sacrifice",
+        "gratitude",
+        "enjoyment"
+      ],
+      "featured": false
+    },
+    "13": {
+      "tags": [
+        "sacrifice",
+        "sin",
+        "food"
+      ],
+      "featured": false
+    },
+    "14": {
+      "tags": [
+        "sacrifice",
+        "food",
+        "rain"
+      ],
+      "featured": false
+    },
+    "15": {
+      "tags": [
+        "action",
+        "vedas",
+        "brahman"
+      ],
+      "featured": false
+    },
+    "16": {
+      "tags": [
+        "sacrifice",
+        "duty",
+        "cosmic order"
+      ],
+      "featured": false
+    },
+    "17": {
+      "tags": [
+        "self-realization",
+        "contentment",
+        "duty"
+      ],
+      "featured": false
+    },
+    "18": {
+      "tags": [
+        "detachment",
+        "freedom",
+        "self"
+      ],
+      "featured": false
+    },
+    "19": {
+      "tags": [
+        "action",
+        "detachment",
+        "supreme"
+      ],
+      "featured": false
+    },
+    "20": {
+      "tags": [
+        "action",
+        "leadership",
+        "welfare"
+      ],
+      "featured": false
+    },
+    "21": {
+      "tags": [
+        "leadership",
+        "example",
+        "society"
+      ],
+      "featured": true
+    },
+    "22": {
+      "tags": [
+        "krishna",
+        "action",
+        "duty"
+      ],
+      "featured": false
+    },
+    "23": {
+      "tags": [
+        "example",
+        "action",
+        "leadership"
+      ],
+      "featured": false
+    },
+    "24": {
+      "tags": [
+        "action",
+        "society",
+        "order"
+      ],
+      "featured": false
+    },
+    "25": {
+      "tags": [
+        "detachment",
+        "welfare",
+        "wisdom"
+      ],
+      "featured": false
+    },
+    "26": {
+      "tags": [
+        "wisdom",
+        "guidance",
+        "action"
+      ],
+      "featured": false
+    },
+    "27": {
+      "tags": [
+        "ego",
+        "nature",
+        "gunas"
+      ],
+      "featured": true
+    },
+    "28": {
+      "tags": [
+        "gunas",
+        "detachment",
+        "knowledge"
+      ],
+      "featured": false
+    },
+    "29": {
+      "tags": [
+        "gunas",
+        "ignorance",
+        "guidance"
+      ],
+      "featured": false
+    },
+    "30": {
+      "tags": [
+        "surrender",
+        "devotion",
+        "action"
+      ],
+      "featured": false
+    },
+    "31": {
+      "tags": [
+        "faith",
+        "devotion",
+        "freedom"
+      ],
+      "featured": false
+    },
+    "32": {
+      "tags": [
+        "faith",
+        "ignorance",
+        "doubt"
+      ],
+      "featured": false
+    },
+    "33": {
+      "tags": [
+        "nature",
+        "habit",
+        "self-control"
+      ],
+      "featured": false
+    },
+    "34": {
+      "tags": [
+        "senses",
+        "attraction",
+        "aversion"
+      ],
+      "featured": false
+    },
+    "35": {
+      "tags": [
+        "dharma",
+        "duty",
+        "identity"
+      ],
+      "featured": true
+    },
+    "36": {
+      "tags": [
+        "sin",
+        "compulsion",
+        "question"
+      ],
+      "featured": false
+    },
+    "37": {
+      "tags": [
+        "desire",
+        "anger",
+        "enemy"
+      ],
+      "featured": true
+    },
+    "38": {
+      "tags": [
+        "desire",
+        "ignorance",
+        "obscuration"
+      ],
+      "featured": false
+    },
+    "39": {
+      "tags": [
+        "desire",
+        "wisdom",
+        "enemy"
+      ],
+      "featured": false
+    },
+    "40": {
+      "tags": [
+        "senses",
+        "mind",
+        "intellect"
+      ],
+      "featured": false
+    },
+    "41": {
+      "tags": [
+        "senses",
+        "self-control",
+        "desire"
+      ],
+      "featured": false
+    },
+    "42": {
+      "tags": [
+        "self",
+        "intellect",
+        "hierarchy"
+      ],
+      "featured": false
+    },
+    "43": {
+      "tags": [
+        "self-mastery",
+        "desire",
+        "victory"
+      ],
+      "featured": false
+    }
+  }
+}

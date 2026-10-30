@@ -1,0 +1,341 @@
+{
+  "chapter": 10,
+  "verses": {
+    "1": {
+      "tags": [
+        "krishna",
+        "devotion",
+        "guidance"
+      ],
+      "featured": false
+    },
+    "2": {
+      "tags": [
+        "krishna",
+        "origin",
+        "gods"
+      ],
+      "featured": false
+    },
+    "3": {
+      "tags": [
+        "krishna",
+        "knowledge",
+        "liberation"
+      ],
+      "featured": false
+    },
+    "4": {
+      "tags": [
+        "qualities",
+        "creation",
+        "mind"
+      ],
+      "featured": false
+    },
+    "5": {
+      "tags": [
+        "qualities",
+        "creation",
+        "virtue"
+      ],
+      "featured": false
+    },
+    "6": {
+      "tags": [
+        "creation",
+        "sages",
+        "mind"
+      ],
+      "featured": false
+    },
+    "7": {
+      "tags": [
+        "yoga",
+        "knowledge",
+        "glory"
+      ],
+      "featured": false
+    },
+    "8": {
+      "tags": [
+        "devotion",
+        "krishna",
+        "wisdom"
+      ],
+      "featured": true
+    },
+    "9": {
+      "tags": [
+        "devotion",
+        "joy",
+        "remembrance"
+      ],
+      "featured": false
+    },
+    "10": {
+      "tags": [
+        "devotion",
+        "grace",
+        "wisdom"
+      ],
+      "featured": false
+    },
+    "11": {
+      "tags": [
+        "grace",
+        "knowledge",
+        "ignorance"
+      ],
+      "featured": false
+    },
+    "12": {
+      "tags": [
+        "praise",
+        "krishna",
+        "brahman"
+      ],
+      "featured": false
+    },
+    "13": {
+      "tags": [
+        "praise",
+        "sages",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "14": {
+      "tags": [
+        "faith",
+        "krishna",
+        "manifestation"
+      ],
+      "featured": false
+    },
+    "15": {
+      "tags": [
+        "praise",
+        "krishna",
+        "supreme"
+      ],
+      "featured": false
+    },
+    "16": {
+      "tags": [
+        "question",
+        "glory",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "17": {
+      "tags": [
+        "question",
+        "meditation",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "18": {
+      "tags": [
+        "question",
+        "glory",
+        "nectar"
+      ],
+      "featured": false
+    },
+    "19": {
+      "tags": [
+        "glory",
+        "krishna",
+        "infinity"
+      ],
+      "featured": false
+    },
+    "20": {
+      "tags": [
+        "self",
+        "krishna",
+        "divine presence"
+      ],
+      "featured": true
+    },
+    "21": {
+      "tags": [
+        "glory",
+        "krishna",
+        "cosmos"
+      ],
+      "featured": false
+    },
+    "22": {
+      "tags": [
+        "glory",
+        "krishna",
+        "consciousness"
+      ],
+      "featured": false
+    },
+    "23": {
+      "tags": [
+        "glory",
+        "krishna",
+        "cosmos"
+      ],
+      "featured": false
+    },
+    "24": {
+      "tags": [
+        "glory",
+        "krishna",
+        "cosmos"
+      ],
+      "featured": false
+    },
+    "25": {
+      "tags": [
+        "glory",
+        "om",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "26": {
+      "tags": [
+        "glory",
+        "krishna",
+        "nature"
+      ],
+      "featured": false
+    },
+    "27": {
+      "tags": [
+        "glory",
+        "krishna",
+        "nature"
+      ],
+      "featured": false
+    },
+    "28": {
+      "tags": [
+        "glory",
+        "krishna",
+        "nature"
+      ],
+      "featured": false
+    },
+    "29": {
+      "tags": [
+        "glory",
+        "krishna",
+        "nature"
+      ],
+      "featured": false
+    },
+    "30": {
+      "tags": [
+        "glory",
+        "krishna",
+        "time"
+      ],
+      "featured": false
+    },
+    "31": {
+      "tags": [
+        "glory",
+        "krishna",
+        "nature"
+      ],
+      "featured": false
+    },
+    "32": {
+      "tags": [
+        "glory",
+        "knowledge",
+        "creation"
+      ],
+      "featured": false
+    },
+    "33": {
+      "tags": [
+        "glory",
+        "time",
+        "creator"
+      ],
+      "featured": false
+    },
+    "34": {
+      "tags": [
+        "glory",
+        "death",
+        "virtue"
+      ],
+      "featured": false
+    },
+    "35": {
+      "tags": [
+        "glory",
+        "poetry",
+        "seasons"
+      ],
+      "featured": false
+    },
+    "36": {
+      "tags": [
+        "glory",
+        "victory",
+        "virtue"
+      ],
+      "featured": false
+    },
+    "37": {
+      "tags": [
+        "glory",
+        "krishna",
+        "sages"
+      ],
+      "featured": false
+    },
+    "38": {
+      "tags": [
+        "glory",
+        "leadership",
+        "silence"
+      ],
+      "featured": false
+    },
+    "39": {
+      "tags": [
+        "krishna",
+        "creation",
+        "seed"
+      ],
+      "featured": false
+    },
+    "40": {
+      "tags": [
+        "glory",
+        "infinity",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "41": {
+      "tags": [
+        "glory",
+        "splendor",
+        "krishna"
+      ],
+      "featured": true
+    },
+    "42": {
+      "tags": [
+        "krishna",
+        "cosmos",
+        "support"
+      ],
+      "featured": false
+    }
+  }
+}

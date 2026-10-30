@@ -1,0 +1,2889 @@
+{
+  "chapter": 1,
+  "verses": {
+    "1": [
+      {
+        "sanskrit": "धर्मक्षेत्रे",
+        "meaning": "on the field of dharma",
+        "meaningHi": "धर्मभूमि में"
+      },
+      {
+        "sanskrit": "कुरुक्षेत्रे",
+        "meaning": "in Kurukshetra",
+        "meaningHi": "कुरुक्षेत्र में"
+      },
+      {
+        "sanskrit": "समवेताः",
+        "meaning": "assembled",
+        "meaningHi": "इकट्ठे हुए"
+      },
+      {
+        "sanskrit": "युयुत्सवः",
+        "meaning": "desiring to fight",
+        "meaningHi": "युद्ध की इच्छा वाले"
+      },
+      {
+        "sanskrit": "मामकाः",
+        "meaning": "my people",
+        "meaningHi": "मेरे पुत्र"
+      },
+      {
+        "sanskrit": "पाण्डवाः",
+        "meaning": "sons of Pandu",
+        "meaningHi": "पाण्डु के पुत्र"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "indeed",
+        "meaningHi": "ही"
+      },
+      {
+        "sanskrit": "किम्",
+        "meaning": "what",
+        "meaningHi": "क्या"
+      },
+      {
+        "sanskrit": "अकुर्वत",
+        "meaning": "did",
+        "meaningHi": "किया"
+      },
+      {
+        "sanskrit": "सञ्जय",
+        "meaning": "O Sanjaya",
+        "meaningHi": "हे संजय"
+      }
+    ],
+    "2": [
+      {
+        "sanskrit": "दृष्ट्वा",
+        "meaning": "having seen",
+        "meaningHi": "देखकर"
+      },
+      {
+        "sanskrit": "तु",
+        "meaning": "then",
+        "meaningHi": "तब"
+      },
+      {
+        "sanskrit": "पाण्डवानीकम्",
+        "meaning": "army of the Pandavas",
+        "meaningHi": "पाण्डवों की सेना को"
+      },
+      {
+        "sanskrit": "व्यूढम्",
+        "meaning": "arrayed in formation",
+        "meaningHi": "व्यूह-रचना में खड़ी"
+      },
+      {
+        "sanskrit": "दुर्योधनः",
+        "meaning": "Duryodhana",
+        "meaningHi": "दुर्योधन"
+      },
+      {
+        "sanskrit": "तदा",
+        "meaning": "then",
+        "meaningHi": "उस समय"
+      },
+      {
+        "sanskrit": "आचार्यम्",
+        "meaning": "the teacher (Drona)",
+        "meaningHi": "आचार्य (द्रोण) के"
+      },
+      {
+        "sanskrit": "उपसङ्गम्य",
+        "meaning": "having approached",
+        "meaningHi": "पास जाकर"
+      },
+      {
+        "sanskrit": "राजा",
+        "meaning": "the king",
+        "meaningHi": "राजा"
+      },
+      {
+        "sanskrit": "वचनम्",
+        "meaning": "words",
+        "meaningHi": "वचन"
+      },
+      {
+        "sanskrit": "अब्रवीत्",
+        "meaning": "said",
+        "meaningHi": "कहा"
+      }
+    ],
+    "3": [
+      {
+        "sanskrit": "पश्य",
+        "meaning": "behold",
+        "meaningHi": "देखिए"
+      },
+      {
+        "sanskrit": "एताम्",
+        "meaning": "this",
+        "meaningHi": "इस"
+      },
+      {
+        "sanskrit": "पाण्डुपुत्राणाम्",
+        "meaning": "of the sons of Pandu",
+        "meaningHi": "पाण्डुपुत्रों की"
+      },
+      {
+        "sanskrit": "आचार्य",
+        "meaning": "O teacher",
+        "meaningHi": "हे आचार्य"
+      },
+      {
+        "sanskrit": "महतीम्",
+        "meaning": "great",
+        "meaningHi": "विशाल"
+      },
+      {
+        "sanskrit": "चमूम्",
+        "meaning": "army",
+        "meaningHi": "सेना को"
+      },
+      {
+        "sanskrit": "व्यूढाम्",
+        "meaning": "arrayed",
+        "meaningHi": "व्यूह में खड़ी की हुई"
+      },
+      {
+        "sanskrit": "द्रुपदपुत्रेण",
+        "meaning": "by the son of Drupada",
+        "meaningHi": "द्रुपदपुत्र (धृष्टद्युम्न) द्वारा"
+      },
+      {
+        "sanskrit": "तव",
+        "meaning": "your",
+        "meaningHi": "आपके"
+      },
+      {
+        "sanskrit": "शिष्येण",
+        "meaning": "by the disciple",
+        "meaningHi": "शिष्य द्वारा"
+      },
+      {
+        "sanskrit": "धीमता",
+        "meaning": "intelligent",
+        "meaningHi": "बुद्धिमान"
+      }
+    ],
+    "4": [
+      {
+        "sanskrit": "अत्र",
+        "meaning": "here",
+        "meaningHi": "यहाँ"
+      },
+      {
+        "sanskrit": "शूराः",
+        "meaning": "heroes",
+        "meaningHi": "शूरवीर"
+      },
+      {
+        "sanskrit": "महेष्वासाः",
+        "meaning": "great archers",
+        "meaningHi": "बड़े धनुर्धर"
+      },
+      {
+        "sanskrit": "भीमार्जुनसमाः",
+        "meaning": "equal to Bhima and Arjuna",
+        "meaningHi": "भीम और अर्जुन के समान"
+      },
+      {
+        "sanskrit": "युधि",
+        "meaning": "in battle",
+        "meaningHi": "युद्ध में"
+      },
+      {
+        "sanskrit": "युयुधानः",
+        "meaning": "Yuyudhana (Satyaki)",
+        "meaningHi": "सात्यकि"
+      },
+      {
+        "sanskrit": "विराटः",
+        "meaning": "Virata",
+        "meaningHi": "विराट"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "द्रुपदः",
+        "meaning": "Drupada",
+        "meaningHi": "द्रुपद"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "महारथः",
+        "meaning": "great chariot-warrior",
+        "meaningHi": "महारथी"
+      }
+    ],
+    "5": [
+      {
+        "sanskrit": "धृष्टकेतुः",
+        "meaning": "Dhrishtaketu",
+        "meaningHi": "धृष्टकेतु"
+      },
+      {
+        "sanskrit": "चेकितानः",
+        "meaning": "Chekitana",
+        "meaningHi": "चेकितान"
+      },
+      {
+        "sanskrit": "काशिराजः",
+        "meaning": "king of Kashi",
+        "meaningHi": "काशिराज"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "वीर्यवान्",
+        "meaning": "valiant",
+        "meaningHi": "बलवान"
+      },
+      {
+        "sanskrit": "पुरुजित्",
+        "meaning": "Purujit",
+        "meaningHi": "पुरुजित्"
+      },
+      {
+        "sanskrit": "कुन्तिभोजः",
+        "meaning": "Kuntibhoja",
+        "meaningHi": "कुन्तिभोज"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "शैब्यः",
+        "meaning": "Shaibya",
+        "meaningHi": "शैब्य"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "नरपुङ्गवः",
+        "meaning": "best among men",
+        "meaningHi": "मनुष्यों में श्रेष्ठ"
+      }
+    ],
+    "6": [
+      {
+        "sanskrit": "युधामन्युः",
+        "meaning": "Yudhamanyu",
+        "meaningHi": "युधामन्यु"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "विक्रान्तः",
+        "meaning": "powerful",
+        "meaningHi": "पराक्रमी"
+      },
+      {
+        "sanskrit": "उत्तमौजाः",
+        "meaning": "Uttamauja",
+        "meaningHi": "उत्तमौजा"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "वीर्यवान्",
+        "meaning": "valiant",
+        "meaningHi": "बलवान"
+      },
+      {
+        "sanskrit": "सौभद्रः",
+        "meaning": "son of Subhadra",
+        "meaningHi": "सुभद्रापुत्र (अभिमन्यु)"
+      },
+      {
+        "sanskrit": "द्रौपदेयाः",
+        "meaning": "sons of Draupadi",
+        "meaningHi": "द्रौपदी के पुत्र"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "सर्वे",
+        "meaning": "all",
+        "meaningHi": "सभी"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "indeed",
+        "meaningHi": "ही"
+      },
+      {
+        "sanskrit": "महारथाः",
+        "meaning": "great chariot-warriors",
+        "meaningHi": "महारथी"
+      }
+    ],
+    "7": [
+      {
+        "sanskrit": "अस्माकम्",
+        "meaning": "our",
+        "meaningHi": "हमारे"
+      },
+      {
+        "sanskrit": "तु",
+        "meaning": "but",
+        "meaningHi": "तो"
+      },
+      {
+        "sanskrit": "विशिष्टाः",
+        "meaning": "distinguished",
+        "meaningHi": "विशिष्ट"
+      },
+      {
+        "sanskrit": "ये",
+        "meaning": "who",
+        "meaningHi": "जो"
+      },
+      {
+        "sanskrit": "तान्",
+        "meaning": "them",
+        "meaningHi": "उनको"
+      },
+      {
+        "sanskrit": "निबोध",
+        "meaning": "know",
+        "meaningHi": "जान लीजिए"
+      },
+      {
+        "sanskrit": "द्विजोत्तम",
+        "meaning": "O best of the twice-born",
+        "meaningHi": "हे ब्राह्मणश्रेष्ठ"
+      },
+      {
+        "sanskrit": "नायकाः",
+        "meaning": "leaders",
+        "meaningHi": "नायक"
+      },
+      {
+        "sanskrit": "मम",
+        "meaning": "my",
+        "meaningHi": "मेरी"
+      },
+      {
+        "sanskrit": "सैन्यस्य",
+        "meaning": "of the army",
+        "meaningHi": "सेना के"
+      },
+      {
+        "sanskrit": "संज्ञार्थम्",
+        "meaning": "for information",
+        "meaningHi": "जानकारी के लिए"
+      },
+      {
+        "sanskrit": "तान्",
+        "meaning": "them",
+        "meaningHi": "उन्हें"
+      },
+      {
+        "sanskrit": "ब्रवीमि",
+        "meaning": "I tell",
+        "meaningHi": "बताता हूँ"
+      },
+      {
+        "sanskrit": "ते",
+        "meaning": "to you",
+        "meaningHi": "आपको"
+      }
+    ],
+    "8": [
+      {
+        "sanskrit": "भवान्",
+        "meaning": "yourself",
+        "meaningHi": "आप"
+      },
+      {
+        "sanskrit": "भीष्मः",
+        "meaning": "Bhishma",
+        "meaningHi": "भीष्म"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "कर्णः",
+        "meaning": "Karna",
+        "meaningHi": "कर्ण"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "कृपः",
+        "meaning": "Kripa",
+        "meaningHi": "कृपाचार्य"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "समितिञ्जयः",
+        "meaning": "victorious in battle",
+        "meaningHi": "युद्ध-विजयी"
+      },
+      {
+        "sanskrit": "अश्वत्थामा",
+        "meaning": "Ashvatthama",
+        "meaningHi": "अश्वत्थामा"
+      },
+      {
+        "sanskrit": "विकर्णः",
+        "meaning": "Vikarna",
+        "meaningHi": "विकर्ण"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "सौमदत्तिः",
+        "meaning": "son of Somadatta",
+        "meaningHi": "सोमदत्त का पुत्र"
+      },
+      {
+        "sanskrit": "तथा",
+        "meaning": "likewise",
+        "meaningHi": "तथा"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "also",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      }
+    ],
+    "9": [
+      {
+        "sanskrit": "अन्ये",
+        "meaning": "others",
+        "meaningHi": "अन्य"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "बहवः",
+        "meaning": "many",
+        "meaningHi": "बहुत-से"
+      },
+      {
+        "sanskrit": "शूराः",
+        "meaning": "heroes",
+        "meaningHi": "शूरवीर"
+      },
+      {
+        "sanskrit": "मदर्थे",
+        "meaning": "for my sake",
+        "meaningHi": "मेरे लिए"
+      },
+      {
+        "sanskrit": "त्यक्तजीविताः",
+        "meaning": "who have given up their lives",
+        "meaningHi": "जीवन त्यागने वाले"
+      },
+      {
+        "sanskrit": "नानाशस्त्रप्रहरणाः",
+        "meaning": "armed with various weapons",
+        "meaningHi": "अनेक शस्त्रों से सज्जित"
+      },
+      {
+        "sanskrit": "सर्वे",
+        "meaning": "all",
+        "meaningHi": "सब"
+      },
+      {
+        "sanskrit": "युद्धविशारदाः",
+        "meaning": "skilled in war",
+        "meaningHi": "युद्ध-निपुण"
+      }
+    ],
+    "10": [
+      {
+        "sanskrit": "अपर्याप्तम्",
+        "meaning": "unconquerable",
+        "meaningHi": "अजेय"
+      },
+      {
+        "sanskrit": "तत्",
+        "meaning": "that",
+        "meaningHi": "वह"
+      },
+      {
+        "sanskrit": "अस्माकम्",
+        "meaning": "our",
+        "meaningHi": "हमारी"
+      },
+      {
+        "sanskrit": "बलम्",
+        "meaning": "army",
+        "meaningHi": "सेना"
+      },
+      {
+        "sanskrit": "भीष्माभिरक्षितम्",
+        "meaning": "protected by Bhishma",
+        "meaningHi": "भीष्म द्वारा रक्षित"
+      },
+      {
+        "sanskrit": "पर्याप्तम्",
+        "meaning": "easy to conquer",
+        "meaningHi": "जीतने में सुगम"
+      },
+      {
+        "sanskrit": "तु",
+        "meaning": "but",
+        "meaningHi": "किन्तु"
+      },
+      {
+        "sanskrit": "इदम्",
+        "meaning": "this",
+        "meaningHi": "यह"
+      },
+      {
+        "sanskrit": "एतेषाम्",
+        "meaning": "of these",
+        "meaningHi": "इनकी"
+      },
+      {
+        "sanskrit": "बलम्",
+        "meaning": "army",
+        "meaningHi": "सेना"
+      },
+      {
+        "sanskrit": "भीमाभिरक्षितम्",
+        "meaning": "protected by Bhima",
+        "meaningHi": "भीम द्वारा रक्षित"
+      }
+    ],
+    "11": [
+      {
+        "sanskrit": "अयनेषु",
+        "meaning": "at the fronts",
+        "meaningHi": "मोर्चों पर"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "सर्वेषु",
+        "meaning": "in all",
+        "meaningHi": "सब"
+      },
+      {
+        "sanskrit": "यथाभागम्",
+        "meaning": "according to your divisions",
+        "meaningHi": "अपने-अपने भाग के अनुसार"
+      },
+      {
+        "sanskrit": "अवस्थिताः",
+        "meaning": "stationed",
+        "meaningHi": "डटे हुए"
+      },
+      {
+        "sanskrit": "भीष्मम्",
+        "meaning": "Bhishma",
+        "meaningHi": "भीष्म की"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "alone",
+        "meaningHi": "ही"
+      },
+      {
+        "sanskrit": "अभिरक्षन्तु",
+        "meaning": "protect",
+        "meaningHi": "रक्षा करें"
+      },
+      {
+        "sanskrit": "भवन्तः",
+        "meaning": "you all",
+        "meaningHi": "आप सब"
+      },
+      {
+        "sanskrit": "सर्वे",
+        "meaning": "all",
+        "meaningHi": "सभी"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "indeed",
+        "meaningHi": "ही"
+      },
+      {
+        "sanskrit": "हि",
+        "meaning": "surely",
+        "meaningHi": "निश्चय से"
+      }
+    ],
+    "12": [
+      {
+        "sanskrit": "तस्य",
+        "meaning": "his",
+        "meaningHi": "उसके (दुर्योधन के)"
+      },
+      {
+        "sanskrit": "सञ्जनयन्",
+        "meaning": "causing",
+        "meaningHi": "उत्पन्न करते हुए"
+      },
+      {
+        "sanskrit": "हर्षम्",
+        "meaning": "joy",
+        "meaningHi": "हर्ष"
+      },
+      {
+        "sanskrit": "कुरुवृद्धः",
+        "meaning": "eldest of the Kurus",
+        "meaningHi": "कुरुवंश के वृद्ध"
+      },
+      {
+        "sanskrit": "पितामहः",
+        "meaning": "grandsire",
+        "meaningHi": "पितामह"
+      },
+      {
+        "sanskrit": "सिंहनादम्",
+        "meaning": "lion's roar",
+        "meaningHi": "सिंह की दहाड़"
+      },
+      {
+        "sanskrit": "विनद्य",
+        "meaning": "having roared",
+        "meaningHi": "गरजकर"
+      },
+      {
+        "sanskrit": "उच्चैः",
+        "meaning": "loudly",
+        "meaningHi": "ऊँचे स्वर से"
+      },
+      {
+        "sanskrit": "शङ्खम्",
+        "meaning": "conch",
+        "meaningHi": "शंख"
+      },
+      {
+        "sanskrit": "दध्मौ",
+        "meaning": "blew",
+        "meaningHi": "बजाया"
+      },
+      {
+        "sanskrit": "प्रतापवान्",
+        "meaning": "mighty",
+        "meaningHi": "प्रतापी"
+      }
+    ],
+    "13": [
+      {
+        "sanskrit": "ततः",
+        "meaning": "then",
+        "meaningHi": "तब"
+      },
+      {
+        "sanskrit": "शङ्खाः",
+        "meaning": "conches",
+        "meaningHi": "शंख"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "भेर्यः",
+        "meaning": "kettledrums",
+        "meaningHi": "नगाड़े"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "पणवानकगोमुखाः",
+        "meaning": "tabors, drums and horns",
+        "meaningHi": "ढोल, मृदंग और नरसिंघे"
+      },
+      {
+        "sanskrit": "सहसा",
+        "meaning": "suddenly",
+        "meaningHi": "अचानक"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "indeed",
+        "meaningHi": "ही"
+      },
+      {
+        "sanskrit": "अभ्यहन्यन्त",
+        "meaning": "were sounded",
+        "meaningHi": "बज उठे"
+      },
+      {
+        "sanskrit": "सः",
+        "meaning": "that",
+        "meaningHi": "वह"
+      },
+      {
+        "sanskrit": "शब्दः",
+        "meaning": "sound",
+        "meaningHi": "शब्द"
+      },
+      {
+        "sanskrit": "तुमुलः",
+        "meaning": "tumultuous",
+        "meaningHi": "भयंकर"
+      },
+      {
+        "sanskrit": "अभवत्",
+        "meaning": "became",
+        "meaningHi": "हुआ"
+      }
+    ],
+    "14": [
+      {
+        "sanskrit": "ततः",
+        "meaning": "then",
+        "meaningHi": "तब"
+      },
+      {
+        "sanskrit": "श्वेतैः",
+        "meaning": "with white",
+        "meaningHi": "सफेद"
+      },
+      {
+        "sanskrit": "हयैः",
+        "meaning": "horses",
+        "meaningHi": "घोड़ों से"
+      },
+      {
+        "sanskrit": "युक्ते",
+        "meaning": "yoked",
+        "meaningHi": "जुते हुए"
+      },
+      {
+        "sanskrit": "महति",
+        "meaning": "great",
+        "meaningHi": "उत्तम"
+      },
+      {
+        "sanskrit": "स्यन्दने",
+        "meaning": "in the chariot",
+        "meaningHi": "रथ में"
+      },
+      {
+        "sanskrit": "स्थितौ",
+        "meaning": "seated",
+        "meaningHi": "बैठे हुए"
+      },
+      {
+        "sanskrit": "माधवः",
+        "meaning": "Madhava (Krishna)",
+        "meaningHi": "श्रीकृष्ण"
+      },
+      {
+        "sanskrit": "पाण्डवः",
+        "meaning": "son of Pandu (Arjuna)",
+        "meaningHi": "अर्जुन"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "also",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "दिव्यौ",
+        "meaning": "divine",
+        "meaningHi": "दिव्य"
+      },
+      {
+        "sanskrit": "शङ्खौ",
+        "meaning": "two conches",
+        "meaningHi": "दो शंख"
+      },
+      {
+        "sanskrit": "प्रदध्मतुः",
+        "meaning": "blew",
+        "meaningHi": "बजाए"
+      }
+    ],
+    "15": [
+      {
+        "sanskrit": "पाञ्चजन्यम्",
+        "meaning": "Panchajanya",
+        "meaningHi": "पाञ्चजन्य"
+      },
+      {
+        "sanskrit": "हृषीकेशः",
+        "meaning": "Hrishikesha",
+        "meaningHi": "श्रीकृष्ण"
+      },
+      {
+        "sanskrit": "देवदत्तम्",
+        "meaning": "Devadatta",
+        "meaningHi": "देवदत्त"
+      },
+      {
+        "sanskrit": "धनञ्जयः",
+        "meaning": "Dhananjaya (Arjuna)",
+        "meaningHi": "अर्जुन"
+      },
+      {
+        "sanskrit": "पौण्ड्रम्",
+        "meaning": "Paundra",
+        "meaningHi": "पौण्ड्र"
+      },
+      {
+        "sanskrit": "दध्मौ",
+        "meaning": "blew",
+        "meaningHi": "बजाया"
+      },
+      {
+        "sanskrit": "महाशङ्खम्",
+        "meaning": "great conch",
+        "meaningHi": "महाशंख"
+      },
+      {
+        "sanskrit": "भीमकर्मा",
+        "meaning": "of terrible deeds",
+        "meaningHi": "भयंकर कर्म वाले"
+      },
+      {
+        "sanskrit": "वृकोदरः",
+        "meaning": "Vrikodara (Bhima)",
+        "meaningHi": "भीमसेन"
+      }
+    ],
+    "16": [
+      {
+        "sanskrit": "अनन्तविजयम्",
+        "meaning": "Anantavijaya",
+        "meaningHi": "अनन्तविजय"
+      },
+      {
+        "sanskrit": "राजा",
+        "meaning": "king",
+        "meaningHi": "राजा"
+      },
+      {
+        "sanskrit": "कुन्तीपुत्रः",
+        "meaning": "son of Kunti",
+        "meaningHi": "कुन्तीपुत्र"
+      },
+      {
+        "sanskrit": "युधिष्ठिरः",
+        "meaning": "Yudhishthira",
+        "meaningHi": "युधिष्ठिर"
+      },
+      {
+        "sanskrit": "नकुलः",
+        "meaning": "Nakula",
+        "meaningHi": "नकुल"
+      },
+      {
+        "sanskrit": "सहदेवः",
+        "meaning": "Sahadeva",
+        "meaningHi": "सहदेव"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "सुघोषमणिपुष्पकौ",
+        "meaning": "Sughosha and Manipushpaka",
+        "meaningHi": "सुघोष और मणिपुष्पक"
+      }
+    ],
+    "17": [
+      {
+        "sanskrit": "काश्यः",
+        "meaning": "king of Kashi",
+        "meaningHi": "काशिराज"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "परमेष्वासः",
+        "meaning": "supreme archer",
+        "meaningHi": "श्रेष्ठ धनुर्धर"
+      },
+      {
+        "sanskrit": "शिखण्डी",
+        "meaning": "Shikhandi",
+        "meaningHi": "शिखण्डी"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "महारथः",
+        "meaning": "great chariot-warrior",
+        "meaningHi": "महारथी"
+      },
+      {
+        "sanskrit": "धृष्टद्युम्नः",
+        "meaning": "Dhrishtadyumna",
+        "meaningHi": "धृष्टद्युम्न"
+      },
+      {
+        "sanskrit": "विराटः",
+        "meaning": "Virata",
+        "meaningHi": "विराट"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "सात्यकिः",
+        "meaning": "Satyaki",
+        "meaningHi": "सात्यकि"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "अपराजितः",
+        "meaning": "unconquered",
+        "meaningHi": "अपराजित"
+      }
+    ],
+    "18": [
+      {
+        "sanskrit": "द्रुपदः",
+        "meaning": "Drupada",
+        "meaningHi": "द्रुपद"
+      },
+      {
+        "sanskrit": "द्रौपदेयाः",
+        "meaning": "sons of Draupadi",
+        "meaningHi": "द्रौपदी के पुत्र"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "सर्वशः",
+        "meaning": "on all sides",
+        "meaningHi": "सब ओर से"
+      },
+      {
+        "sanskrit": "पृथिवीपते",
+        "meaning": "O lord of the earth",
+        "meaningHi": "हे राजन्"
+      },
+      {
+        "sanskrit": "सौभद्रः",
+        "meaning": "son of Subhadra",
+        "meaningHi": "सुभद्रापुत्र"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "महाबाहुः",
+        "meaning": "mighty-armed",
+        "meaningHi": "महाबाहु"
+      },
+      {
+        "sanskrit": "शङ्खान्",
+        "meaning": "conches",
+        "meaningHi": "शंख"
+      },
+      {
+        "sanskrit": "दध्मुः",
+        "meaning": "blew",
+        "meaningHi": "बजाए"
+      },
+      {
+        "sanskrit": "पृथक्पृथक्",
+        "meaning": "separately",
+        "meaningHi": "अलग-अलग"
+      }
+    ],
+    "19": [
+      {
+        "sanskrit": "सः",
+        "meaning": "that",
+        "meaningHi": "वह"
+      },
+      {
+        "sanskrit": "घोषः",
+        "meaning": "sound",
+        "meaningHi": "ध्वनि"
+      },
+      {
+        "sanskrit": "धार्तराष्ट्राणाम्",
+        "meaning": "of the sons of Dhritarashtra",
+        "meaningHi": "धृतराष्ट्र-पुत्रों के"
+      },
+      {
+        "sanskrit": "हृदयानि",
+        "meaning": "hearts",
+        "meaningHi": "हृदय"
+      },
+      {
+        "sanskrit": "व्यदारयत्",
+        "meaning": "shattered",
+        "meaningHi": "विदीर्ण कर दिए"
+      },
+      {
+        "sanskrit": "नभः",
+        "meaning": "sky",
+        "meaningHi": "आकाश"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "पृथिवीम्",
+        "meaning": "earth",
+        "meaningHi": "पृथ्वी को"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "also",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "तुमुलः",
+        "meaning": "tumultuous",
+        "meaningHi": "भयंकर"
+      },
+      {
+        "sanskrit": "व्यनुनादयन्",
+        "meaning": "resounding",
+        "meaningHi": "गुँजाता हुआ"
+      }
+    ],
+    "20": [
+      {
+        "sanskrit": "अथ",
+        "meaning": "then",
+        "meaningHi": "तब"
+      },
+      {
+        "sanskrit": "व्यवस्थितान्",
+        "meaning": "arrayed",
+        "meaningHi": "डटे हुए"
+      },
+      {
+        "sanskrit": "दृष्ट्वा",
+        "meaning": "having seen",
+        "meaningHi": "देखकर"
+      },
+      {
+        "sanskrit": "धार्तराष्ट्रान्",
+        "meaning": "sons of Dhritarashtra",
+        "meaningHi": "धृतराष्ट्र-पुत्रों को"
+      },
+      {
+        "sanskrit": "कपिध्वजः",
+        "meaning": "one with the monkey banner (Arjuna)",
+        "meaningHi": "कपिध्वज अर्जुन"
+      },
+      {
+        "sanskrit": "प्रवृत्ते",
+        "meaning": "at the commencement",
+        "meaningHi": "आरम्भ होने पर"
+      },
+      {
+        "sanskrit": "शस्त्रसम्पाते",
+        "meaning": "of the clash of weapons",
+        "meaningHi": "शस्त्र चलने के"
+      },
+      {
+        "sanskrit": "धनुः",
+        "meaning": "bow",
+        "meaningHi": "धनुष"
+      },
+      {
+        "sanskrit": "उद्यम्य",
+        "meaning": "having raised",
+        "meaningHi": "उठाकर"
+      },
+      {
+        "sanskrit": "पाण्डवः",
+        "meaning": "Pandava (Arjuna)",
+        "meaningHi": "अर्जुन"
+      }
+    ],
+    "21": [
+      {
+        "sanskrit": "हृषीकेशम्",
+        "meaning": "to Hrishikesha",
+        "meaningHi": "श्रीकृष्ण से"
+      },
+      {
+        "sanskrit": "तदा",
+        "meaning": "then",
+        "meaningHi": "तब"
+      },
+      {
+        "sanskrit": "वाक्यम्",
+        "meaning": "words",
+        "meaningHi": "वचन"
+      },
+      {
+        "sanskrit": "इदम्",
+        "meaning": "this",
+        "meaningHi": "यह"
+      },
+      {
+        "sanskrit": "आह",
+        "meaning": "said",
+        "meaningHi": "कहा"
+      },
+      {
+        "sanskrit": "महीपते",
+        "meaning": "O king",
+        "meaningHi": "हे राजन्"
+      },
+      {
+        "sanskrit": "सेनयोः",
+        "meaning": "of the two armies",
+        "meaningHi": "दोनों सेनाओं के"
+      },
+      {
+        "sanskrit": "उभयोः",
+        "meaning": "of both",
+        "meaningHi": "दोनों के"
+      },
+      {
+        "sanskrit": "मध्ये",
+        "meaning": "in the middle",
+        "meaningHi": "बीच में"
+      },
+      {
+        "sanskrit": "रथम्",
+        "meaning": "chariot",
+        "meaningHi": "रथ को"
+      },
+      {
+        "sanskrit": "स्थापय",
+        "meaning": "place",
+        "meaningHi": "खड़ा कीजिए"
+      },
+      {
+        "sanskrit": "मे",
+        "meaning": "my",
+        "meaningHi": "मेरे"
+      },
+      {
+        "sanskrit": "अच्युत",
+        "meaning": "O Achyuta",
+        "meaningHi": "हे अच्युत"
+      }
+    ],
+    "22": [
+      {
+        "sanskrit": "यावत्",
+        "meaning": "until",
+        "meaningHi": "जब तक"
+      },
+      {
+        "sanskrit": "एतान्",
+        "meaning": "these",
+        "meaningHi": "इन्हें"
+      },
+      {
+        "sanskrit": "निरीक्षे",
+        "meaning": "I may observe",
+        "meaningHi": "देख लूँ"
+      },
+      {
+        "sanskrit": "अहम्",
+        "meaning": "I",
+        "meaningHi": "मैं"
+      },
+      {
+        "sanskrit": "योद्धुकामान्",
+        "meaning": "desiring to fight",
+        "meaningHi": "युद्ध की इच्छा वाले"
+      },
+      {
+        "sanskrit": "अवस्थितान्",
+        "meaning": "standing",
+        "meaningHi": "खड़े हुए"
+      },
+      {
+        "sanskrit": "कैः",
+        "meaning": "with whom",
+        "meaningHi": "किनके"
+      },
+      {
+        "sanskrit": "मया",
+        "meaning": "by me",
+        "meaningHi": "मुझे"
+      },
+      {
+        "sanskrit": "सह",
+        "meaning": "along with",
+        "meaningHi": "साथ"
+      },
+      {
+        "sanskrit": "योद्धव्यम्",
+        "meaning": "is to be fought",
+        "meaningHi": "युद्ध करना है"
+      },
+      {
+        "sanskrit": "अस्मिन्",
+        "meaning": "in this",
+        "meaningHi": "इस"
+      },
+      {
+        "sanskrit": "रणसमुद्यमे",
+        "meaning": "in the undertaking of war",
+        "meaningHi": "युद्ध के उद्योग में"
+      }
+    ],
+    "23": [
+      {
+        "sanskrit": "योत्स्यमानान्",
+        "meaning": "those about to fight",
+        "meaningHi": "युद्ध करने वालों को"
+      },
+      {
+        "sanskrit": "अवेक्षे",
+        "meaning": "I wish to see",
+        "meaningHi": "देखूँगा"
+      },
+      {
+        "sanskrit": "अहम्",
+        "meaning": "I",
+        "meaningHi": "मैं"
+      },
+      {
+        "sanskrit": "ये",
+        "meaning": "who",
+        "meaningHi": "जो"
+      },
+      {
+        "sanskrit": "एते",
+        "meaning": "these",
+        "meaningHi": "ये"
+      },
+      {
+        "sanskrit": "अत्र",
+        "meaning": "here",
+        "meaningHi": "यहाँ"
+      },
+      {
+        "sanskrit": "समागताः",
+        "meaning": "assembled",
+        "meaningHi": "आए हैं"
+      },
+      {
+        "sanskrit": "धार्तराष्ट्रस्य",
+        "meaning": "of Dhritarashtra's son",
+        "meaningHi": "दुर्योधन के"
+      },
+      {
+        "sanskrit": "दुर्बुद्धेः",
+        "meaning": "of the evil-minded",
+        "meaningHi": "दुर्बुद्धि के"
+      },
+      {
+        "sanskrit": "युद्धे",
+        "meaning": "in battle",
+        "meaningHi": "युद्ध में"
+      },
+      {
+        "sanskrit": "प्रियचिकीर्षवः",
+        "meaning": "wishing to please",
+        "meaningHi": "प्रिय करने के इच्छुक"
+      }
+    ],
+    "24": [
+      {
+        "sanskrit": "एवम्",
+        "meaning": "thus",
+        "meaningHi": "ऐसा"
+      },
+      {
+        "sanskrit": "उक्तः",
+        "meaning": "addressed",
+        "meaningHi": "कहे जाने पर"
+      },
+      {
+        "sanskrit": "हृषीकेशः",
+        "meaning": "Hrishikesha",
+        "meaningHi": "श्रीकृष्ण ने"
+      },
+      {
+        "sanskrit": "गुडाकेशेन",
+        "meaning": "by Gudakesha (Arjuna)",
+        "meaningHi": "अर्जुन द्वारा"
+      },
+      {
+        "sanskrit": "भारत",
+        "meaning": "O descendant of Bharata",
+        "meaningHi": "हे भरतवंशी"
+      },
+      {
+        "sanskrit": "सेनयोः",
+        "meaning": "of the two armies",
+        "meaningHi": "दोनों सेनाओं के"
+      },
+      {
+        "sanskrit": "उभयोः",
+        "meaning": "of both",
+        "meaningHi": "दोनों के"
+      },
+      {
+        "sanskrit": "मध्ये",
+        "meaning": "in the middle",
+        "meaningHi": "बीच में"
+      },
+      {
+        "sanskrit": "स्थापयित्वा",
+        "meaning": "having placed",
+        "meaningHi": "खड़ा करके"
+      },
+      {
+        "sanskrit": "रथोत्तमम्",
+        "meaning": "the finest chariot",
+        "meaningHi": "उत्तम रथ को"
+      }
+    ],
+    "25": [
+      {
+        "sanskrit": "भीष्मद्रोणप्रमुखतः",
+        "meaning": "in front of Bhishma and Drona",
+        "meaningHi": "भीष्म और द्रोण के सामने"
+      },
+      {
+        "sanskrit": "सर्वेषाम्",
+        "meaning": "of all",
+        "meaningHi": "सब"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "महीक्षिताम्",
+        "meaning": "of the rulers of the earth",
+        "meaningHi": "राजाओं के"
+      },
+      {
+        "sanskrit": "उवाच",
+        "meaning": "said",
+        "meaningHi": "बोले"
+      },
+      {
+        "sanskrit": "पार्थ",
+        "meaning": "O Partha",
+        "meaningHi": "हे पार्थ"
+      },
+      {
+        "sanskrit": "पश्य",
+        "meaning": "behold",
+        "meaningHi": "देख"
+      },
+      {
+        "sanskrit": "एतान्",
+        "meaning": "these",
+        "meaningHi": "इन"
+      },
+      {
+        "sanskrit": "समवेतान्",
+        "meaning": "assembled",
+        "meaningHi": "एकत्र हुए"
+      },
+      {
+        "sanskrit": "कुरून्",
+        "meaning": "Kurus",
+        "meaningHi": "कौरवों को"
+      },
+      {
+        "sanskrit": "इति",
+        "meaning": "thus",
+        "meaningHi": "ऐसा"
+      }
+    ],
+    "26": [
+      {
+        "sanskrit": "तत्र",
+        "meaning": "there",
+        "meaningHi": "वहाँ"
+      },
+      {
+        "sanskrit": "अपश्यत्",
+        "meaning": "saw",
+        "meaningHi": "देखा"
+      },
+      {
+        "sanskrit": "स्थितान्",
+        "meaning": "stationed",
+        "meaningHi": "स्थित"
+      },
+      {
+        "sanskrit": "पार्थः",
+        "meaning": "Partha",
+        "meaningHi": "अर्जुन ने"
+      },
+      {
+        "sanskrit": "पितॄन्",
+        "meaning": "fathers",
+        "meaningHi": "पिताओं को"
+      },
+      {
+        "sanskrit": "अथ",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "पितामहान्",
+        "meaning": "grandfathers",
+        "meaningHi": "पितामहों को"
+      },
+      {
+        "sanskrit": "आचार्यान्",
+        "meaning": "teachers",
+        "meaningHi": "आचार्यों को"
+      },
+      {
+        "sanskrit": "मातुलान्",
+        "meaning": "maternal uncles",
+        "meaningHi": "मामाओं को"
+      },
+      {
+        "sanskrit": "भ्रातॄन्",
+        "meaning": "brothers",
+        "meaningHi": "भाइयों को"
+      },
+      {
+        "sanskrit": "पुत्रान्",
+        "meaning": "sons",
+        "meaningHi": "पुत्रों को"
+      },
+      {
+        "sanskrit": "पौत्रान्",
+        "meaning": "grandsons",
+        "meaningHi": "पौत्रों को"
+      },
+      {
+        "sanskrit": "सखीन्",
+        "meaning": "friends",
+        "meaningHi": "मित्रों को"
+      },
+      {
+        "sanskrit": "तथा",
+        "meaning": "likewise",
+        "meaningHi": "तथा"
+      }
+    ],
+    "27": [
+      {
+        "sanskrit": "श्वशुरान्",
+        "meaning": "fathers-in-law",
+        "meaningHi": "ससुरों को"
+      },
+      {
+        "sanskrit": "सुहृदः",
+        "meaning": "well-wishers",
+        "meaningHi": "सुहृदों को"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "also",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "सेनयोः",
+        "meaning": "in the armies",
+        "meaningHi": "सेनाओं में"
+      },
+      {
+        "sanskrit": "उभयोः",
+        "meaning": "in both",
+        "meaningHi": "दोनों"
+      },
+      {
+        "sanskrit": "अपि",
+        "meaning": "also",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "तान्",
+        "meaning": "them",
+        "meaningHi": "उन"
+      },
+      {
+        "sanskrit": "समीक्ष्य",
+        "meaning": "having seen",
+        "meaningHi": "देखकर"
+      },
+      {
+        "sanskrit": "सः",
+        "meaning": "he",
+        "meaningHi": "वह"
+      },
+      {
+        "sanskrit": "कौन्तेयः",
+        "meaning": "son of Kunti",
+        "meaningHi": "कुन्तीपुत्र"
+      },
+      {
+        "sanskrit": "सर्वान्",
+        "meaning": "all",
+        "meaningHi": "सब"
+      },
+      {
+        "sanskrit": "बन्धून्",
+        "meaning": "kinsmen",
+        "meaningHi": "बन्धुओं को"
+      },
+      {
+        "sanskrit": "अवस्थितान्",
+        "meaning": "standing",
+        "meaningHi": "खड़े हुए"
+      }
+    ],
+    "28": [
+      {
+        "sanskrit": "कृपया",
+        "meaning": "with compassion",
+        "meaningHi": "करुणा से"
+      },
+      {
+        "sanskrit": "परया",
+        "meaning": "deep",
+        "meaningHi": "अत्यन्त"
+      },
+      {
+        "sanskrit": "आविष्टः",
+        "meaning": "overcome",
+        "meaningHi": "भर गए"
+      },
+      {
+        "sanskrit": "विषीदन्",
+        "meaning": "lamenting",
+        "meaningHi": "शोक करते हुए"
+      },
+      {
+        "sanskrit": "इदम्",
+        "meaning": "this",
+        "meaningHi": "यह"
+      },
+      {
+        "sanskrit": "अब्रवीत्",
+        "meaning": "said",
+        "meaningHi": "बोले"
+      },
+      {
+        "sanskrit": "दृष्ट्वा",
+        "meaning": "having seen",
+        "meaningHi": "देखकर"
+      },
+      {
+        "sanskrit": "इमम्",
+        "meaning": "this",
+        "meaningHi": "इस"
+      },
+      {
+        "sanskrit": "स्वजनम्",
+        "meaning": "kinsmen",
+        "meaningHi": "स्वजन-समुदाय को"
+      },
+      {
+        "sanskrit": "कृष्ण",
+        "meaning": "O Krishna",
+        "meaningHi": "हे कृष्ण"
+      },
+      {
+        "sanskrit": "युयुत्सुम्",
+        "meaning": "eager to fight",
+        "meaningHi": "युद्ध के इच्छुक"
+      },
+      {
+        "sanskrit": "समुपस्थितम्",
+        "meaning": "present",
+        "meaningHi": "उपस्थित"
+      }
+    ],
+    "29": [
+      {
+        "sanskrit": "सीदन्ति",
+        "meaning": "fail",
+        "meaningHi": "शिथिल हो रहे हैं"
+      },
+      {
+        "sanskrit": "मम",
+        "meaning": "my",
+        "meaningHi": "मेरे"
+      },
+      {
+        "sanskrit": "गात्राणि",
+        "meaning": "limbs",
+        "meaningHi": "अंग"
+      },
+      {
+        "sanskrit": "मुखम्",
+        "meaning": "mouth",
+        "meaningHi": "मुख"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "परिशुष्यति",
+        "meaning": "is parched",
+        "meaningHi": "सूख रहा है"
+      },
+      {
+        "sanskrit": "वेपथुः",
+        "meaning": "trembling",
+        "meaningHi": "कम्पन"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "शरीरे",
+        "meaning": "in the body",
+        "meaningHi": "शरीर में"
+      },
+      {
+        "sanskrit": "मे",
+        "meaning": "my",
+        "meaningHi": "मेरे"
+      },
+      {
+        "sanskrit": "रोमहर्षः",
+        "meaning": "hair standing on end",
+        "meaningHi": "रोंगटे खड़े होना"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "जायते",
+        "meaning": "arises",
+        "meaningHi": "हो रहा है"
+      }
+    ],
+    "30": [
+      {
+        "sanskrit": "गाण्डीवम्",
+        "meaning": "Gandiva bow",
+        "meaningHi": "गाण्डीव धनुष"
+      },
+      {
+        "sanskrit": "स्रंसते",
+        "meaning": "slips",
+        "meaningHi": "गिर रहा है"
+      },
+      {
+        "sanskrit": "हस्तात्",
+        "meaning": "from the hand",
+        "meaningHi": "हाथ से"
+      },
+      {
+        "sanskrit": "त्वक्",
+        "meaning": "skin",
+        "meaningHi": "त्वचा"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "also",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "परिदह्यते",
+        "meaning": "burns all over",
+        "meaningHi": "जल रही है"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "not",
+        "meaningHi": "नहीं"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "शक्नोमि",
+        "meaning": "I am able",
+        "meaningHi": "समर्थ हूँ"
+      },
+      {
+        "sanskrit": "अवस्थातुम्",
+        "meaning": "to stand",
+        "meaningHi": "खड़ा रहने में"
+      },
+      {
+        "sanskrit": "भ्रमति",
+        "meaning": "whirls",
+        "meaningHi": "भ्रमित हो रहा है"
+      },
+      {
+        "sanskrit": "इव",
+        "meaning": "as if",
+        "meaningHi": "मानो"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "मे",
+        "meaning": "my",
+        "meaningHi": "मेरा"
+      },
+      {
+        "sanskrit": "मनः",
+        "meaning": "mind",
+        "meaningHi": "मन"
+      }
+    ],
+    "31": [
+      {
+        "sanskrit": "निमित्तानि",
+        "meaning": "omens",
+        "meaningHi": "लक्षण"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "पश्यामि",
+        "meaning": "I see",
+        "meaningHi": "देखता हूँ"
+      },
+      {
+        "sanskrit": "विपरीतानि",
+        "meaning": "adverse",
+        "meaningHi": "विपरीत"
+      },
+      {
+        "sanskrit": "केशव",
+        "meaning": "O Keshava",
+        "meaningHi": "हे केशव"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "not",
+        "meaningHi": "नहीं"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "श्रेयः",
+        "meaning": "good",
+        "meaningHi": "कल्याण"
+      },
+      {
+        "sanskrit": "अनुपश्यामि",
+        "meaning": "I foresee",
+        "meaningHi": "देखता हूँ"
+      },
+      {
+        "sanskrit": "हत्वा",
+        "meaning": "having killed",
+        "meaningHi": "मारकर"
+      },
+      {
+        "sanskrit": "स्वजनम्",
+        "meaning": "kinsmen",
+        "meaningHi": "स्वजनों को"
+      },
+      {
+        "sanskrit": "आहवे",
+        "meaning": "in battle",
+        "meaningHi": "युद्ध में"
+      }
+    ],
+    "32": [
+      {
+        "sanskrit": "न",
+        "meaning": "not",
+        "meaningHi": "नहीं"
+      },
+      {
+        "sanskrit": "काङ्क्षे",
+        "meaning": "I desire",
+        "meaningHi": "चाहता"
+      },
+      {
+        "sanskrit": "विजयम्",
+        "meaning": "victory",
+        "meaningHi": "विजय"
+      },
+      {
+        "sanskrit": "कृष्ण",
+        "meaning": "O Krishna",
+        "meaningHi": "हे कृष्ण"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "nor",
+        "meaningHi": "न"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "राज्यम्",
+        "meaning": "kingdom",
+        "meaningHi": "राज्य"
+      },
+      {
+        "sanskrit": "सुखानि",
+        "meaning": "pleasures",
+        "meaningHi": "सुख"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "किम्",
+        "meaning": "what",
+        "meaningHi": "क्या"
+      },
+      {
+        "sanskrit": "नः",
+        "meaning": "for us",
+        "meaningHi": "हमें"
+      },
+      {
+        "sanskrit": "राज्येन",
+        "meaning": "with a kingdom",
+        "meaningHi": "राज्य से"
+      },
+      {
+        "sanskrit": "गोविन्द",
+        "meaning": "O Govinda",
+        "meaningHi": "हे गोविन्द"
+      },
+      {
+        "sanskrit": "किम्",
+        "meaning": "what",
+        "meaningHi": "क्या"
+      },
+      {
+        "sanskrit": "भोगैः",
+        "meaning": "with enjoyments",
+        "meaningHi": "भोगों से"
+      },
+      {
+        "sanskrit": "जीवितेन",
+        "meaning": "with life",
+        "meaningHi": "जीवन से"
+      },
+      {
+        "sanskrit": "वा",
+        "meaning": "or",
+        "meaningHi": "अथवा"
+      }
+    ],
+    "33": [
+      {
+        "sanskrit": "येषाम्",
+        "meaning": "for whose",
+        "meaningHi": "जिनके"
+      },
+      {
+        "sanskrit": "अर्थे",
+        "meaning": "sake",
+        "meaningHi": "लिए"
+      },
+      {
+        "sanskrit": "काङ्क्षितम्",
+        "meaning": "desired",
+        "meaningHi": "चाहा गया"
+      },
+      {
+        "sanskrit": "नः",
+        "meaning": "by us",
+        "meaningHi": "हमारे द्वारा"
+      },
+      {
+        "sanskrit": "राज्यम्",
+        "meaning": "kingdom",
+        "meaningHi": "राज्य"
+      },
+      {
+        "sanskrit": "भोगाः",
+        "meaning": "enjoyments",
+        "meaningHi": "भोग"
+      },
+      {
+        "sanskrit": "सुखानि",
+        "meaning": "pleasures",
+        "meaningHi": "सुख"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "ते",
+        "meaning": "they",
+        "meaningHi": "वे"
+      },
+      {
+        "sanskrit": "इमे",
+        "meaning": "these",
+        "meaningHi": "ये"
+      },
+      {
+        "sanskrit": "अवस्थिताः",
+        "meaning": "stand",
+        "meaningHi": "खड़े हैं"
+      },
+      {
+        "sanskrit": "युद्धे",
+        "meaning": "in battle",
+        "meaningHi": "युद्ध में"
+      },
+      {
+        "sanskrit": "प्राणान्",
+        "meaning": "lives",
+        "meaningHi": "प्राणों को"
+      },
+      {
+        "sanskrit": "त्यक्त्वा",
+        "meaning": "having abandoned",
+        "meaningHi": "त्यागकर"
+      },
+      {
+        "sanskrit": "धनानि",
+        "meaning": "wealth",
+        "meaningHi": "धन को"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      }
+    ],
+    "34": [
+      {
+        "sanskrit": "आचार्याः",
+        "meaning": "teachers",
+        "meaningHi": "आचार्य"
+      },
+      {
+        "sanskrit": "पितरः",
+        "meaning": "fathers",
+        "meaningHi": "पिता"
+      },
+      {
+        "sanskrit": "पुत्राः",
+        "meaning": "sons",
+        "meaningHi": "पुत्र"
+      },
+      {
+        "sanskrit": "तथा",
+        "meaning": "likewise",
+        "meaningHi": "तथा"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "also",
+        "meaningHi": "ही"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "पितामहाः",
+        "meaning": "grandfathers",
+        "meaningHi": "पितामह"
+      },
+      {
+        "sanskrit": "मातुलाः",
+        "meaning": "maternal uncles",
+        "meaningHi": "मामा"
+      },
+      {
+        "sanskrit": "श्वशुराः",
+        "meaning": "fathers-in-law",
+        "meaningHi": "ससुर"
+      },
+      {
+        "sanskrit": "पौत्राः",
+        "meaning": "grandsons",
+        "meaningHi": "पौत्र"
+      },
+      {
+        "sanskrit": "श्यालाः",
+        "meaning": "brothers-in-law",
+        "meaningHi": "साले"
+      },
+      {
+        "sanskrit": "सम्बन्धिनः",
+        "meaning": "relatives",
+        "meaningHi": "सम्बन्धी"
+      },
+      {
+        "sanskrit": "तथा",
+        "meaning": "and",
+        "meaningHi": "तथा"
+      }
+    ],
+    "35": [
+      {
+        "sanskrit": "एतान्",
+        "meaning": "these",
+        "meaningHi": "इनको"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "not",
+        "meaningHi": "नहीं"
+      },
+      {
+        "sanskrit": "हन्तुम्",
+        "meaning": "to kill",
+        "meaningHi": "मारना"
+      },
+      {
+        "sanskrit": "इच्छामि",
+        "meaning": "I wish",
+        "meaningHi": "चाहता"
+      },
+      {
+        "sanskrit": "घ्नतः",
+        "meaning": "even if they kill (me)",
+        "meaningHi": "मारने वालों को"
+      },
+      {
+        "sanskrit": "अपि",
+        "meaning": "even",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "मधुसूदन",
+        "meaning": "O Madhusudana",
+        "meaningHi": "हे मधुसूदन"
+      },
+      {
+        "sanskrit": "अपि",
+        "meaning": "even",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "त्रैलोक्यराज्यस्य",
+        "meaning": "of sovereignty over the three worlds",
+        "meaningHi": "तीनों लोकों के राज्य के"
+      },
+      {
+        "sanskrit": "हेतोः",
+        "meaning": "for the sake",
+        "meaningHi": "लिए"
+      },
+      {
+        "sanskrit": "किम्",
+        "meaning": "what to say",
+        "meaningHi": "क्या कहना"
+      },
+      {
+        "sanskrit": "नु",
+        "meaning": "then",
+        "meaningHi": "फिर"
+      },
+      {
+        "sanskrit": "महीकृते",
+        "meaning": "for the earth",
+        "meaningHi": "पृथ्वी के लिए"
+      }
+    ],
+    "36": [
+      {
+        "sanskrit": "निहत्य",
+        "meaning": "having slain",
+        "meaningHi": "मारकर"
+      },
+      {
+        "sanskrit": "धार्तराष्ट्रान्",
+        "meaning": "sons of Dhritarashtra",
+        "meaningHi": "धृतराष्ट्र-पुत्रों को"
+      },
+      {
+        "sanskrit": "नः",
+        "meaning": "for us",
+        "meaningHi": "हमें"
+      },
+      {
+        "sanskrit": "का",
+        "meaning": "what",
+        "meaningHi": "कौन-सी"
+      },
+      {
+        "sanskrit": "प्रीतिः",
+        "meaning": "pleasure",
+        "meaningHi": "प्रसन्नता"
+      },
+      {
+        "sanskrit": "स्यात्",
+        "meaning": "would be",
+        "meaningHi": "होगी"
+      },
+      {
+        "sanskrit": "जनार्दन",
+        "meaning": "O Janardana",
+        "meaningHi": "हे जनार्दन"
+      },
+      {
+        "sanskrit": "पापम्",
+        "meaning": "sin",
+        "meaningHi": "पाप"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "alone",
+        "meaningHi": "ही"
+      },
+      {
+        "sanskrit": "आश्रयेत्",
+        "meaning": "would cling",
+        "meaningHi": "लगेगा"
+      },
+      {
+        "sanskrit": "अस्मान्",
+        "meaning": "to us",
+        "meaningHi": "हमें"
+      },
+      {
+        "sanskrit": "हत्वा",
+        "meaning": "having killed",
+        "meaningHi": "मारकर"
+      },
+      {
+        "sanskrit": "एतान्",
+        "meaning": "these",
+        "meaningHi": "इन"
+      },
+      {
+        "sanskrit": "आततायिनः",
+        "meaning": "aggressors",
+        "meaningHi": "आततायियों को"
+      }
+    ],
+    "37": [
+      {
+        "sanskrit": "तस्मात्",
+        "meaning": "therefore",
+        "meaningHi": "इसलिए"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "not",
+        "meaningHi": "नहीं"
+      },
+      {
+        "sanskrit": "अर्हाः",
+        "meaning": "fit",
+        "meaningHi": "योग्य"
+      },
+      {
+        "sanskrit": "वयम्",
+        "meaning": "we",
+        "meaningHi": "हम"
+      },
+      {
+        "sanskrit": "हन्तुम्",
+        "meaning": "to kill",
+        "meaningHi": "मारने के"
+      },
+      {
+        "sanskrit": "धार्तराष्ट्रान्",
+        "meaning": "sons of Dhritarashtra",
+        "meaningHi": "धृतराष्ट्र-पुत्रों को"
+      },
+      {
+        "sanskrit": "स्वबान्धवान्",
+        "meaning": "our own kinsmen",
+        "meaningHi": "अपने बान्धवों को"
+      },
+      {
+        "sanskrit": "स्वजनम्",
+        "meaning": "kinsmen",
+        "meaningHi": "स्वजनों को"
+      },
+      {
+        "sanskrit": "हि",
+        "meaning": "for",
+        "meaningHi": "क्योंकि"
+      },
+      {
+        "sanskrit": "कथम्",
+        "meaning": "how",
+        "meaningHi": "कैसे"
+      },
+      {
+        "sanskrit": "हत्वा",
+        "meaning": "having killed",
+        "meaningHi": "मारकर"
+      },
+      {
+        "sanskrit": "सुखिनः",
+        "meaning": "happy",
+        "meaningHi": "सुखी"
+      },
+      {
+        "sanskrit": "स्याम",
+        "meaning": "we shall be",
+        "meaningHi": "होंगे"
+      },
+      {
+        "sanskrit": "माधव",
+        "meaning": "O Madhava",
+        "meaningHi": "हे माधव"
+      }
+    ],
+    "38": [
+      {
+        "sanskrit": "यदि",
+        "meaning": "if",
+        "meaningHi": "यदि"
+      },
+      {
+        "sanskrit": "अपि",
+        "meaning": "even",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "एते",
+        "meaning": "these",
+        "meaningHi": "ये"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "not",
+        "meaningHi": "नहीं"
+      },
+      {
+        "sanskrit": "पश्यन्ति",
+        "meaning": "see",
+        "meaningHi": "देखते"
+      },
+      {
+        "sanskrit": "लोभोपहतचेतसः",
+        "meaning": "whose minds are overpowered by greed",
+        "meaningHi": "लोभ से भ्रष्ट चित्त वाले"
+      },
+      {
+        "sanskrit": "कुलक्षयकृतम्",
+        "meaning": "caused by destruction of family",
+        "meaningHi": "कुल-नाश से उत्पन्न"
+      },
+      {
+        "sanskrit": "दोषम्",
+        "meaning": "fault",
+        "meaningHi": "दोष को"
+      },
+      {
+        "sanskrit": "मित्रद्रोहे",
+        "meaning": "in treachery to friends",
+        "meaningHi": "मित्रों से विरोध में"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "पातकम्",
+        "meaning": "sin",
+        "meaningHi": "पाप को"
+      }
+    ],
+    "39": [
+      {
+        "sanskrit": "कथम्",
+        "meaning": "why",
+        "meaningHi": "क्यों"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "not",
+        "meaningHi": "नहीं"
+      },
+      {
+        "sanskrit": "ज्ञेयम्",
+        "meaning": "should be considered",
+        "meaningHi": "विचारना चाहिए"
+      },
+      {
+        "sanskrit": "अस्माभिः",
+        "meaning": "by us",
+        "meaningHi": "हमें"
+      },
+      {
+        "sanskrit": "पापात्",
+        "meaning": "from sin",
+        "meaningHi": "पाप से"
+      },
+      {
+        "sanskrit": "अस्मात्",
+        "meaning": "this",
+        "meaningHi": "इस"
+      },
+      {
+        "sanskrit": "निवर्तितुम्",
+        "meaning": "to turn away",
+        "meaningHi": "हटने के लिए"
+      },
+      {
+        "sanskrit": "कुलक्षयकृतम्",
+        "meaning": "caused by family destruction",
+        "meaningHi": "कुल-नाश से उत्पन्न"
+      },
+      {
+        "sanskrit": "दोषम्",
+        "meaning": "fault",
+        "meaningHi": "दोष को"
+      },
+      {
+        "sanskrit": "प्रपश्यद्भिः",
+        "meaning": "who clearly see",
+        "meaningHi": "स्पष्ट देखने वालों को"
+      },
+      {
+        "sanskrit": "जनार्दन",
+        "meaning": "O Janardana",
+        "meaningHi": "हे जनार्दन"
+      }
+    ],
+    "40": [
+      {
+        "sanskrit": "कुलक्षये",
+        "meaning": "in the destruction of family",
+        "meaningHi": "कुल के नाश में"
+      },
+      {
+        "sanskrit": "प्रणश्यन्ति",
+        "meaning": "perish",
+        "meaningHi": "नष्ट हो जाते हैं"
+      },
+      {
+        "sanskrit": "कुलधर्माः",
+        "meaning": "family traditions",
+        "meaningHi": "कुलधर्म"
+      },
+      {
+        "sanskrit": "सनातनाः",
+        "meaning": "eternal",
+        "meaningHi": "सनातन"
+      },
+      {
+        "sanskrit": "धर्मे",
+        "meaning": "dharma",
+        "meaningHi": "धर्म के"
+      },
+      {
+        "sanskrit": "नष्टे",
+        "meaning": "when lost",
+        "meaningHi": "नष्ट होने पर"
+      },
+      {
+        "sanskrit": "कुलम्",
+        "meaning": "family",
+        "meaningHi": "कुल को"
+      },
+      {
+        "sanskrit": "कृत्स्नम्",
+        "meaning": "whole",
+        "meaningHi": "सम्पूर्ण"
+      },
+      {
+        "sanskrit": "अधर्मः",
+        "meaning": "lawlessness",
+        "meaningHi": "अधर्म"
+      },
+      {
+        "sanskrit": "अभिभवति",
+        "meaning": "overwhelms",
+        "meaningHi": "दबा लेता है"
+      },
+      {
+        "sanskrit": "उत",
+        "meaning": "indeed",
+        "meaningHi": "भी"
+      }
+    ],
+    "41": [
+      {
+        "sanskrit": "अधर्माभिभवात्",
+        "meaning": "from the prevalence of lawlessness",
+        "meaningHi": "अधर्म के बढ़ने से"
+      },
+      {
+        "sanskrit": "कृष्ण",
+        "meaning": "O Krishna",
+        "meaningHi": "हे कृष्ण"
+      },
+      {
+        "sanskrit": "प्रदुष्यन्ति",
+        "meaning": "become corrupted",
+        "meaningHi": "दूषित हो जाती हैं"
+      },
+      {
+        "sanskrit": "कुलस्त्रियः",
+        "meaning": "women of the family",
+        "meaningHi": "कुल की स्त्रियाँ"
+      },
+      {
+        "sanskrit": "स्त्रीषु",
+        "meaning": "among women",
+        "meaningHi": "स्त्रियों के"
+      },
+      {
+        "sanskrit": "दुष्टासु",
+        "meaning": "when corrupted",
+        "meaningHi": "दूषित होने पर"
+      },
+      {
+        "sanskrit": "वार्ष्णेय",
+        "meaning": "O Varshneya",
+        "meaningHi": "हे वार्ष्णेय"
+      },
+      {
+        "sanskrit": "जायते",
+        "meaning": "arises",
+        "meaningHi": "उत्पन्न होता है"
+      },
+      {
+        "sanskrit": "वर्णसङ्करः",
+        "meaning": "mixing of classes",
+        "meaningHi": "वर्णसंकर"
+      }
+    ],
+    "42": [
+      {
+        "sanskrit": "सङ्करः",
+        "meaning": "confusion",
+        "meaningHi": "वर्णसंकर"
+      },
+      {
+        "sanskrit": "नरकाय",
+        "meaning": "for hell",
+        "meaningHi": "नरक के लिए"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "indeed",
+        "meaningHi": "ही"
+      },
+      {
+        "sanskrit": "कुलघ्नानाम्",
+        "meaning": "of the family-destroyers",
+        "meaningHi": "कुलघातियों के"
+      },
+      {
+        "sanskrit": "कुलस्य",
+        "meaning": "of the family",
+        "meaningHi": "कुल के"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "पतन्ति",
+        "meaning": "fall",
+        "meaningHi": "गिर जाते हैं"
+      },
+      {
+        "sanskrit": "पितरः",
+        "meaning": "ancestors",
+        "meaningHi": "पितर"
+      },
+      {
+        "sanskrit": "हि",
+        "meaning": "for",
+        "meaningHi": "क्योंकि"
+      },
+      {
+        "sanskrit": "एषाम्",
+        "meaning": "their",
+        "meaningHi": "इनके"
+      },
+      {
+        "sanskrit": "लुप्तपिण्डोदकक्रियाः",
+        "meaning": "deprived of offerings of rice-balls and water",
+        "meaningHi": "पिण्ड और जल की क्रिया लुप्त होने से"
+      }
+    ],
+    "43": [
+      {
+        "sanskrit": "दोषैः",
+        "meaning": "by faults",
+        "meaningHi": "दोषों से"
+      },
+      {
+        "sanskrit": "एतैः",
+        "meaning": "these",
+        "meaningHi": "इन"
+      },
+      {
+        "sanskrit": "कुलघ्नानाम्",
+        "meaning": "of the family-destroyers",
+        "meaningHi": "कुलघातियों के"
+      },
+      {
+        "sanskrit": "वर्णसङ्करकारकैः",
+        "meaning": "causing confusion of classes",
+        "meaningHi": "वर्णसंकर उत्पन्न करने वाले"
+      },
+      {
+        "sanskrit": "उत्साद्यन्ते",
+        "meaning": "are destroyed",
+        "meaningHi": "नष्ट हो जाते हैं"
+      },
+      {
+        "sanskrit": "जातिधर्माः",
+        "meaning": "caste traditions",
+        "meaningHi": "जातिधर्म"
+      },
+      {
+        "sanskrit": "कुलधर्माः",
+        "meaning": "family traditions",
+        "meaningHi": "कुलधर्म"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "शाश्वताः",
+        "meaning": "eternal",
+        "meaningHi": "सनातन"
+      }
+    ],
+    "44": [
+      {
+        "sanskrit": "उत्सन्नकुलधर्माणाम्",
+        "meaning": "of those whose family traditions are destroyed",
+        "meaningHi": "जिनके कुलधर्म नष्ट हो गए"
+      },
+      {
+        "sanskrit": "मनुष्याणाम्",
+        "meaning": "of men",
+        "meaningHi": "मनुष्यों का"
+      },
+      {
+        "sanskrit": "जनार्दन",
+        "meaning": "O Janardana",
+        "meaningHi": "हे जनार्दन"
+      },
+      {
+        "sanskrit": "नरके",
+        "meaning": "in hell",
+        "meaningHi": "नरक में"
+      },
+      {
+        "sanskrit": "अनियतम्",
+        "meaning": "indefinite",
+        "meaningHi": "अनिश्चित काल तक"
+      },
+      {
+        "sanskrit": "वासः",
+        "meaning": "dwelling",
+        "meaningHi": "वास"
+      },
+      {
+        "sanskrit": "भवति",
+        "meaning": "happens",
+        "meaningHi": "होता है"
+      },
+      {
+        "sanskrit": "इति",
+        "meaning": "thus",
+        "meaningHi": "ऐसा"
+      },
+      {
+        "sanskrit": "अनुशुश्रुम",
+        "meaning": "we have heard",
+        "meaningHi": "हमने सुना है"
+      }
+    ],
+    "45": [
+      {
+        "sanskrit": "अहो",
+        "meaning": "alas",
+        "meaningHi": "हाय"
+      },
+      {
+        "sanskrit": "बत",
+        "meaning": "how sad",
+        "meaningHi": "शोक"
+      },
+      {
+        "sanskrit": "महत्",
+        "meaning": "great",
+        "meaningHi": "महान"
+      },
+      {
+        "sanskrit": "पापम्",
+        "meaning": "sin",
+        "meaningHi": "पाप"
+      },
+      {
+        "sanskrit": "कर्तुम्",
+        "meaning": "to commit",
+        "meaningHi": "करने को"
+      },
+      {
+        "sanskrit": "व्यवसिताः",
+        "meaning": "resolved",
+        "meaningHi": "तैयार हो गए"
+      },
+      {
+        "sanskrit": "वयम्",
+        "meaning": "we",
+        "meaningHi": "हम"
+      },
+      {
+        "sanskrit": "यत्",
+        "meaning": "that",
+        "meaningHi": "कि"
+      },
+      {
+        "sanskrit": "राज्यसुखलोभेन",
+        "meaning": "out of greed for the pleasures of kingdom",
+        "meaningHi": "राज्य और सुख के लोभ से"
+      },
+      {
+        "sanskrit": "हन्तुम्",
+        "meaning": "to kill",
+        "meaningHi": "मारने को"
+      },
+      {
+        "sanskrit": "स्वजनम्",
+        "meaning": "kinsmen",
+        "meaningHi": "स्वजनों को"
+      },
+      {
+        "sanskrit": "उद्यताः",
+        "meaning": "prepared",
+        "meaningHi": "उद्यत हैं"
+      }
+    ],
+    "46": [
+      {
+        "sanskrit": "यदि",
+        "meaning": "if",
+        "meaningHi": "यदि"
+      },
+      {
+        "sanskrit": "माम्",
+        "meaning": "me",
+        "meaningHi": "मुझे"
+      },
+      {
+        "sanskrit": "अप्रतीकारम्",
+        "meaning": "unresisting",
+        "meaningHi": "प्रतिकार न करने वाले"
+      },
+      {
+        "sanskrit": "अशस्त्रम्",
+        "meaning": "unarmed",
+        "meaningHi": "शस्त्ररहित"
+      },
+      {
+        "sanskrit": "शस्त्रपाणयः",
+        "meaning": "with weapons in hand",
+        "meaningHi": "हाथ में शस्त्र लिए"
+      },
+      {
+        "sanskrit": "धार्तराष्ट्राः",
+        "meaning": "sons of Dhritarashtra",
+        "meaningHi": "धृतराष्ट्र-पुत्र"
+      },
+      {
+        "sanskrit": "रणे",
+        "meaning": "in battle",
+        "meaningHi": "रण में"
+      },
+      {
+        "sanskrit": "हन्युः",
+        "meaning": "should kill",
+        "meaningHi": "मार डालें"
+      },
+      {
+        "sanskrit": "तत्",
+        "meaning": "that",
+        "meaningHi": "वह"
+      },
+      {
+        "sanskrit": "मे",
+        "meaning": "for me",
+        "meaningHi": "मेरे लिए"
+      },
+      {
+        "sanskrit": "क्षेमतरम्",
+        "meaning": "better",
+        "meaningHi": "अधिक कल्याणकारी"
+      },
+      {
+        "sanskrit": "भवेत्",
+        "meaning": "would be",
+        "meaningHi": "होगा"
+      }
+    ],
+    "47": [
+      {
+        "sanskrit": "एवम्",
+        "meaning": "thus",
+        "meaningHi": "ऐसा"
+      },
+      {
+        "sanskrit": "उक्त्वा",
+        "meaning": "having spoken",
+        "meaningHi": "कहकर"
+      },
+      {
+        "sanskrit": "अर्जुनः",
+        "meaning": "Arjuna",
+        "meaningHi": "अर्जुन"
+      },
+      {
+        "sanskrit": "सङ्ख्ये",
+        "meaning": "in battle",
+        "meaningHi": "रणभूमि में"
+      },
+      {
+        "sanskrit": "रथोपस्थे",
+        "meaning": "on the seat of the chariot",
+        "meaningHi": "रथ के पिछले भाग में"
+      },
+      {
+        "sanskrit": "उपाविशत्",
+        "meaning": "sat down",
+        "meaningHi": "बैठ गए"
+      },
+      {
+        "sanskrit": "विसृज्य",
+        "meaning": "having cast aside",
+        "meaningHi": "त्यागकर"
+      },
+      {
+        "sanskrit": "सशरम्",
+        "meaning": "with arrows",
+        "meaningHi": "बाणसहित"
+      },
+      {
+        "sanskrit": "चापम्",
+        "meaning": "bow",
+        "meaningHi": "धनुष"
+      },
+      {
+        "sanskrit": "शोकसंविग्नमानसः",
+        "meaning": "with mind distressed by grief",
+        "meaningHi": "शोक से उद्विग्न मन वाले"
+      }
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "chapter": 16,
+  "verses": {
+    "1": {
+      "tags": [
+        "virtue",
+        "fearlessness",
+        "purity"
+      ],
+      "featured": true
+    },
+    "2": {
+      "tags": [
+        "virtue",
+        "non-violence",
+        "compassion"
+      ],
+      "featured": false
+    },
+    "3": {
+      "tags": [
+        "virtue",
+        "forgiveness",
+        "purity"
+      ],
+      "featured": false
+    },
+    "4": {
+      "tags": [
+        "vice",
+        "arrogance",
+        "ignorance"
+      ],
+      "featured": false
+    },
+    "5": {
+      "tags": [
+        "destiny",
+        "virtue",
+        "liberation"
+      ],
+      "featured": false
+    },
+    "6": {
+      "tags": [
+        "virtue",
+        "vice",
+        "nature"
+      ],
+      "featured": false
+    },
+    "7": {
+      "tags": [
+        "ignorance",
+        "conduct",
+        "truth"
+      ],
+      "featured": false
+    },
+    "8": {
+      "tags": [
+        "delusion",
+        "materialism",
+        "ignorance"
+      ],
+      "featured": false
+    },
+    "9": {
+      "tags": [
+        "destruction",
+        "ignorance",
+        "evil"
+      ],
+      "featured": false
+    },
+    "10": {
+      "tags": [
+        "desire",
+        "hypocrisy",
+        "delusion"
+      ],
+      "featured": false
+    },
+    "11": {
+      "tags": [
+        "desire",
+        "anxiety",
+        "materialism"
+      ],
+      "featured": false
+    },
+    "12": {
+      "tags": [
+        "desire",
+        "anger",
+        "injustice"
+      ],
+      "featured": false
+    },
+    "13": {
+      "tags": [
+        "desire",
+        "ego",
+        "greed"
+      ],
+      "featured": false
+    },
+    "14": {
+      "tags": [
+        "ego",
+        "enemies",
+        "power"
+      ],
+      "featured": false
+    },
+    "15": {
+      "tags": [
+        "ego",
+        "pride",
+        "delusion"
+      ],
+      "featured": false
+    },
+    "16": {
+      "tags": [
+        "delusion",
+        "desire",
+        "downfall"
+      ],
+      "featured": false
+    },
+    "17": {
+      "tags": [
+        "pride",
+        "wealth",
+        "hypocrisy"
+      ],
+      "featured": false
+    },
+    "18": {
+      "tags": [
+        "ego",
+        "anger",
+        "hatred"
+      ],
+      "featured": false
+    },
+    "19": {
+      "tags": [
+        "rebirth",
+        "hatred",
+        "downfall"
+      ],
+      "featured": false
+    },
+    "20": {
+      "tags": [
+        "rebirth",
+        "delusion",
+        "downfall"
+      ],
+      "featured": false
+    },
+    "21": {
+      "tags": [
+        "desire",
+        "anger",
+        "greed"
+      ],
+      "featured": true
+    },
+    "22": {
+      "tags": [
+        "liberation",
+        "self-control",
+        "destiny"
+      ],
+      "featured": false
+    },
+    "23": {
+      "tags": [
+        "scripture",
+        "desire",
+        "downfall"
+      ],
+      "featured": false
+    },
+    "24": {
+      "tags": [
+        "scripture",
+        "duty",
+        "guidance"
+      ],
+      "featured": false
+    }
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "chapter": 4,
+  "verses": {
+    "1": {
+      "tags": [
+        "yoga",
+        "tradition",
+        "knowledge"
+      ],
+      "featured": false
+    },
+    "2": {
+      "tags": [
+        "yoga",
+        "tradition",
+        "time"
+      ],
+      "featured": false
+    },
+    "3": {
+      "tags": [
+        "devotion",
+        "friendship",
+        "secret"
+      ],
+      "featured": false
+    },
+    "4": {
+      "tags": [
+        "question",
+        "krishna",
+        "incarnation"
+      ],
+      "featured": false
+    },
+    "5": {
+      "tags": [
+        "rebirth",
+        "krishna",
+        "knowledge"
+      ],
+      "featured": false
+    },
+    "6": {
+      "tags": [
+        "incarnation",
+        "maya",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "7": {
+      "tags": [
+        "dharma",
+        "incarnation",
+        "adharma"
+      ],
+      "featured": true
+    },
+    "8": {
+      "tags": [
+        "dharma",
+        "protection",
+        "incarnation"
+      ],
+      "featured": true
+    },
+    "9": {
+      "tags": [
+        "rebirth",
+        "liberation",
+        "knowledge"
+      ],
+      "featured": false
+    },
+    "10": {
+      "tags": [
+        "detachment",
+        "devotion",
+        "purification"
+      ],
+      "featured": false
+    },
+    "11": {
+      "tags": [
+        "devotion",
+        "grace",
+        "krishna"
+      ],
+      "featured": true
+    },
+    "12": {
+      "tags": [
+        "desire",
+        "worship",
+        "action"
+      ],
+      "featured": false
+    },
+    "13": {
+      "tags": [
+        "varna",
+        "krishna",
+        "action"
+      ],
+      "featured": false
+    },
+    "14": {
+      "tags": [
+        "karma",
+        "detachment",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "15": {
+      "tags": [
+        "action",
+        "tradition",
+        "liberation"
+      ],
+      "featured": false
+    },
+    "16": {
+      "tags": [
+        "action",
+        "wisdom",
+        "confusion"
+      ],
+      "featured": false
+    },
+    "17": {
+      "tags": [
+        "action",
+        "knowledge",
+        "wisdom"
+      ],
+      "featured": false
+    },
+    "18": {
+      "tags": [
+        "action",
+        "wisdom",
+        "inaction"
+      ],
+      "featured": true
+    },
+    "19": {
+      "tags": [
+        "knowledge",
+        "desire",
+        "wisdom"
+      ],
+      "featured": false
+    },
+    "20": {
+      "tags": [
+        "detachment",
+        "contentment",
+        "action"
+      ],
+      "featured": false
+    },
+    "21": {
+      "tags": [
+        "self-control",
+        "action",
+        "sin"
+      ],
+      "featured": false
+    },
+    "22": {
+      "tags": [
+        "contentment",
+        "equanimity",
+        "detachment"
+      ],
+      "featured": false
+    },
+    "23": {
+      "tags": [
+        "sacrifice",
+        "detachment",
+        "knowledge"
+      ],
+      "featured": false
+    },
+    "24": {
+      "tags": [
+        "sacrifice",
+        "brahman",
+        "action"
+      ],
+      "featured": false
+    },
+    "25": {
+      "tags": [
+        "sacrifice",
+        "worship",
+        "yoga"
+      ],
+      "featured": false
+    },
+    "26": {
+      "tags": [
+        "sacrifice",
+        "senses",
+        "self-control"
+      ],
+      "featured": false
+    },
+    "27": {
+      "tags": [
+        "sacrifice",
+        "self-control",
+        "knowledge"
+      ],
+      "featured": false
+    },
+    "28": {
+      "tags": [
+        "sacrifice",
+        "austerity",
+        "knowledge"
+      ],
+      "featured": false
+    },
+    "29": {
+      "tags": [
+        "pranayama",
+        "breath",
+        "sacrifice"
+      ],
+      "featured": false
+    },
+    "30": {
+      "tags": [
+        "sacrifice",
+        "food",
+        "purification"
+      ],
+      "featured": false
+    },
+    "31": {
+      "tags": [
+        "sacrifice",
+        "brahman",
+        "duty"
+      ],
+      "featured": false
+    },
+    "32": {
+      "tags": [
+        "sacrifice",
+        "action",
+        "liberation"
+      ],
+      "featured": false
+    },
+    "33": {
+      "tags": [
+        "knowledge",
+        "sacrifice",
+        "action"
+      ],
+      "featured": false
+    },
+    "34": {
+      "tags": [
+        "teacher",
+        "humility",
+        "knowledge"
+      ],
+      "featured": true
+    },
+    "35": {
+      "tags": [
+        "knowledge",
+        "delusion",
+        "oneness"
+      ],
+      "featured": false
+    },
+    "36": {
+      "tags": [
+        "knowledge",
+        "sin",
+        "liberation"
+      ],
+      "featured": false
+    },
+    "37": {
+      "tags": [
+        "knowledge",
+        "karma",
+        "purification"
+      ],
+      "featured": false
+    },
+    "38": {
+      "tags": [
+        "knowledge",
+        "purity",
+        "yoga"
+      ],
+      "featured": true
+    },
+    "39": {
+      "tags": [
+        "faith",
+        "knowledge",
+        "peace"
+      ],
+      "featured": false
+    },
+    "40": {
+      "tags": [
+        "doubt",
+        "faith",
+        "ignorance"
+      ],
+      "featured": false
+    },
+    "41": {
+      "tags": [
+        "yoga",
+        "doubt",
+        "freedom"
+      ],
+      "featured": false
+    },
+    "42": {
+      "tags": [
+        "doubt",
+        "knowledge",
+        "courage"
+      ],
+      "featured": false
+    }
+  }
+}

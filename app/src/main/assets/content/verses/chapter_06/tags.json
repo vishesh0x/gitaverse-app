@@ -1,0 +1,381 @@
+{
+  "chapter": 6,
+  "verses": {
+    "1": {
+      "tags": [
+        "renunciation",
+        "action",
+        "yoga"
+      ],
+      "featured": false
+    },
+    "2": {
+      "tags": [
+        "renunciation",
+        "yoga",
+        "resolve"
+      ],
+      "featured": false
+    },
+    "3": {
+      "tags": [
+        "yoga",
+        "action",
+        "tranquility"
+      ],
+      "featured": false
+    },
+    "4": {
+      "tags": [
+        "detachment",
+        "yoga",
+        "desire"
+      ],
+      "featured": false
+    },
+    "5": {
+      "tags": [
+        "self",
+        "self-mastery",
+        "mind"
+      ],
+      "featured": true
+    },
+    "6": {
+      "tags": [
+        "self",
+        "self-mastery",
+        "mind"
+      ],
+      "featured": false
+    },
+    "7": {
+      "tags": [
+        "equanimity",
+        "self-mastery",
+        "supreme"
+      ],
+      "featured": false
+    },
+    "8": {
+      "tags": [
+        "wisdom",
+        "equanimity",
+        "yoga"
+      ],
+      "featured": false
+    },
+    "9": {
+      "tags": [
+        "equanimity",
+        "wisdom",
+        "compassion"
+      ],
+      "featured": false
+    },
+    "10": {
+      "tags": [
+        "meditation",
+        "solitude",
+        "discipline"
+      ],
+      "featured": false
+    },
+    "11": {
+      "tags": [
+        "meditation",
+        "posture",
+        "discipline"
+      ],
+      "featured": false
+    },
+    "12": {
+      "tags": [
+        "meditation",
+        "focus",
+        "purification"
+      ],
+      "featured": false
+    },
+    "13": {
+      "tags": [
+        "meditation",
+        "posture",
+        "focus"
+      ],
+      "featured": false
+    },
+    "14": {
+      "tags": [
+        "meditation",
+        "fearlessness",
+        "devotion"
+      ],
+      "featured": false
+    },
+    "15": {
+      "tags": [
+        "meditation",
+        "peace",
+        "liberation"
+      ],
+      "featured": false
+    },
+    "16": {
+      "tags": [
+        "moderation",
+        "discipline",
+        "yoga"
+      ],
+      "featured": false
+    },
+    "17": {
+      "tags": [
+        "moderation",
+        "discipline",
+        "yoga"
+      ],
+      "featured": true
+    },
+    "18": {
+      "tags": [
+        "meditation",
+        "desire",
+        "self"
+      ],
+      "featured": false
+    },
+    "19": {
+      "tags": [
+        "meditation",
+        "mind",
+        "steadiness"
+      ],
+      "featured": true
+    },
+    "20": {
+      "tags": [
+        "meditation",
+        "self-realization",
+        "contentment"
+      ],
+      "featured": false
+    },
+    "21": {
+      "tags": [
+        "bliss",
+        "meditation",
+        "self"
+      ],
+      "featured": false
+    },
+    "22": {
+      "tags": [
+        "bliss",
+        "steadiness",
+        "suffering"
+      ],
+      "featured": false
+    },
+    "23": {
+      "tags": [
+        "yoga",
+        "suffering",
+        "perseverance"
+      ],
+      "featured": false
+    },
+    "24": {
+      "tags": [
+        "desire",
+        "senses",
+        "self-control"
+      ],
+      "featured": false
+    },
+    "25": {
+      "tags": [
+        "meditation",
+        "mind",
+        "stillness"
+      ],
+      "featured": false
+    },
+    "26": {
+      "tags": [
+        "mind",
+        "restlessness",
+        "self-control"
+      ],
+      "featured": true
+    },
+    "27": {
+      "tags": [
+        "bliss",
+        "peace",
+        "brahman"
+      ],
+      "featured": false
+    },
+    "28": {
+      "tags": [
+        "bliss",
+        "yoga",
+        "purity"
+      ],
+      "featured": false
+    },
+    "29": {
+      "tags": [
+        "oneness",
+        "equality",
+        "vision"
+      ],
+      "featured": false
+    },
+    "30": {
+      "tags": [
+        "oneness",
+        "devotion",
+        "vision"
+      ],
+      "featured": false
+    },
+    "31": {
+      "tags": [
+        "oneness",
+        "devotion",
+        "yoga"
+      ],
+      "featured": false
+    },
+    "32": {
+      "tags": [
+        "compassion",
+        "equality",
+        "yoga"
+      ],
+      "featured": false
+    },
+    "33": {
+      "tags": [
+        "mind",
+        "question",
+        "equanimity"
+      ],
+      "featured": false
+    },
+    "34": {
+      "tags": [
+        "mind",
+        "restlessness",
+        "difficulty"
+      ],
+      "featured": false
+    },
+    "35": {
+      "tags": [
+        "mind",
+        "practice",
+        "detachment"
+      ],
+      "featured": true
+    },
+    "36": {
+      "tags": [
+        "yoga",
+        "self-control",
+        "effort"
+      ],
+      "featured": false
+    },
+    "37": {
+      "tags": [
+        "yoga",
+        "question",
+        "failure"
+      ],
+      "featured": false
+    },
+    "38": {
+      "tags": [
+        "failure",
+        "fear",
+        "question"
+      ],
+      "featured": false
+    },
+    "39": {
+      "tags": [
+        "doubt",
+        "krishna",
+        "guidance"
+      ],
+      "featured": false
+    },
+    "40": {
+      "tags": [
+        "yoga",
+        "hope",
+        "rebirth"
+      ],
+      "featured": false
+    },
+    "41": {
+      "tags": [
+        "rebirth",
+        "yoga",
+        "virtue"
+      ],
+      "featured": false
+    },
+    "42": {
+      "tags": [
+        "rebirth",
+        "yoga",
+        "wisdom"
+      ],
+      "featured": false
+    },
+    "43": {
+      "tags": [
+        "rebirth",
+        "perseverance",
+        "yoga"
+      ],
+      "featured": false
+    },
+    "44": {
+      "tags": [
+        "practice",
+        "yoga",
+        "rebirth"
+      ],
+      "featured": false
+    },
+    "45": {
+      "tags": [
+        "perseverance",
+        "perfection",
+        "rebirth"
+      ],
+      "featured": false
+    },
+    "46": {
+      "tags": [
+        "yoga",
+        "wisdom",
+        "superiority"
+      ],
+      "featured": false
+    },
+    "47": {
+      "tags": [
+        "devotion",
+        "yoga",
+        "faith"
+      ],
+      "featured": true
+    }
+  }
+}

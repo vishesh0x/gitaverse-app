@@ -1,0 +1,1485 @@
+{
+  "chapter": 15,
+  "verses": {
+    "1": [
+      {
+        "sanskrit": "ऊर्ध्वमूलम्",
+        "meaning": "with roots above",
+        "meaningHi": "ऊपर मूल वाले"
+      },
+      {
+        "sanskrit": "अधःशाखम्",
+        "meaning": "with branches below",
+        "meaningHi": "नीचे शाखा वाले"
+      },
+      {
+        "sanskrit": "अश्वत्थम्",
+        "meaning": "the Ashvattha tree",
+        "meaningHi": "पीपल वृक्ष को"
+      },
+      {
+        "sanskrit": "प्राहुः",
+        "meaning": "they speak of",
+        "meaningHi": "कहते हैं"
+      },
+      {
+        "sanskrit": "अव्ययम्",
+        "meaning": "imperishable",
+        "meaningHi": "अविनाशी"
+      },
+      {
+        "sanskrit": "छन्दांसि",
+        "meaning": "the Vedas",
+        "meaningHi": "वेद"
+      },
+      {
+        "sanskrit": "यस्य",
+        "meaning": "whose",
+        "meaningHi": "जिसके"
+      },
+      {
+        "sanskrit": "पर्णानि",
+        "meaning": "leaves",
+        "meaningHi": "पत्ते"
+      },
+      {
+        "sanskrit": "यः",
+        "meaning": "who",
+        "meaningHi": "जो"
+      },
+      {
+        "sanskrit": "तम्",
+        "meaning": "it",
+        "meaningHi": "उसको"
+      },
+      {
+        "sanskrit": "वेद",
+        "meaning": "knows",
+        "meaningHi": "जानता है"
+      },
+      {
+        "sanskrit": "सः",
+        "meaning": "he",
+        "meaningHi": "वह"
+      },
+      {
+        "sanskrit": "वेदवित्",
+        "meaning": "knower of the Vedas",
+        "meaningHi": "वेद के तात्पर्य को जानने वाला"
+      }
+    ],
+    "2": [
+      {
+        "sanskrit": "अधः",
+        "meaning": "below",
+        "meaningHi": "नीचे"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "ऊर्ध्वम्",
+        "meaning": "above",
+        "meaningHi": "ऊपर"
+      },
+      {
+        "sanskrit": "प्रसृताः",
+        "meaning": "extend",
+        "meaningHi": "फैली हुई हैं"
+      },
+      {
+        "sanskrit": "तस्य",
+        "meaning": "its",
+        "meaningHi": "उसकी"
+      },
+      {
+        "sanskrit": "शाखाः",
+        "meaning": "branches",
+        "meaningHi": "शाखाएँ"
+      },
+      {
+        "sanskrit": "गुणप्रवृद्धाः",
+        "meaning": "nourished by the gunas",
+        "meaningHi": "गुणों के द्वारा बढ़ी हुई"
+      },
+      {
+        "sanskrit": "विषयप्रवालाः",
+        "meaning": "with sense objects as buds",
+        "meaningHi": "विषय-भोगरूप कोंपलों वाली"
+      },
+      {
+        "sanskrit": "अधः",
+        "meaning": "downward",
+        "meaningHi": "नीचे"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "मूलानि",
+        "meaning": "roots",
+        "meaningHi": "जड़ें"
+      },
+      {
+        "sanskrit": "अनुसन्ततानि",
+        "meaning": "spread",
+        "meaningHi": "फैली हुई"
+      },
+      {
+        "sanskrit": "कर्मानुबन्धीनि",
+        "meaning": "binding by action",
+        "meaningHi": "कर्मों के अनुसार बाँधने वाली"
+      },
+      {
+        "sanskrit": "मनुष्यलोके",
+        "meaning": "in the world of men",
+        "meaningHi": "मनुष्यलोक में"
+      }
+    ],
+    "3": [
+      {
+        "sanskrit": "न",
+        "meaning": "not",
+        "meaningHi": "नहीं"
+      },
+      {
+        "sanskrit": "रूपम्",
+        "meaning": "form",
+        "meaningHi": "स्वरूप"
+      },
+      {
+        "sanskrit": "अस्य",
+        "meaning": "its",
+        "meaningHi": "इसका"
+      },
+      {
+        "sanskrit": "इह",
+        "meaning": "here",
+        "meaningHi": "यहाँ"
+      },
+      {
+        "sanskrit": "तथा",
+        "meaning": "as such",
+        "meaningHi": "वैसा"
+      },
+      {
+        "sanskrit": "उपलभ्यते",
+        "meaning": "is perceived",
+        "meaningHi": "पाया जाता"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "nor",
+        "meaningHi": "न"
+      },
+      {
+        "sanskrit": "अन्तः",
+        "meaning": "end",
+        "meaningHi": "अन्त"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "nor",
+        "meaningHi": "न"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "आदिः",
+        "meaning": "beginning",
+        "meaningHi": "आदि"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "nor",
+        "meaningHi": "न"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "सम्प्रतिष्ठा",
+        "meaning": "foundation",
+        "meaningHi": "भलीभाँति स्थिति"
+      },
+      {
+        "sanskrit": "अश्वत्थम्",
+        "meaning": "the Ashvattha",
+        "meaningHi": "पीपल वृक्ष को"
+      },
+      {
+        "sanskrit": "एनम्",
+        "meaning": "this",
+        "meaningHi": "इस"
+      },
+      {
+        "sanskrit": "सुविरूढमूलम्",
+        "meaning": "firmly rooted",
+        "meaningHi": "अति दृढ़ मूलों वाले"
+      },
+      {
+        "sanskrit": "असङ्गशस्त्रेण",
+        "meaning": "with the sword of detachment",
+        "meaningHi": "वैराग्यरूप शस्त्र से"
+      },
+      {
+        "sanskrit": "दृढेन",
+        "meaning": "strong",
+        "meaningHi": "दृढ़"
+      },
+      {
+        "sanskrit": "छित्त्वा",
+        "meaning": "having cut down",
+        "meaningHi": "काटकर"
+      }
+    ],
+    "4": [
+      {
+        "sanskrit": "ततः",
+        "meaning": "then",
+        "meaningHi": "उसके पश्चात्"
+      },
+      {
+        "sanskrit": "पदम्",
+        "meaning": "goal",
+        "meaningHi": "परम पद रूप"
+      },
+      {
+        "sanskrit": "तत्",
+        "meaning": "that",
+        "meaningHi": "उस"
+      },
+      {
+        "sanskrit": "परिमार्गितव्यम्",
+        "meaning": "is to be sought",
+        "meaningHi": "खोजना चाहिए"
+      },
+      {
+        "sanskrit": "यस्मिन्",
+        "meaning": "in which",
+        "meaningHi": "जिसमें"
+      },
+      {
+        "sanskrit": "गताः",
+        "meaning": "having gone",
+        "meaningHi": "गए हुए"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "not",
+        "meaningHi": "नहीं"
+      },
+      {
+        "sanskrit": "निवर्तन्ति",
+        "meaning": "return",
+        "meaningHi": "लौटते"
+      },
+      {
+        "sanskrit": "भूयः",
+        "meaning": "again",
+        "meaningHi": "फिर"
+      },
+      {
+        "sanskrit": "तम्",
+        "meaning": "that",
+        "meaningHi": "उसी"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "alone",
+        "meaningHi": "ही"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "आद्यम्",
+        "meaning": "Primal",
+        "meaningHi": "आदि"
+      },
+      {
+        "sanskrit": "पुरुषम्",
+        "meaning": "Person",
+        "meaningHi": "पुरुष की"
+      },
+      {
+        "sanskrit": "प्रपद्ये",
+        "meaning": "I take refuge",
+        "meaningHi": "मैं शरण हूँ"
+      },
+      {
+        "sanskrit": "यतः",
+        "meaning": "from whom",
+        "meaningHi": "जिससे"
+      },
+      {
+        "sanskrit": "प्रवृत्तिः",
+        "meaning": "activity",
+        "meaningHi": "प्रवृत्ति"
+      },
+      {
+        "sanskrit": "प्रसृता",
+        "meaning": "has flowed",
+        "meaningHi": "विस्तार को प्राप्त हुई"
+      },
+      {
+        "sanskrit": "पुराणी",
+        "meaning": "ancient",
+        "meaningHi": "पुरातन"
+      }
+    ],
+    "5": [
+      {
+        "sanskrit": "निर्मानमोहाः",
+        "meaning": "free from pride and delusion",
+        "meaningHi": "मान और मोह से रहित"
+      },
+      {
+        "sanskrit": "जितसङ्गदोषाः",
+        "meaning": "who have conquered the evil of attachment",
+        "meaningHi": "आसक्तिरूप दोष को जीते हुए"
+      },
+      {
+        "sanskrit": "अध्यात्मनित्याः",
+        "meaning": "ever devoted to the Self",
+        "meaningHi": "परमात्मा के स्वरूप में नित्य स्थित"
+      },
+      {
+        "sanskrit": "विनिवृत्तकामाः",
+        "meaning": "whose desires are stilled",
+        "meaningHi": "कामनाएँ नष्ट हो गई हैं"
+      },
+      {
+        "sanskrit": "द्वन्द्वैः",
+        "meaning": "from the pairs of opposites",
+        "meaningHi": "द्वन्द्वों से"
+      },
+      {
+        "sanskrit": "विमुक्ताः",
+        "meaning": "freed",
+        "meaningHi": "विमुक्त"
+      },
+      {
+        "sanskrit": "सुखदुःखसञ्ज्ञैः",
+        "meaning": "known as pleasure and pain",
+        "meaningHi": "सुख-दुःख नामक"
+      },
+      {
+        "sanskrit": "गच्छन्ति",
+        "meaning": "reach",
+        "meaningHi": "प्राप्त होते हैं"
+      },
+      {
+        "sanskrit": "अमूढाः",
+        "meaning": "the undeluded",
+        "meaningHi": "ज्ञानीजन"
+      },
+      {
+        "sanskrit": "पदम्",
+        "meaning": "state",
+        "meaningHi": "पद को"
+      },
+      {
+        "sanskrit": "अव्ययम्",
+        "meaning": "imperishable",
+        "meaningHi": "अविनाशी"
+      },
+      {
+        "sanskrit": "तत्",
+        "meaning": "that",
+        "meaningHi": "उस"
+      }
+    ],
+    "6": [
+      {
+        "sanskrit": "न",
+        "meaning": "not",
+        "meaningHi": "न"
+      },
+      {
+        "sanskrit": "तत्",
+        "meaning": "that",
+        "meaningHi": "उसे"
+      },
+      {
+        "sanskrit": "भासयते",
+        "meaning": "illumines",
+        "meaningHi": "प्रकाशित करता"
+      },
+      {
+        "sanskrit": "सूर्यः",
+        "meaning": "the sun",
+        "meaningHi": "सूर्य"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "nor",
+        "meaningHi": "न"
+      },
+      {
+        "sanskrit": "शशाङ्कः",
+        "meaning": "the moon",
+        "meaningHi": "चन्द्रमा"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "nor",
+        "meaningHi": "न"
+      },
+      {
+        "sanskrit": "पावकः",
+        "meaning": "fire",
+        "meaningHi": "अग्नि"
+      },
+      {
+        "sanskrit": "यत्",
+        "meaning": "which",
+        "meaningHi": "जिसे"
+      },
+      {
+        "sanskrit": "गत्वा",
+        "meaning": "having gone",
+        "meaningHi": "प्राप्त होकर"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "not",
+        "meaningHi": "नहीं"
+      },
+      {
+        "sanskrit": "निवर्तन्ते",
+        "meaning": "return",
+        "meaningHi": "लौटते"
+      },
+      {
+        "sanskrit": "तत्",
+        "meaning": "that",
+        "meaningHi": "वही"
+      },
+      {
+        "sanskrit": "धाम",
+        "meaning": "abode",
+        "meaningHi": "धाम"
+      },
+      {
+        "sanskrit": "परमम्",
+        "meaning": "supreme",
+        "meaningHi": "परम"
+      },
+      {
+        "sanskrit": "मम",
+        "meaning": "My",
+        "meaningHi": "मेरा"
+      }
+    ],
+    "7": [
+      {
+        "sanskrit": "मम",
+        "meaning": "My",
+        "meaningHi": "मेरा"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "own",
+        "meaningHi": "ही"
+      },
+      {
+        "sanskrit": "अंशः",
+        "meaning": "portion",
+        "meaningHi": "अंश"
+      },
+      {
+        "sanskrit": "जीवलोके",
+        "meaning": "in the world of life",
+        "meaningHi": "इस देह में"
+      },
+      {
+        "sanskrit": "जीवभूतः",
+        "meaning": "become the individual soul",
+        "meaningHi": "जीवात्मा"
+      },
+      {
+        "sanskrit": "सनातनः",
+        "meaning": "eternal",
+        "meaningHi": "सनातन"
+      },
+      {
+        "sanskrit": "मनःषष्ठानि",
+        "meaning": "with the mind as the sixth",
+        "meaningHi": "मन सहित छः"
+      },
+      {
+        "sanskrit": "इन्द्रियाणि",
+        "meaning": "senses",
+        "meaningHi": "इन्द्रियों को"
+      },
+      {
+        "sanskrit": "प्रकृतिस्थानि",
+        "meaning": "resting in nature",
+        "meaningHi": "प्रकृति में स्थित"
+      },
+      {
+        "sanskrit": "कर्षति",
+        "meaning": "draws",
+        "meaningHi": "आकर्षित करता है"
+      }
+    ],
+    "8": [
+      {
+        "sanskrit": "शरीरम्",
+        "meaning": "a body",
+        "meaningHi": "शरीर को"
+      },
+      {
+        "sanskrit": "यत्",
+        "meaning": "when",
+        "meaningHi": "जब"
+      },
+      {
+        "sanskrit": "अवाप्नोति",
+        "meaning": "takes",
+        "meaningHi": "प्राप्त होता है"
+      },
+      {
+        "sanskrit": "यत्",
+        "meaning": "when",
+        "meaningHi": "जब"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "अपि",
+        "meaning": "also",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "उत्क्रामति",
+        "meaning": "departs",
+        "meaningHi": "त्यागता है"
+      },
+      {
+        "sanskrit": "ईश्वरः",
+        "meaning": "the Lord (of the body)",
+        "meaningHi": "देहादि का स्वामी जीवात्मा"
+      },
+      {
+        "sanskrit": "गृहीत्वा",
+        "meaning": "having taken",
+        "meaningHi": "ग्रहण करके"
+      },
+      {
+        "sanskrit": "एतानि",
+        "meaning": "these",
+        "meaningHi": "इनको"
+      },
+      {
+        "sanskrit": "संयाति",
+        "meaning": "goes",
+        "meaningHi": "चला जाता है"
+      },
+      {
+        "sanskrit": "वायुः",
+        "meaning": "the wind",
+        "meaningHi": "वायु"
+      },
+      {
+        "sanskrit": "गन्धान्",
+        "meaning": "scents",
+        "meaningHi": "गन्ध को"
+      },
+      {
+        "sanskrit": "इव",
+        "meaning": "as",
+        "meaningHi": "जैसे"
+      },
+      {
+        "sanskrit": "आशयात्",
+        "meaning": "from their place",
+        "meaningHi": "स्थान से"
+      }
+    ],
+    "9": [
+      {
+        "sanskrit": "श्रोत्रम्",
+        "meaning": "ear",
+        "meaningHi": "श्रोत्र"
+      },
+      {
+        "sanskrit": "चक्षुः",
+        "meaning": "eye",
+        "meaningHi": "चक्षु"
+      },
+      {
+        "sanskrit": "स्पर्शनम्",
+        "meaning": "touch",
+        "meaningHi": "त्वचा"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "रसनम्",
+        "meaning": "taste",
+        "meaningHi": "रसना"
+      },
+      {
+        "sanskrit": "घ्राणम्",
+        "meaning": "smell",
+        "meaningHi": "घ्राण"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "indeed",
+        "meaningHi": "ही"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "अधिष्ठाय",
+        "meaning": "presiding over",
+        "meaningHi": "आश्रय करके"
+      },
+      {
+        "sanskrit": "मनः",
+        "meaning": "mind",
+        "meaningHi": "मन को"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "अयम्",
+        "meaning": "this one",
+        "meaningHi": "यह जीवात्मा"
+      },
+      {
+        "sanskrit": "विषयान्",
+        "meaning": "objects",
+        "meaningHi": "विषयों का"
+      },
+      {
+        "sanskrit": "उपसेवते",
+        "meaning": "enjoys",
+        "meaningHi": "सेवन करता है"
+      }
+    ],
+    "10": [
+      {
+        "sanskrit": "उत्क्रामन्तम्",
+        "meaning": "departing",
+        "meaningHi": "शरीर छोड़कर जाते हुए"
+      },
+      {
+        "sanskrit": "स्थितम्",
+        "meaning": "staying",
+        "meaningHi": "स्थित हुए"
+      },
+      {
+        "sanskrit": "वा",
+        "meaning": "or",
+        "meaningHi": "अथवा"
+      },
+      {
+        "sanskrit": "अपि",
+        "meaning": "even",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "भुञ्जानम्",
+        "meaning": "enjoying",
+        "meaningHi": "भोगते हुए"
+      },
+      {
+        "sanskrit": "वा",
+        "meaning": "or",
+        "meaningHi": "अथवा"
+      },
+      {
+        "sanskrit": "गुणान्वितम्",
+        "meaning": "associated with the gunas",
+        "meaningHi": "गुणों से युक्त"
+      },
+      {
+        "sanskrit": "विमूढाः",
+        "meaning": "the deluded",
+        "meaningHi": "अज्ञानीजन"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "not",
+        "meaningHi": "नहीं"
+      },
+      {
+        "sanskrit": "अनुपश्यन्ति",
+        "meaning": "see",
+        "meaningHi": "जानते"
+      },
+      {
+        "sanskrit": "पश्यन्ति",
+        "meaning": "see",
+        "meaningHi": "जानते हैं"
+      },
+      {
+        "sanskrit": "ज्ञानचक्षुषः",
+        "meaning": "those with the eye of knowledge",
+        "meaningHi": "ज्ञानरूप नेत्रों वाले"
+      }
+    ],
+    "11": [
+      {
+        "sanskrit": "यतन्तः",
+        "meaning": "striving",
+        "meaningHi": "यत्न करने वाले"
+      },
+      {
+        "sanskrit": "योगिनः",
+        "meaning": "yogis",
+        "meaningHi": "योगीजन"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "एनम्",
+        "meaning": "this (Self)",
+        "meaningHi": "इस आत्मा को"
+      },
+      {
+        "sanskrit": "पश्यन्ति",
+        "meaning": "see",
+        "meaningHi": "जानते हैं"
+      },
+      {
+        "sanskrit": "आत्मनि",
+        "meaning": "in the self",
+        "meaningHi": "हृदय में"
+      },
+      {
+        "sanskrit": "अवस्थितम्",
+        "meaning": "dwelling",
+        "meaningHi": "स्थित"
+      },
+      {
+        "sanskrit": "यतन्तः",
+        "meaning": "striving",
+        "meaningHi": "यत्न करते हुए"
+      },
+      {
+        "sanskrit": "अपि",
+        "meaning": "even",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "अकृतात्मानः",
+        "meaning": "of unrefined self",
+        "meaningHi": "जिन्होंने अन्तःकरण शुद्ध नहीं किया"
+      },
+      {
+        "sanskrit": "न",
+        "meaning": "not",
+        "meaningHi": "नहीं"
+      },
+      {
+        "sanskrit": "एनम्",
+        "meaning": "this",
+        "meaningHi": "इसको"
+      },
+      {
+        "sanskrit": "पश्यन्ति",
+        "meaning": "see",
+        "meaningHi": "जानते"
+      },
+      {
+        "sanskrit": "अचेतसः",
+        "meaning": "of unripe minds",
+        "meaningHi": "अज्ञानीजन"
+      }
+    ],
+    "12": [
+      {
+        "sanskrit": "यत्",
+        "meaning": "which",
+        "meaningHi": "जो"
+      },
+      {
+        "sanskrit": "आदित्यगतम्",
+        "meaning": "resident in the sun",
+        "meaningHi": "सूर्य में स्थित"
+      },
+      {
+        "sanskrit": "तेजः",
+        "meaning": "radiance",
+        "meaningHi": "तेज"
+      },
+      {
+        "sanskrit": "जगत्",
+        "meaning": "world",
+        "meaningHi": "जगत को"
+      },
+      {
+        "sanskrit": "भासयते",
+        "meaning": "illumines",
+        "meaningHi": "प्रकाशित करता है"
+      },
+      {
+        "sanskrit": "अखिलम्",
+        "meaning": "entire",
+        "meaningHi": "सम्पूर्ण"
+      },
+      {
+        "sanskrit": "यत्",
+        "meaning": "which",
+        "meaningHi": "जो"
+      },
+      {
+        "sanskrit": "चन्द्रमसि",
+        "meaning": "in the moon",
+        "meaningHi": "चन्द्रमा में"
+      },
+      {
+        "sanskrit": "यत्",
+        "meaning": "which",
+        "meaningHi": "जो"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "अग्नौ",
+        "meaning": "in fire",
+        "meaningHi": "अग्नि में"
+      },
+      {
+        "sanskrit": "तत्",
+        "meaning": "that",
+        "meaningHi": "उसको"
+      },
+      {
+        "sanskrit": "तेजः",
+        "meaning": "radiance",
+        "meaningHi": "तेज"
+      },
+      {
+        "sanskrit": "विद्धि",
+        "meaning": "know",
+        "meaningHi": "जान"
+      },
+      {
+        "sanskrit": "मामकम्",
+        "meaning": "Mine",
+        "meaningHi": "मेरा ही"
+      }
+    ],
+    "13": [
+      {
+        "sanskrit": "गाम्",
+        "meaning": "the earth",
+        "meaningHi": "पृथ्वी में"
+      },
+      {
+        "sanskrit": "आविश्य",
+        "meaning": "having entered",
+        "meaningHi": "प्रवेश करके"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "भूतानि",
+        "meaning": "beings",
+        "meaningHi": "भूतों को"
+      },
+      {
+        "sanskrit": "धारयामि",
+        "meaning": "I support",
+        "meaningHi": "धारण करता हूँ"
+      },
+      {
+        "sanskrit": "अहम्",
+        "meaning": "I",
+        "meaningHi": "मैं"
+      },
+      {
+        "sanskrit": "ओजसा",
+        "meaning": "by My energy",
+        "meaningHi": "अपनी शक्ति से"
+      },
+      {
+        "sanskrit": "पुष्णामि",
+        "meaning": "I nourish",
+        "meaningHi": "पुष्ट करता हूँ"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "ओषधीः",
+        "meaning": "plants",
+        "meaningHi": "औषधियों को"
+      },
+      {
+        "sanskrit": "सर्वाः",
+        "meaning": "all",
+        "meaningHi": "सम्पूर्ण"
+      },
+      {
+        "sanskrit": "सोमः",
+        "meaning": "the moon",
+        "meaningHi": "चन्द्रमा"
+      },
+      {
+        "sanskrit": "भूत्वा",
+        "meaning": "having become",
+        "meaningHi": "होकर"
+      },
+      {
+        "sanskrit": "रसात्मकः",
+        "meaning": "watery",
+        "meaningHi": "रसस्वरूप"
+      }
+    ],
+    "14": [
+      {
+        "sanskrit": "अहम्",
+        "meaning": "I",
+        "meaningHi": "मैं"
+      },
+      {
+        "sanskrit": "वैश्वानरः",
+        "meaning": "the fire of digestion",
+        "meaningHi": "वैश्वानर अग्नि"
+      },
+      {
+        "sanskrit": "भूत्वा",
+        "meaning": "having become",
+        "meaningHi": "होकर"
+      },
+      {
+        "sanskrit": "प्राणिनाम्",
+        "meaning": "of living beings",
+        "meaningHi": "प्राणियों के"
+      },
+      {
+        "sanskrit": "देहम्",
+        "meaning": "body",
+        "meaningHi": "शरीर में"
+      },
+      {
+        "sanskrit": "आश्रितः",
+        "meaning": "residing",
+        "meaningHi": "स्थित"
+      },
+      {
+        "sanskrit": "प्राणापानसमायुक्तः",
+        "meaning": "united with the in-breath and out-breath",
+        "meaningHi": "प्राण और अपान से संयुक्त"
+      },
+      {
+        "sanskrit": "पचामि",
+        "meaning": "I digest",
+        "meaningHi": "पचाता हूँ"
+      },
+      {
+        "sanskrit": "अन्नम्",
+        "meaning": "food",
+        "meaningHi": "अन्न को"
+      },
+      {
+        "sanskrit": "चतुर्विधम्",
+        "meaning": "of four kinds",
+        "meaningHi": "चार प्रकार के"
+      }
+    ],
+    "15": [
+      {
+        "sanskrit": "सर्वस्य",
+        "meaning": "of all",
+        "meaningHi": "सब प्राणियों के"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "अहम्",
+        "meaning": "I",
+        "meaningHi": "मैं"
+      },
+      {
+        "sanskrit": "हृदि",
+        "meaning": "in the heart",
+        "meaningHi": "हृदय में"
+      },
+      {
+        "sanskrit": "सन्निविष्टः",
+        "meaning": "seated",
+        "meaningHi": "स्थित हूँ"
+      },
+      {
+        "sanskrit": "मत्तः",
+        "meaning": "from Me",
+        "meaningHi": "मुझसे"
+      },
+      {
+        "sanskrit": "स्मृतिः",
+        "meaning": "memory",
+        "meaningHi": "स्मृति"
+      },
+      {
+        "sanskrit": "ज्ञानम्",
+        "meaning": "knowledge",
+        "meaningHi": "ज्ञान"
+      },
+      {
+        "sanskrit": "अपोहनम्",
+        "meaning": "their loss",
+        "meaningHi": "अपोहन"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "वेदैः",
+        "meaning": "by the Vedas",
+        "meaningHi": "वेदों द्वारा"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "सर्वैः",
+        "meaning": "all",
+        "meaningHi": "सब"
+      },
+      {
+        "sanskrit": "अहम्",
+        "meaning": "I",
+        "meaningHi": "मैं"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "alone",
+        "meaningHi": "ही"
+      },
+      {
+        "sanskrit": "वेद्यः",
+        "meaning": "to be known",
+        "meaningHi": "जानने योग्य"
+      },
+      {
+        "sanskrit": "वेदान्तकृत्",
+        "meaning": "the author of Vedanta",
+        "meaningHi": "वेदान्त का कर्ता"
+      },
+      {
+        "sanskrit": "वेदवित्",
+        "meaning": "knower of the Vedas",
+        "meaningHi": "वेदों को जानने वाला"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "also",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "अहम्",
+        "meaning": "I",
+        "meaningHi": "मैं"
+      }
+    ],
+    "16": [
+      {
+        "sanskrit": "द्वौ",
+        "meaning": "two",
+        "meaningHi": "दो"
+      },
+      {
+        "sanskrit": "इमौ",
+        "meaning": "these",
+        "meaningHi": "ये"
+      },
+      {
+        "sanskrit": "पुरुषौ",
+        "meaning": "Persons",
+        "meaningHi": "प्रकार के पुरुष"
+      },
+      {
+        "sanskrit": "लोके",
+        "meaning": "in the world",
+        "meaningHi": "संसार में"
+      },
+      {
+        "sanskrit": "क्षरः",
+        "meaning": "the perishable",
+        "meaningHi": "नाशवान"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "अक्षरः",
+        "meaning": "the imperishable",
+        "meaningHi": "अविनाशी"
+      },
+      {
+        "sanskrit": "एव",
+        "meaning": "also",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "क्षरः",
+        "meaning": "the perishable",
+        "meaningHi": "नाशवान"
+      },
+      {
+        "sanskrit": "सर्वाणि",
+        "meaning": "all",
+        "meaningHi": "सम्पूर्ण"
+      },
+      {
+        "sanskrit": "भूतानि",
+        "meaning": "beings",
+        "meaningHi": "भूतप्राणियों के शरीर"
+      },
+      {
+        "sanskrit": "कूटस्थः",
+        "meaning": "the unchanging",
+        "meaningHi": "जीवात्मा"
+      },
+      {
+        "sanskrit": "अक्षरः",
+        "meaning": "imperishable",
+        "meaningHi": "अविनाशी"
+      },
+      {
+        "sanskrit": "उच्यते",
+        "meaning": "is called",
+        "meaningHi": "कहा जाता है"
+      }
+    ],
+    "17": [
+      {
+        "sanskrit": "उत्तमः",
+        "meaning": "supreme",
+        "meaningHi": "उत्तम"
+      },
+      {
+        "sanskrit": "पुरुषः",
+        "meaning": "Person",
+        "meaningHi": "पुरुष"
+      },
+      {
+        "sanskrit": "तु",
+        "meaning": "but",
+        "meaningHi": "तो"
+      },
+      {
+        "sanskrit": "अन्यः",
+        "meaning": "another",
+        "meaningHi": "अन्य ही है"
+      },
+      {
+        "sanskrit": "परमात्मा",
+        "meaning": "Supreme Self",
+        "meaningHi": "परमात्मा"
+      },
+      {
+        "sanskrit": "इति",
+        "meaning": "thus",
+        "meaningHi": "इस प्रकार"
+      },
+      {
+        "sanskrit": "उदाहृतः",
+        "meaning": "is called",
+        "meaningHi": "कहा गया है"
+      },
+      {
+        "sanskrit": "यः",
+        "meaning": "who",
+        "meaningHi": "जो"
+      },
+      {
+        "sanskrit": "लोकत्रयम्",
+        "meaning": "the three worlds",
+        "meaningHi": "तीनों लोकों में"
+      },
+      {
+        "sanskrit": "आविश्य",
+        "meaning": "having pervaded",
+        "meaningHi": "प्रवेश करके"
+      },
+      {
+        "sanskrit": "बिभर्ति",
+        "meaning": "sustains",
+        "meaningHi": "धारण-पोषण करता है"
+      },
+      {
+        "sanskrit": "अव्ययः",
+        "meaning": "imperishable",
+        "meaningHi": "अविनाशी"
+      },
+      {
+        "sanskrit": "ईश्वरः",
+        "meaning": "Lord",
+        "meaningHi": "ईश्वर"
+      }
+    ],
+    "18": [
+      {
+        "sanskrit": "यस्मात्",
+        "meaning": "since",
+        "meaningHi": "क्योंकि"
+      },
+      {
+        "sanskrit": "क्षरम्",
+        "meaning": "the perishable",
+        "meaningHi": "नाशवान"
+      },
+      {
+        "sanskrit": "अतीतः",
+        "meaning": "transcend",
+        "meaningHi": "अतीत हूँ"
+      },
+      {
+        "sanskrit": "अहम्",
+        "meaning": "I",
+        "meaningHi": "मैं"
+      },
+      {
+        "sanskrit": "अक्षरात्",
+        "meaning": "than the imperishable",
+        "meaningHi": "अविनाशी जीवात्मा से"
+      },
+      {
+        "sanskrit": "अपि",
+        "meaning": "even",
+        "meaningHi": "भी"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "उत्तमः",
+        "meaning": "higher",
+        "meaningHi": "उत्तम"
+      },
+      {
+        "sanskrit": "अतः",
+        "meaning": "therefore",
+        "meaningHi": "इसलिए"
+      },
+      {
+        "sanskrit": "अस्मि",
+        "meaning": "I am",
+        "meaningHi": "हूँ"
+      },
+      {
+        "sanskrit": "लोके",
+        "meaning": "in the world",
+        "meaningHi": "लोक में"
+      },
+      {
+        "sanskrit": "वेदे",
+        "meaning": "in the Veda",
+        "meaningHi": "वेद में"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "प्रथितः",
+        "meaning": "proclaimed",
+        "meaningHi": "प्रसिद्ध"
+      },
+      {
+        "sanskrit": "पुरुषोत्तमः",
+        "meaning": "the Supreme Person",
+        "meaningHi": "पुरुषोत्तम"
+      }
+    ],
+    "19": [
+      {
+        "sanskrit": "यः",
+        "meaning": "who",
+        "meaningHi": "जो"
+      },
+      {
+        "sanskrit": "माम्",
+        "meaning": "Me",
+        "meaningHi": "मुझको"
+      },
+      {
+        "sanskrit": "एवम्",
+        "meaning": "thus",
+        "meaningHi": "इस प्रकार"
+      },
+      {
+        "sanskrit": "असम्मूढः",
+        "meaning": "undeluded",
+        "meaningHi": "ज्ञानी"
+      },
+      {
+        "sanskrit": "जानाति",
+        "meaning": "knows",
+        "meaningHi": "जानता है"
+      },
+      {
+        "sanskrit": "पुरुषोत्तमम्",
+        "meaning": "as the Supreme Person",
+        "meaningHi": "पुरुषोत्तम"
+      },
+      {
+        "sanskrit": "सः",
+        "meaning": "he",
+        "meaningHi": "वह"
+      },
+      {
+        "sanskrit": "सर्ववित्",
+        "meaning": "all-knowing",
+        "meaningHi": "सर्वज्ञ"
+      },
+      {
+        "sanskrit": "भजति",
+        "meaning": "worships",
+        "meaningHi": "भजता है"
+      },
+      {
+        "sanskrit": "माम्",
+        "meaning": "Me",
+        "meaningHi": "मुझ वासुदेव परमेश्वर को"
+      },
+      {
+        "sanskrit": "सर्वभावेन",
+        "meaning": "with his whole being",
+        "meaningHi": "सब प्रकार से"
+      },
+      {
+        "sanskrit": "भारत",
+        "meaning": "O Bharata",
+        "meaningHi": "हे भारत"
+      }
+    ],
+    "20": [
+      {
+        "sanskrit": "इति",
+        "meaning": "thus",
+        "meaningHi": "इस प्रकार"
+      },
+      {
+        "sanskrit": "गुह्यतमम्",
+        "meaning": "most secret",
+        "meaningHi": "अति रहस्ययुक्त"
+      },
+      {
+        "sanskrit": "शास्त्रम्",
+        "meaning": "teaching",
+        "meaningHi": "गोपनीय शास्त्र"
+      },
+      {
+        "sanskrit": "इदम्",
+        "meaning": "this",
+        "meaningHi": "यह"
+      },
+      {
+        "sanskrit": "उक्तम्",
+        "meaning": "has been declared",
+        "meaningHi": "कहा गया"
+      },
+      {
+        "sanskrit": "मया",
+        "meaning": "by Me",
+        "meaningHi": "मेरे द्वारा"
+      },
+      {
+        "sanskrit": "अनघ",
+        "meaning": "O sinless one",
+        "meaningHi": "हे निष्पाप"
+      },
+      {
+        "sanskrit": "एतत्",
+        "meaning": "this",
+        "meaningHi": "इसको"
+      },
+      {
+        "sanskrit": "बुद्ध्वा",
+        "meaning": "having understood",
+        "meaningHi": "तत्त्व से जानकर"
+      },
+      {
+        "sanskrit": "बुद्धिमान्",
+        "meaning": "wise",
+        "meaningHi": "ज्ञानवान"
+      },
+      {
+        "sanskrit": "स्यात्",
+        "meaning": "becomes",
+        "meaningHi": "हो जाता है"
+      },
+      {
+        "sanskrit": "कृतकृत्यः",
+        "meaning": "one who has accomplished all",
+        "meaningHi": "कृतार्थ"
+      },
+      {
+        "sanskrit": "च",
+        "meaning": "and",
+        "meaningHi": "और"
+      },
+      {
+        "sanskrit": "भारत",
+        "meaning": "O Bharata",
+        "meaningHi": "हे भारत"
+      }
+    ]
+  }
+}

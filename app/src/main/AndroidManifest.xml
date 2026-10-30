@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Notification permission for Android 13+ -->
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
-    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Intentionally no INTERNET permission: GitaVerse is 100% offline. -->
+
+    <!-- Android 13+: needed to show the daily reading reminder. Asked only when the reader turns it on. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Works with a keyboard and no touch screen too (Chromebooks, desktop windows, a phone on a dock). -->
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
 
     <application
-        android:name=".GitaVerseApplication"
-        android:allowBackup="true"
+        android:name=".GitaVerseApp"
+        android:allowBackup="false"
+        android:localeConfig="@xml/locales_config"
+        android:enableOnBackInvokedCallback="true"
         android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GitaVerse">
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.GitaVerse">
+            android:theme="@style/Theme.GitaVerse.Starting"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboard|keyboardHidden|navigation|uiMode"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
+
+
+        <!-- Home-screen widget. Exported only so the launcher can send it update broadcasts; it reads nothing from them. -->
+        <receiver
+            android:name=".widget.StreakGoalWidgetReceiver"
+            android:exported="true"
+            android:label="@string/widget_streak_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_streak_info" />
+        </receiver>
 
     </application>
-
 </manifest>

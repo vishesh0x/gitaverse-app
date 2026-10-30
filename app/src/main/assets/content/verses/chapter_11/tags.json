@@ -1,0 +1,445 @@
+{
+  "chapter": 11,
+  "verses": {
+    "1": {
+      "tags": [
+        "gratitude",
+        "delusion",
+        "grace"
+      ],
+      "featured": false
+    },
+    "2": {
+      "tags": [
+        "knowledge",
+        "creation",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "3": {
+      "tags": [
+        "vision",
+        "request",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "4": {
+      "tags": [
+        "vision",
+        "request",
+        "yoga"
+      ],
+      "featured": false
+    },
+    "5": {
+      "tags": [
+        "vision",
+        "krishna",
+        "divine"
+      ],
+      "featured": false
+    },
+    "6": {
+      "tags": [
+        "vision",
+        "cosmos",
+        "wonder"
+      ],
+      "featured": false
+    },
+    "7": {
+      "tags": [
+        "vision",
+        "cosmos",
+        "universe"
+      ],
+      "featured": false
+    },
+    "8": {
+      "tags": [
+        "vision",
+        "divine sight",
+        "grace"
+      ],
+      "featured": false
+    },
+    "9": {
+      "tags": [
+        "vision",
+        "krishna",
+        "divine"
+      ],
+      "featured": false
+    },
+    "10": {
+      "tags": [
+        "vision",
+        "divine",
+        "wonder"
+      ],
+      "featured": false
+    },
+    "11": {
+      "tags": [
+        "vision",
+        "divine",
+        "wonder"
+      ],
+      "featured": false
+    },
+    "12": {
+      "tags": [
+        "vision",
+        "radiance",
+        "wonder"
+      ],
+      "featured": true
+    },
+    "13": {
+      "tags": [
+        "vision",
+        "universe",
+        "unity"
+      ],
+      "featured": false
+    },
+    "14": {
+      "tags": [
+        "wonder",
+        "reverence",
+        "devotion"
+      ],
+      "featured": false
+    },
+    "15": {
+      "tags": [
+        "vision",
+        "cosmos",
+        "wonder"
+      ],
+      "featured": false
+    },
+    "16": {
+      "tags": [
+        "vision",
+        "infinity",
+        "universe"
+      ],
+      "featured": false
+    },
+    "17": {
+      "tags": [
+        "vision",
+        "radiance",
+        "fear"
+      ],
+      "featured": false
+    },
+    "18": {
+      "tags": [
+        "praise",
+        "imperishable",
+        "dharma"
+      ],
+      "featured": false
+    },
+    "19": {
+      "tags": [
+        "vision",
+        "infinity",
+        "radiance"
+      ],
+      "featured": false
+    },
+    "20": {
+      "tags": [
+        "fear",
+        "universe",
+        "wonder"
+      ],
+      "featured": false
+    },
+    "21": {
+      "tags": [
+        "reverence",
+        "fear",
+        "praise"
+      ],
+      "featured": false
+    },
+    "22": {
+      "tags": [
+        "wonder",
+        "gods",
+        "vision"
+      ],
+      "featured": false
+    },
+    "23": {
+      "tags": [
+        "fear",
+        "universe",
+        "vision"
+      ],
+      "featured": false
+    },
+    "24": {
+      "tags": [
+        "fear",
+        "vision",
+        "cosmos"
+      ],
+      "featured": false
+    },
+    "25": {
+      "tags": [
+        "fear",
+        "time",
+        "refuge"
+      ],
+      "featured": false
+    },
+    "26": {
+      "tags": [
+        "war",
+        "destiny",
+        "fear"
+      ],
+      "featured": false
+    },
+    "27": {
+      "tags": [
+        "war",
+        "destiny",
+        "fear"
+      ],
+      "featured": false
+    },
+    "28": {
+      "tags": [
+        "war",
+        "destiny",
+        "time"
+      ],
+      "featured": false
+    },
+    "29": {
+      "tags": [
+        "war",
+        "destruction",
+        "time"
+      ],
+      "featured": false
+    },
+    "30": {
+      "tags": [
+        "time",
+        "destruction",
+        "fear"
+      ],
+      "featured": false
+    },
+    "31": {
+      "tags": [
+        "question",
+        "fear",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "32": {
+      "tags": [
+        "time",
+        "destruction",
+        "destiny"
+      ],
+      "featured": true
+    },
+    "33": {
+      "tags": [
+        "duty",
+        "destiny",
+        "instrument"
+      ],
+      "featured": true
+    },
+    "34": {
+      "tags": [
+        "war",
+        "courage",
+        "duty"
+      ],
+      "featured": false
+    },
+    "35": {
+      "tags": [
+        "fear",
+        "reverence",
+        "praise"
+      ],
+      "featured": false
+    },
+    "36": {
+      "tags": [
+        "praise",
+        "reverence",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "37": {
+      "tags": [
+        "praise",
+        "krishna",
+        "brahman"
+      ],
+      "featured": false
+    },
+    "38": {
+      "tags": [
+        "praise",
+        "krishna",
+        "universe"
+      ],
+      "featured": false
+    },
+    "39": {
+      "tags": [
+        "praise",
+        "reverence",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "40": {
+      "tags": [
+        "praise",
+        "reverence",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "41": {
+      "tags": [
+        "friendship",
+        "humility",
+        "apology"
+      ],
+      "featured": false
+    },
+    "42": {
+      "tags": [
+        "friendship",
+        "humility",
+        "forgiveness"
+      ],
+      "featured": false
+    },
+    "43": {
+      "tags": [
+        "reverence",
+        "krishna",
+        "supreme"
+      ],
+      "featured": false
+    },
+    "44": {
+      "tags": [
+        "forgiveness",
+        "love",
+        "surrender"
+      ],
+      "featured": false
+    },
+    "45": {
+      "tags": [
+        "fear",
+        "request",
+        "grace"
+      ],
+      "featured": false
+    },
+    "46": {
+      "tags": [
+        "request",
+        "devotion",
+        "vision"
+      ],
+      "featured": false
+    },
+    "47": {
+      "tags": [
+        "grace",
+        "vision",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "48": {
+      "tags": [
+        "vision",
+        "devotion",
+        "grace"
+      ],
+      "featured": false
+    },
+    "49": {
+      "tags": [
+        "fearlessness",
+        "reassurance",
+        "vision"
+      ],
+      "featured": false
+    },
+    "50": {
+      "tags": [
+        "reassurance",
+        "krishna",
+        "compassion"
+      ],
+      "featured": false
+    },
+    "51": {
+      "tags": [
+        "peace",
+        "relief",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "52": {
+      "tags": [
+        "vision",
+        "rarity",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "53": {
+      "tags": [
+        "devotion",
+        "vision",
+        "krishna"
+      ],
+      "featured": false
+    },
+    "54": {
+      "tags": [
+        "devotion",
+        "knowledge",
+        "union"
+      ],
+      "featured": false
+    },
+    "55": {
+      "tags": [
+        "devotion",
+        "duty",
+        "liberation"
+      ],
+      "featured": true
+    }
+  }
+}

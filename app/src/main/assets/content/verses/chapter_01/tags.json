@@ -1,0 +1,381 @@
+{
+  "chapter": 1,
+  "verses": {
+    "1": {
+      "tags": [
+        "beginning",
+        "war",
+        "dharma"
+      ],
+      "featured": true
+    },
+    "2": {
+      "tags": [
+        "war",
+        "leadership",
+        "strategy"
+      ],
+      "featured": false
+    },
+    "3": {
+      "tags": [
+        "war",
+        "strategy",
+        "teacher"
+      ],
+      "featured": false
+    },
+    "4": {
+      "tags": [
+        "warriors",
+        "heroism",
+        "war"
+      ],
+      "featured": false
+    },
+    "5": {
+      "tags": [
+        "warriors",
+        "heroism",
+        "war"
+      ],
+      "featured": false
+    },
+    "6": {
+      "tags": [
+        "warriors",
+        "heroism",
+        "war"
+      ],
+      "featured": false
+    },
+    "7": {
+      "tags": [
+        "leadership",
+        "army",
+        "war"
+      ],
+      "featured": false
+    },
+    "8": {
+      "tags": [
+        "warriors",
+        "leadership",
+        "war"
+      ],
+      "featured": false
+    },
+    "9": {
+      "tags": [
+        "loyalty",
+        "warriors",
+        "sacrifice"
+      ],
+      "featured": false
+    },
+    "10": {
+      "tags": [
+        "army",
+        "strategy",
+        "war"
+      ],
+      "featured": false
+    },
+    "11": {
+      "tags": [
+        "strategy",
+        "protection",
+        "army"
+      ],
+      "featured": false
+    },
+    "12": {
+      "tags": [
+        "war",
+        "courage",
+        "conch"
+      ],
+      "featured": false
+    },
+    "13": {
+      "tags": [
+        "war",
+        "sound",
+        "conch"
+      ],
+      "featured": false
+    },
+    "14": {
+      "tags": [
+        "war",
+        "conch",
+        "divine"
+      ],
+      "featured": false
+    },
+    "15": {
+      "tags": [
+        "war",
+        "conch",
+        "divine"
+      ],
+      "featured": false
+    },
+    "16": {
+      "tags": [
+        "war",
+        "conch",
+        "warriors"
+      ],
+      "featured": false
+    },
+    "17": {
+      "tags": [
+        "warriors",
+        "conch",
+        "war"
+      ],
+      "featured": false
+    },
+    "18": {
+      "tags": [
+        "warriors",
+        "conch",
+        "war"
+      ],
+      "featured": false
+    },
+    "19": {
+      "tags": [
+        "war",
+        "sound",
+        "fear"
+      ],
+      "featured": false
+    },
+    "20": {
+      "tags": [
+        "war",
+        "courage",
+        "warriors"
+      ],
+      "featured": false
+    },
+    "21": {
+      "tags": [
+        "war",
+        "duty",
+        "charioteer"
+      ],
+      "featured": false
+    },
+    "22": {
+      "tags": [
+        "war",
+        "observation",
+        "duty"
+      ],
+      "featured": false
+    },
+    "23": {
+      "tags": [
+        "war",
+        "observation",
+        "enemies"
+      ],
+      "featured": false
+    },
+    "24": {
+      "tags": [
+        "charioteer",
+        "war",
+        "guidance"
+      ],
+      "featured": false
+    },
+    "25": {
+      "tags": [
+        "kinsmen",
+        "war",
+        "guidance"
+      ],
+      "featured": false
+    },
+    "26": {
+      "tags": [
+        "family",
+        "kinsmen",
+        "grief"
+      ],
+      "featured": false
+    },
+    "27": {
+      "tags": [
+        "family",
+        "kinsmen",
+        "compassion"
+      ],
+      "featured": false
+    },
+    "28": {
+      "tags": [
+        "compassion",
+        "grief",
+        "family"
+      ],
+      "featured": true
+    },
+    "29": {
+      "tags": [
+        "grief",
+        "fear",
+        "body"
+      ],
+      "featured": false
+    },
+    "30": {
+      "tags": [
+        "despair",
+        "body",
+        "mind"
+      ],
+      "featured": false
+    },
+    "31": {
+      "tags": [
+        "omens",
+        "doubt",
+        "violence"
+      ],
+      "featured": false
+    },
+    "32": {
+      "tags": [
+        "renunciation",
+        "desire",
+        "grief"
+      ],
+      "featured": false
+    },
+    "33": {
+      "tags": [
+        "family",
+        "sacrifice",
+        "desire"
+      ],
+      "featured": false
+    },
+    "34": {
+      "tags": [
+        "family",
+        "relationships",
+        "kinsmen"
+      ],
+      "featured": false
+    },
+    "35": {
+      "tags": [
+        "non-violence",
+        "family",
+        "compassion"
+      ],
+      "featured": false
+    },
+    "36": {
+      "tags": [
+        "sin",
+        "violence",
+        "happiness"
+      ],
+      "featured": false
+    },
+    "37": {
+      "tags": [
+        "family",
+        "sin",
+        "happiness"
+      ],
+      "featured": false
+    },
+    "38": {
+      "tags": [
+        "greed",
+        "delusion",
+        "sin"
+      ],
+      "featured": false
+    },
+    "39": {
+      "tags": [
+        "sin",
+        "wisdom",
+        "family"
+      ],
+      "featured": false
+    },
+    "40": {
+      "tags": [
+        "family",
+        "dharma",
+        "adharma"
+      ],
+      "featured": false
+    },
+    "41": {
+      "tags": [
+        "adharma",
+        "society",
+        "family"
+      ],
+      "featured": false
+    },
+    "42": {
+      "tags": [
+        "ancestors",
+        "hell",
+        "society"
+      ],
+      "featured": false
+    },
+    "43": {
+      "tags": [
+        "tradition",
+        "society",
+        "dharma"
+      ],
+      "featured": false
+    },
+    "44": {
+      "tags": [
+        "hell",
+        "tradition",
+        "family"
+      ],
+      "featured": false
+    },
+    "45": {
+      "tags": [
+        "sin",
+        "greed",
+        "regret"
+      ],
+      "featured": false
+    },
+    "46": {
+      "tags": [
+        "surrender",
+        "non-violence",
+        "despair"
+      ],
+      "featured": false
+    },
+    "47": {
+      "tags": [
+        "despair",
+        "grief",
+        "surrender"
+      ],
+      "featured": true
+    }
+  }
+}

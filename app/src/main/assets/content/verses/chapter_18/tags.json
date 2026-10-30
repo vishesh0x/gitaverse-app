@@ -1,0 +1,629 @@
+{
+  "chapter": 18,
+  "verses": {
+    "1": {
+      "tags": [
+        "renunciation",
+        "question",
+        "action"
+      ],
+      "featured": false
+    },
+    "2": {
+      "tags": [
+        "renunciation",
+        "action",
+        "wisdom"
+      ],
+      "featured": false
+    },
+    "3": {
+      "tags": [
+        "renunciation",
+        "action",
+        "debate"
+      ],
+      "featured": false
+    },
+    "4": {
+      "tags": [
+        "renunciation",
+        "gunas",
+        "wisdom"
+      ],
+      "featured": false
+    },
+    "5": {
+      "tags": [
+        "sacrifice",
+        "charity",
+        "duty"
+      ],
+      "featured": false
+    },
+    "6": {
+      "tags": [
+        "duty",
+        "detachment",
+        "action"
+      ],
+      "featured": false
+    },
+    "7": {
+      "tags": [
+        "duty",
+        "delusion",
+        "tamas"
+      ],
+      "featured": false
+    },
+    "8": {
+      "tags": [
+        "duty",
+        "fear",
+        "rajas"
+      ],
+      "featured": false
+    },
+    "9": {
+      "tags": [
+        "duty",
+        "detachment",
+        "sattva"
+      ],
+      "featured": false
+    },
+    "10": {
+      "tags": [
+        "detachment",
+        "sattva",
+        "wisdom"
+      ],
+      "featured": false
+    },
+    "11": {
+      "tags": [
+        "action",
+        "renunciation",
+        "fruits"
+      ],
+      "featured": false
+    },
+    "12": {
+      "tags": [
+        "karma",
+        "fruits",
+        "renunciation"
+      ],
+      "featured": false
+    },
+    "13": {
+      "tags": [
+        "action",
+        "causes",
+        "sankhya"
+      ],
+      "featured": false
+    },
+    "14": {
+      "tags": [
+        "action",
+        "causes",
+        "destiny"
+      ],
+      "featured": false
+    },
+    "15": {
+      "tags": [
+        "action",
+        "causes",
+        "mind"
+      ],
+      "featured": false
+    },
+    "16": {
+      "tags": [
+        "ego",
+        "ignorance",
+        "agency"
+      ],
+      "featured": false
+    },
+    "17": {
+      "tags": [
+        "ego",
+        "freedom",
+        "detachment"
+      ],
+      "featured": false
+    },
+    "18": {
+      "tags": [
+        "knowledge",
+        "action",
+        "gunas"
+      ],
+      "featured": false
+    },
+    "19": {
+      "tags": [
+        "gunas",
+        "knowledge",
+        "action"
+      ],
+      "featured": false
+    },
+    "20": {
+      "tags": [
+        "knowledge",
+        "sattva",
+        "unity"
+      ],
+      "featured": false
+    },
+    "21": {
+      "tags": [
+        "knowledge",
+        "rajas",
+        "diversity"
+      ],
+      "featured": false
+    },
+    "22": {
+      "tags": [
+        "knowledge",
+        "tamas",
+        "ignorance"
+      ],
+      "featured": false
+    },
+    "23": {
+      "tags": [
+        "action",
+        "sattva",
+        "detachment"
+      ],
+      "featured": false
+    },
+    "24": {
+      "tags": [
+        "action",
+        "rajas",
+        "ego"
+      ],
+      "featured": false
+    },
+    "25": {
+      "tags": [
+        "action",
+        "tamas",
+        "delusion"
+      ],
+      "featured": false
+    },
+    "26": {
+      "tags": [
+        "doer",
+        "sattva",
+        "steadiness"
+      ],
+      "featured": false
+    },
+    "27": {
+      "tags": [
+        "doer",
+        "rajas",
+        "greed"
+      ],
+      "featured": false
+    },
+    "28": {
+      "tags": [
+        "doer",
+        "tamas",
+        "laziness"
+      ],
+      "featured": false
+    },
+    "29": {
+      "tags": [
+        "intellect",
+        "gunas",
+        "resolve"
+      ],
+      "featured": false
+    },
+    "30": {
+      "tags": [
+        "intellect",
+        "sattva",
+        "wisdom"
+      ],
+      "featured": false
+    },
+    "31": {
+      "tags": [
+        "intellect",
+        "rajas",
+        "confusion"
+      ],
+      "featured": false
+    },
+    "32": {
+      "tags": [
+        "intellect",
+        "tamas",
+        "delusion"
+      ],
+      "featured": false
+    },
+    "33": {
+      "tags": [
+        "resolve",
+        "sattva",
+        "yoga"
+      ],
+      "featured": false
+    },
+    "34": {
+      "tags": [
+        "resolve",
+        "rajas",
+        "desire"
+      ],
+      "featured": false
+    },
+    "35": {
+      "tags": [
+        "resolve",
+        "tamas",
+        "fear"
+      ],
+      "featured": false
+    },
+    "36": {
+      "tags": [
+        "happiness",
+        "gunas",
+        "practice"
+      ],
+      "featured": false
+    },
+    "37": {
+      "tags": [
+        "happiness",
+        "sattva",
+        "peace"
+      ],
+      "featured": false
+    },
+    "38": {
+      "tags": [
+        "happiness",
+        "rajas",
+        "desire"
+      ],
+      "featured": false
+    },
+    "39": {
+      "tags": [
+        "happiness",
+        "tamas",
+        "delusion"
+      ],
+      "featured": false
+    },
+    "40": {
+      "tags": [
+        "gunas",
+        "nature",
+        "universe"
+      ],
+      "featured": false
+    },
+    "41": {
+      "tags": [
+        "duty",
+        "varna",
+        "nature"
+      ],
+      "featured": false
+    },
+    "42": {
+      "tags": [
+        "duty",
+        "brahmin",
+        "virtue"
+      ],
+      "featured": false
+    },
+    "43": {
+      "tags": [
+        "duty",
+        "kshatriya",
+        "courage"
+      ],
+      "featured": false
+    },
+    "44": {
+      "tags": [
+        "duty",
+        "vaishya",
+        "service"
+      ],
+      "featured": false
+    },
+    "45": {
+      "tags": [
+        "duty",
+        "perfection",
+        "work"
+      ],
+      "featured": false
+    },
+    "46": {
+      "tags": [
+        "worship",
+        "duty",
+        "perfection"
+      ],
+      "featured": false
+    },
+    "47": {
+      "tags": [
+        "dharma",
+        "duty",
+        "identity"
+      ],
+      "featured": true
+    },
+    "48": {
+      "tags": [
+        "duty",
+        "imperfection",
+        "action"
+      ],
+      "featured": false
+    },
+    "49": {
+      "tags": [
+        "detachment",
+        "renunciation",
+        "freedom"
+      ],
+      "featured": false
+    },
+    "50": {
+      "tags": [
+        "perfection",
+        "brahman",
+        "knowledge"
+      ],
+      "featured": false
+    },
+    "51": {
+      "tags": [
+        "self-control",
+        "purity",
+        "detachment"
+      ],
+      "featured": false
+    },
+    "52": {
+      "tags": [
+        "solitude",
+        "meditation",
+        "discipline"
+      ],
+      "featured": false
+    },
+    "53": {
+      "tags": [
+        "ego",
+        "peace",
+        "detachment"
+      ],
+      "featured": false
+    },
+    "54": {
+      "tags": [
+        "devotion",
+        "equanimity",
+        "peace"
+      ],
+      "featured": false
+    },
+    "55": {
+      "tags": [
+        "devotion",
+        "knowledge",
+        "union"
+      ],
+      "featured": false
+    },
+    "56": {
+      "tags": [
+        "grace",
+        "refuge",
+        "devotion"
+      ],
+      "featured": false
+    },
+    "57": {
+      "tags": [
+        "surrender",
+        "devotion",
+        "yoga"
+      ],
+      "featured": false
+    },
+    "58": {
+      "tags": [
+        "grace",
+        "ego",
+        "warning"
+      ],
+      "featured": false
+    },
+    "59": {
+      "tags": [
+        "ego",
+        "destiny",
+        "nature"
+      ],
+      "featured": false
+    },
+    "60": {
+      "tags": [
+        "destiny",
+        "nature",
+        "delusion"
+      ],
+      "featured": false
+    },
+    "61": {
+      "tags": [
+        "lord",
+        "heart",
+        "maya"
+      ],
+      "featured": true
+    },
+    "62": {
+      "tags": [
+        "surrender",
+        "refuge",
+        "peace"
+      ],
+      "featured": false
+    },
+    "63": {
+      "tags": [
+        "freedom",
+        "reflection",
+        "wisdom"
+      ],
+      "featured": true
+    },
+    "64": {
+      "tags": [
+        "love",
+        "secret",
+        "guidance"
+      ],
+      "featured": false
+    },
+    "65": {
+      "tags": [
+        "devotion",
+        "promise",
+        "love"
+      ],
+      "featured": true
+    },
+    "66": {
+      "tags": [
+        "surrender",
+        "liberation",
+        "refuge"
+      ],
+      "featured": true
+    },
+    "67": {
+      "tags": [
+        "teaching",
+        "faith",
+        "discipline"
+      ],
+      "featured": false
+    },
+    "68": {
+      "tags": [
+        "teaching",
+        "devotion",
+        "service"
+      ],
+      "featured": false
+    },
+    "69": {
+      "tags": [
+        "devotion",
+        "service",
+        "love"
+      ],
+      "featured": false
+    },
+    "70": {
+      "tags": [
+        "scripture",
+        "knowledge",
+        "study"
+      ],
+      "featured": false
+    },
+    "71": {
+      "tags": [
+        "faith",
+        "scripture",
+        "virtue"
+      ],
+      "featured": false
+    },
+    "72": {
+      "tags": [
+        "question",
+        "knowledge",
+        "delusion"
+      ],
+      "featured": false
+    },
+    "73": {
+      "tags": [
+        "delusion",
+        "clarity",
+        "surrender"
+      ],
+      "featured": false
+    },
+    "74": {
+      "tags": [
+        "sanjaya",
+        "wonder",
+        "dialogue"
+      ],
+      "featured": false
+    },
+    "75": {
+      "tags": [
+        "sanjaya",
+        "grace",
+        "yoga"
+      ],
+      "featured": false
+    },
+    "76": {
+      "tags": [
+        "sanjaya",
+        "joy",
+        "remembrance"
+      ],
+      "featured": false
+    },
+    "77": {
+      "tags": [
+        "sanjaya",
+        "wonder",
+        "remembrance"
+      ],
+      "featured": false
+    },
+    "78": {
+      "tags": [
+        "victory",
+        "devotion",
+        "conclusion"
+      ],
+      "featured": true
+    }
+  }
+}

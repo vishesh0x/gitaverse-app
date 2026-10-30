@@ -1,0 +1,581 @@
+{
+  "chapter": 2,
+  "verses": {
+    "1": {
+      "tags": [
+        "compassion",
+        "grief",
+        "despair"
+      ],
+      "featured": false
+    },
+    "2": {
+      "tags": [
+        "delusion",
+        "weakness",
+        "duty"
+      ],
+      "featured": false
+    },
+    "3": {
+      "tags": [
+        "courage",
+        "weakness",
+        "duty"
+      ],
+      "featured": false
+    },
+    "4": {
+      "tags": [
+        "reverence",
+        "teacher",
+        "dilemma"
+      ],
+      "featured": false
+    },
+    "5": {
+      "tags": [
+        "teacher",
+        "dilemma",
+        "sacrifice"
+      ],
+      "featured": false
+    },
+    "6": {
+      "tags": [
+        "doubt",
+        "dilemma",
+        "war"
+      ],
+      "featured": false
+    },
+    "7": {
+      "tags": [
+        "surrender",
+        "discipleship",
+        "guidance"
+      ],
+      "featured": true
+    },
+    "8": {
+      "tags": [
+        "grief",
+        "senses",
+        "desire"
+      ],
+      "featured": false
+    },
+    "9": {
+      "tags": [
+        "despair",
+        "silence",
+        "resolve"
+      ],
+      "featured": false
+    },
+    "10": {
+      "tags": [
+        "smile",
+        "guidance",
+        "grief"
+      ],
+      "featured": false
+    },
+    "11": {
+      "tags": [
+        "wisdom",
+        "grief",
+        "death"
+      ],
+      "featured": true
+    },
+    "12": {
+      "tags": [
+        "soul",
+        "eternity",
+        "existence"
+      ],
+      "featured": false
+    },
+    "13": {
+      "tags": [
+        "soul",
+        "body",
+        "wisdom"
+      ],
+      "featured": true
+    },
+    "14": {
+      "tags": [
+        "patience",
+        "senses",
+        "endurance"
+      ],
+      "featured": false
+    },
+    "15": {
+      "tags": [
+        "equanimity",
+        "immortality",
+        "steadiness"
+      ],
+      "featured": false
+    },
+    "16": {
+      "tags": [
+        "truth",
+        "reality",
+        "wisdom"
+      ],
+      "featured": false
+    },
+    "17": {
+      "tags": [
+        "soul",
+        "imperishable",
+        "truth"
+      ],
+      "featured": false
+    },
+    "18": {
+      "tags": [
+        "soul",
+        "body",
+        "duty"
+      ],
+      "featured": false
+    },
+    "19": {
+      "tags": [
+        "soul",
+        "ignorance",
+        "violence"
+      ],
+      "featured": false
+    },
+    "20": {
+      "tags": [
+        "soul",
+        "eternity",
+        "immortality"
+      ],
+      "featured": true
+    },
+    "21": {
+      "tags": [
+        "soul",
+        "action",
+        "knowledge"
+      ],
+      "featured": false
+    },
+    "22": {
+      "tags": [
+        "soul",
+        "rebirth",
+        "body"
+      ],
+      "featured": true
+    },
+    "23": {
+      "tags": [
+        "soul",
+        "elements",
+        "immortality"
+      ],
+      "featured": false
+    },
+    "24": {
+      "tags": [
+        "soul",
+        "eternity",
+        "immovable"
+      ],
+      "featured": false
+    },
+    "25": {
+      "tags": [
+        "soul",
+        "unmanifest",
+        "grief"
+      ],
+      "featured": false
+    },
+    "26": {
+      "tags": [
+        "grief",
+        "soul",
+        "acceptance"
+      ],
+      "featured": false
+    },
+    "27": {
+      "tags": [
+        "death",
+        "birth",
+        "acceptance"
+      ],
+      "featured": false
+    },
+    "28": {
+      "tags": [
+        "existence",
+        "grief",
+        "acceptance"
+      ],
+      "featured": false
+    },
+    "29": {
+      "tags": [
+        "soul",
+        "wonder",
+        "knowledge"
+      ],
+      "featured": false
+    },
+    "30": {
+      "tags": [
+        "soul",
+        "grief",
+        "immortality"
+      ],
+      "featured": false
+    },
+    "31": {
+      "tags": [
+        "duty",
+        "dharma",
+        "courage"
+      ],
+      "featured": false
+    },
+    "32": {
+      "tags": [
+        "duty",
+        "war",
+        "heaven"
+      ],
+      "featured": false
+    },
+    "33": {
+      "tags": [
+        "duty",
+        "honor",
+        "sin"
+      ],
+      "featured": false
+    },
+    "34": {
+      "tags": [
+        "honor",
+        "disgrace",
+        "reputation"
+      ],
+      "featured": false
+    },
+    "35": {
+      "tags": [
+        "honor",
+        "fear",
+        "reputation"
+      ],
+      "featured": false
+    },
+    "36": {
+      "tags": [
+        "honor",
+        "enemies",
+        "courage"
+      ],
+      "featured": false
+    },
+    "37": {
+      "tags": [
+        "courage",
+        "resolve",
+        "duty"
+      ],
+      "featured": false
+    },
+    "38": {
+      "tags": [
+        "equanimity",
+        "duty",
+        "sin"
+      ],
+      "featured": false
+    },
+    "39": {
+      "tags": [
+        "yoga",
+        "action",
+        "wisdom"
+      ],
+      "featured": false
+    },
+    "40": {
+      "tags": [
+        "yoga",
+        "protection",
+        "fearlessness"
+      ],
+      "featured": false
+    },
+    "41": {
+      "tags": [
+        "resolve",
+        "wisdom",
+        "focus"
+      ],
+      "featured": false
+    },
+    "42": {
+      "tags": [
+        "ritual",
+        "desire",
+        "ignorance"
+      ],
+      "featured": false
+    },
+    "43": {
+      "tags": [
+        "desire",
+        "ritual",
+        "heaven"
+      ],
+      "featured": false
+    },
+    "44": {
+      "tags": [
+        "attachment",
+        "mind",
+        "meditation"
+      ],
+      "featured": false
+    },
+    "45": {
+      "tags": [
+        "gunas",
+        "detachment",
+        "equanimity"
+      ],
+      "featured": false
+    },
+    "46": {
+      "tags": [
+        "knowledge",
+        "vedas",
+        "wisdom"
+      ],
+      "featured": false
+    },
+    "47": {
+      "tags": [
+        "karma",
+        "detachment",
+        "action"
+      ],
+      "featured": true
+    },
+    "48": {
+      "tags": [
+        "yoga",
+        "equanimity",
+        "action"
+      ],
+      "featured": true
+    },
+    "49": {
+      "tags": [
+        "wisdom",
+        "action",
+        "refuge"
+      ],
+      "featured": false
+    },
+    "50": {
+      "tags": [
+        "yoga",
+        "skill",
+        "action"
+      ],
+      "featured": true
+    },
+    "51": {
+      "tags": [
+        "liberation",
+        "wisdom",
+        "renunciation"
+      ],
+      "featured": false
+    },
+    "52": {
+      "tags": [
+        "delusion",
+        "detachment",
+        "wisdom"
+      ],
+      "featured": false
+    },
+    "53": {
+      "tags": [
+        "meditation",
+        "steadiness",
+        "yoga"
+      ],
+      "featured": false
+    },
+    "54": {
+      "tags": [
+        "wisdom",
+        "meditation",
+        "question"
+      ],
+      "featured": false
+    },
+    "55": {
+      "tags": [
+        "wisdom",
+        "desire",
+        "self-contentment"
+      ],
+      "featured": true
+    },
+    "56": {
+      "tags": [
+        "equanimity",
+        "sage",
+        "anger"
+      ],
+      "featured": false
+    },
+    "57": {
+      "tags": [
+        "detachment",
+        "wisdom",
+        "equanimity"
+      ],
+      "featured": false
+    },
+    "58": {
+      "tags": [
+        "senses",
+        "self-control",
+        "withdrawal"
+      ],
+      "featured": false
+    },
+    "59": {
+      "tags": [
+        "senses",
+        "desire",
+        "self-realization"
+      ],
+      "featured": false
+    },
+    "60": {
+      "tags": [
+        "senses",
+        "mind",
+        "self-control"
+      ],
+      "featured": false
+    },
+    "61": {
+      "tags": [
+        "devotion",
+        "senses",
+        "self-control"
+      ],
+      "featured": false
+    },
+    "62": {
+      "tags": [
+        "desire",
+        "attachment",
+        "mind"
+      ],
+      "featured": true
+    },
+    "63": {
+      "tags": [
+        "anger",
+        "delusion",
+        "downfall"
+      ],
+      "featured": true
+    },
+    "64": {
+      "tags": [
+        "self-control",
+        "serenity",
+        "senses"
+      ],
+      "featured": false
+    },
+    "65": {
+      "tags": [
+        "serenity",
+        "wisdom",
+        "peace"
+      ],
+      "featured": false
+    },
+    "66": {
+      "tags": [
+        "peace",
+        "discipline",
+        "happiness"
+      ],
+      "featured": false
+    },
+    "67": {
+      "tags": [
+        "senses",
+        "mind",
+        "wisdom"
+      ],
+      "featured": false
+    },
+    "68": {
+      "tags": [
+        "senses",
+        "self-control",
+        "wisdom"
+      ],
+      "featured": false
+    },
+    "69": {
+      "tags": [
+        "wisdom",
+        "awareness",
+        "sage"
+      ],
+      "featured": false
+    },
+    "70": {
+      "tags": [
+        "desire",
+        "peace",
+        "equanimity"
+      ],
+      "featured": false
+    },
+    "71": {
+      "tags": [
+        "renunciation",
+        "ego",
+        "peace"
+      ],
+      "featured": false
+    },
+    "72": {
+      "tags": [
+        "liberation",
+        "brahman",
+        "peace"
+      ],
+      "featured": false
+    }
+  }
+}

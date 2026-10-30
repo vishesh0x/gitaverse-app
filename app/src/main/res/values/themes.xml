@@ -1,3 +1,12 @@
 <resources>
-    <style name="Theme.GitaVerse" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.GitaVerse" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/gv_bg</item>
+    </style>
+
+    <!-- Shown by the system while the app starts; core-splashscreen switches to Theme.GitaVerse afterwards. -->
+    <style name="Theme.GitaVerse.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/gv_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.GitaVerse</item>
+    </style>
 </resources>

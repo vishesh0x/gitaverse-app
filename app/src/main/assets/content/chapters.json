@@ -1,0 +1,154 @@
+{
+  "parts": [
+    {
+      "id": 1,
+      "title": "Part 1: Action",
+      "subtitle": "कर्म · Action",
+      "fromChapter": 1,
+      "toChapter": 6
+    },
+    {
+      "id": 2,
+      "title": "Part 2: Devotion",
+      "subtitle": "भक्ति · Devotion",
+      "fromChapter": 7,
+      "toChapter": 12
+    },
+    {
+      "id": 3,
+      "title": "Part 3: Knowledge",
+      "subtitle": "ज्ञान · Knowledge",
+      "fromChapter": 13,
+      "toChapter": 18
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "sanskritName": "अर्जुनविषादयोग",
+      "englishName": "Arjuna’s Dilemma",
+      "verseCount": 47,
+      "summary": "On the battlefield, Arjuna is overcome by grief and drops his bow."
+    },
+    {
+      "number": 2,
+      "sanskritName": "साङ्ख्ययोग",
+      "englishName": "Path of Knowledge",
+      "verseCount": 72,
+      "summary": "Krishna reveals the eternal self and the idea of steady wisdom."
+    },
+    {
+      "number": 3,
+      "sanskritName": "कर्मयोग",
+      "englishName": "Path of Action",
+      "verseCount": 43,
+      "summary": "Act selflessly, without attachment to the results.",
+      "overview": "Arjuna asks why he must act if knowledge is greater. Krishna explains how to act selflessly, without attachment to results."
+    },
+    {
+      "number": 4,
+      "sanskritName": "ज्ञानकर्मसंन्यासयोग",
+      "englishName": "Wisdom in Action",
+      "verseCount": 42,
+      "summary": "Knowledge, sacrifice and the divine purpose of incarnation."
+    },
+    {
+      "number": 5,
+      "sanskritName": "कर्मसंन्यासयोग",
+      "englishName": "Renunciation of Action",
+      "verseCount": 29,
+      "summary": "Renouncing action and acting with detachment, compared."
+    },
+    {
+      "number": 6,
+      "sanskritName": "ध्यानयोग",
+      "englishName": "Path of Meditation",
+      "verseCount": 47,
+      "summary": "The discipline of the mind and the practice of meditation."
+    },
+    {
+      "number": 7,
+      "sanskritName": "ज्ञानविज्ञानयोग",
+      "englishName": "Knowledge & Realization",
+      "verseCount": 30,
+      "summary": "The nature of the Divine and who turns toward it."
+    },
+    {
+      "number": 8,
+      "sanskritName": "अक्षरब्रह्मयोग",
+      "englishName": "The Imperishable Brahman",
+      "verseCount": 28,
+      "summary": "What happens at the time of death, and the eternal path."
+    },
+    {
+      "number": 9,
+      "sanskritName": "राजविद्याराजगुह्ययोग",
+      "englishName": "Royal Knowledge",
+      "verseCount": 34,
+      "summary": "The most secret knowledge: devotion as the simplest path."
+    },
+    {
+      "number": 10,
+      "sanskritName": "विभूतियोग",
+      "englishName": "Divine Glories",
+      "verseCount": 42,
+      "summary": "Krishna describes how the Divine shines in all things."
+    },
+    {
+      "number": 11,
+      "sanskritName": "विश्वरूपदर्शनयोग",
+      "englishName": "The Universal Form",
+      "verseCount": 55,
+      "summary": "Arjuna beholds the cosmic form of Krishna."
+    },
+    {
+      "number": 12,
+      "sanskritName": "भक्तियोग",
+      "englishName": "Path of Devotion",
+      "verseCount": 20,
+      "summary": "Qualities of a true devotee, dear to the Divine."
+    },
+    {
+      "number": 13,
+      "sanskritName": "क्षेत्रक्षेत्रज्ञविभागयोग",
+      "englishName": "Field & Knower",
+      "verseCount": 34,
+      "summary": "The body as the field, and the self that knows it."
+    },
+    {
+      "number": 14,
+      "sanskritName": "गुणत्रयविभागयोग",
+      "englishName": "The Three Gunas",
+      "verseCount": 27,
+      "summary": "Sattva, rajas and tamas, and how to rise beyond them."
+    },
+    {
+      "number": 15,
+      "sanskritName": "पुरुषोत्तमयोग",
+      "englishName": "The Supreme Person",
+      "verseCount": 20,
+      "summary": "The cosmic tree and the highest reality."
+    },
+    {
+      "number": 16,
+      "sanskritName": "दैवासुरसम्पद्विभागयोग",
+      "englishName": "Divine & Demonic Natures",
+      "verseCount": 24,
+      "summary": "Virtues that uplift and tendencies that bind."
+    },
+    {
+      "number": 17,
+      "sanskritName": "श्रद्धात्रयविभागयोग",
+      "englishName": "Three Kinds of Faith",
+      "verseCount": 28,
+      "summary": "How faith, food, and worship take different forms."
+    },
+    {
+      "number": 18,
+      "sanskritName": "मोक्षसंन्यासयोग",
+      "englishName": "Liberation Through Surrender",
+      "verseCount": 78,
+      "summary": "The summary of the teaching and the final call to surrender."
+    }
+  ]
+}
